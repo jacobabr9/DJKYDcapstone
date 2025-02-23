@@ -1,6 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<?php
+// Database credentials
+$host = "localhost"; // If your database is on the same server as your website
+$username = "root"; // Change to your MySQL username
+$password = ""; // Change to your MySQL password
+$dbname = "djkyd"; // The name of your database
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully :D";
+?>
+
+<html lang="en">
 <head>
   <!-- basic -->
   <meta charset="utf-8">
