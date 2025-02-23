@@ -66,7 +66,7 @@ echo "Connected successfully :D";
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@ echo "Connected successfully :D";
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
-                      <li class="active"> <a href="index.html">Home</a> </li>
+                      <li class="active"> <a href="index.php">Home</a> </li>
                       <li> <a href="#courses">My Courses </a> </li>
                       <li> <a href="#about">About</a> </li>
                       <li> <a href="#learn">My Profile</a> </li>
@@ -499,7 +499,7 @@ echo "Connected successfully :D";
 
                       <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <div class="address">
-                          <a href="index.html"> <img src="images/logo1.jpg" alt="logo"></a>
+                          <a href="index.php"> <img src="images/compactWHITE.png" alt="logo"></a>
                         </div>
                       </div>
                     </div>
