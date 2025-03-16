@@ -3,9 +3,9 @@
 <?php
 // Database credentials
 $host = "localhost"; // If your database is on the same server as your website
-$username = "root"; // Change to your MySQL username
-$password = ""; // Change to your MySQL password
-$dbname = "djkyd"; // The name of your database
+$username = "root";   // Change to your MySQL username
+$password = "";        // Change to your MySQL password
+$dbname = "djkyd";    // The name of your database
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $dbname);
@@ -14,7 +14,6 @@ $conn = new mysqli($host, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully :D";
 ?>
 
 <html lang="en">
@@ -88,7 +87,7 @@ echo "Connected successfully :D";
                  </div>
                </div> 
                <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">login/sing up</a></div>              
+                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="student-login.php">login/sing up</a></div>              
              </div>
            </div>
          </div>
