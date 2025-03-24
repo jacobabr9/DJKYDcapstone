@@ -111,7 +111,7 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
+                      <h1>Search your Favorite Course here!!!</h1>
                       <p>Welcome to the AI Support Hub for Carleton University BIT Students!</p>
                       <a href="#">Read more</a> <a href="#">get a qoute</a>
                     </div>
