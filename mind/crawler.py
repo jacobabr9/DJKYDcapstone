@@ -10,7 +10,7 @@ def log_message(message):
 
 # Connect to the remote MySQL database
 db = mysql.connector.connect(
-    host="your-remote-server.com",  # Replace with the remote server's IP or domain
+    host="djkyd-ai-support.site",  # Remote server's IP or domain
     user="root",  # Your MySQL username
     password="djkyd",  # Your MySQL password
     database="djkyd"  # Your database name

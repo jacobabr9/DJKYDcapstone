@@ -3,7 +3,7 @@
 session_start();
 
 // Remote database credentials (replace with your actual credentials)
-$host = "your-remote-server.com";  // Replace with your remote server's hostname or IP
+$host = "djkyd-ai-support.site";  // Remote server's hostname or IP
 $username = "root";   // MySQL username for the remote server
 $password = "djkyd";  // MySQL password for the remote server
 $dbname = "djkyd";    // Your database name

@@ -4,7 +4,7 @@
 // Database credentials
 $host = "djkyd-ai-support.site"; 
 $username = "root";   
-$password = "";        
+$password = "djkyd";        
 $dbname = "djkyd";   
 
 // Create connection
