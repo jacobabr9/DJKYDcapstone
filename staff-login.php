@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 
 <?php
 // Database credentials
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username_reg = mysqli_real_escape_string($conn, $_POST['username_reg']);
     $password_reg = mysqli_real_escape_string($conn, $_POST['password_reg']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $student_id = mysqli_real_escape_string($conn, $_POST['student_id']);
+    $student_id = mysqli_real_escape_string($conn, $_POST['student_id']); // CHANGE
     $program_id = mysqli_real_escape_string($conn, $_POST['program_id']);
 
     // Check if any fields are empty
@@ -35,21 +35,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     }
 
-    // Check if Username or Student ID already exists
-    $check_sql = "SELECT * FROM students WHERE Username = '$username_reg' OR `Student ID` = '$student_id'";
+    // Check if Username or TEACHER ID already exists (CHANGE TO TEACHER)
+    $check_sql = "SELECT * FROM teacher WHERE Username = '$username_reg' OR `Teacher ID` = '$teacher_id'";
     $check_result = $conn->query($check_sql);
 
     if ($check_result->num_rows > 0) {
         echo "<p class='text-danger'>The Username or Student ID already exists. Please choose a different one.</p>";
     } else {
-        // Insert the new student into the database
-        $insert_sql = "INSERT INTO students (`First name`, `Last name`, `Username`, `Password`, `Email`, `Student ID`, `BIT program ID`) 
-                       VALUES ('$first_name', '$last_name', '$username_reg', '$password_reg', '$email', '$student_id', '$program_id')";
+        // Insert the new TEACHER into the database
+        $insert_sql = "INSERT INTO teacher (`First name`, `Last name`, `Username`, `Password`, `Email`, `Teacher ID`, `BIT program ID`) 
+                       VALUES ('$first_name', '$last_name', '$username_reg', '$password_reg', '$email', '$teacher_id', '$program_id')";
 
         if ($conn->query($insert_sql) === TRUE) {
             // Login the user automatically
             $_SESSION['username'] = $username_reg;  // Store username in session
-            $_SESSION['student_id'] = $student_id;  // Optionally, store the student ID in session (if you need it)
+            $_SESSION['teacher_id'] = $teacher_id;  // Optionally, store the TEACHER ID in session (if you need it)
 
             // Redirect to the homepage or another page after successful login
             header("Location: index.php"); 
@@ -146,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!-- login  ------------------------------------------->
 <div id="about" class="about">
   <div class="container">
-    <h2>Student <strong class="yellow">Login</strong></h2>    
+    <h2>Teacher <strong class="yellow">Login</strong></h2>    
     <form action="" method="POST">
       <div class="form-group">
         <label for="username">Username:</label>
@@ -184,8 +184,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="email" class="form-control" id="email" name="email" required>
       </div>
       <div class="form-group">
-        <label for="student_id">Student ID:</label>
-        <input type="text" class="form-control" id="student_id" name="student_id" required>
+        <label for="student_id">Student ID:</label> <!-- CHANGE THIS STUFF TO TEACHER -->
+        <input type="text" class="form-control" id="teacher_id" name="teacher_id" required>
       </div>
       <div class="form-group">
         <label for="program_id">Program:</label>

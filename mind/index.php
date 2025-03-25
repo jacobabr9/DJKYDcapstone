@@ -2,10 +2,10 @@
 
 <?php
 // Database credentials
-$host = "localhost"; // If your database is on the same server as your website
-$username = "root";   // Change to your MySQL username
-$password = "";        // Change to your MySQL password
-$dbname = "djkyd";    // The name of your database
+$host = "djkyd-ai-support.site"; 
+$username = "root";   
+$password = "djkyd";        
+$dbname = "djkyd";   
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $dbname);
@@ -113,9 +113,11 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
+                      
                       <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
                       <p>By DJKYD</p>
                       <a href="#about">About</a>
+
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
