@@ -9,7 +9,7 @@ $password = "djkyd";  // MySQL password for the remote server
 $dbname = "djkyd";    // Your database name
 
 // Connect to the remote MySQL database
-$conn = new mysqli($host, $username, $password, $dbname);
+$mysqli = new mysqli("localhost", "root", "djkyd", "djkyd");
 
 // Check connection
 if ($conn->connect_error) {
