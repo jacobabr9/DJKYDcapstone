@@ -7281,3 +7281,1005 @@ INFO:root:Inserted article: Agentic AI Is a Delicate Four-Way Dance Democratizin
 INFO:root:Inserted article: Fencing Champion Turned Entrepreneur Shares Business Insights with St. John’s Students - St John's University News
 INFO:root:Inserted article: Skincare Market Size, Share, Trends | Growth Analysis [2032] - Fortune Business Insights
 INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Scraping for career path ID 10 with keywords: Business Intelligence, Data Analytics, Power BI, Tableau, Data Visualization, Business Insights
+INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Scraping for career path ID 10 with keywords: Business Intelligence, Data Analytics, Power BI, Tableau, Data Visualization, Business Insights
+INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Scraping for career path ID 10 with keywords: Business Intelligence, Data Analytics, Power BI, Tableau, Data Visualization, Business Insights
+INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Inserted article: Charted: The Decline of U.S. Software Developer Jobs - Visual Capitalist
+INFO:root:Inserted article: Tech leaders at Anthropic, IBM, and Meta warn that AI is coming for software developer jobs - Fortune
+INFO:root:Inserted article: The AI coding apocalypse - Business Insider
+INFO:root:Inserted article: Nvidia CEO Jensen Huang defends AI lead at company’s annual software developer conference - The Globe and Mail
+INFO:root:Inserted article: A developer's guide to thrive vs. AI in coding - TheServerSide.com
+INFO:root:Inserted article: Does 'vibe coding' make everyone a programmer? - FRANCE 24 English
+INFO:root:Inserted article: AI To Steal Most Coding Jobs? Zoho Founder Sridhar Vembu Says Yes, Sam Altman Agrees - NDTV
+INFO:root:Inserted article: Now you don’t even need code to be a programmer. But you do still need expertise - The Guardian
+INFO:root:Inserted article: AI coding assistant refuses to write code, tells user to learn programming instead - Ars Technica
+INFO:root:Inserted article: Hot Docs names former TIFF programmer Diana Sanchez as its new executive director - CityNews Toronto
+INFO:root:Inserted article: Does 'vibe coding' make everyone a programmer? - FRANCE 24 English
+INFO:root:Inserted article: AI To Steal Most Coding Jobs? Zoho Founder Sridhar Vembu Says Yes, Sam Altman Agrees - NDTV
+INFO:root:Inserted article: Does Vibe Coding Really Work? We Built a Game With Claude—Here's How It Turned Out - Decrypt
+INFO:root:Inserted article: 90% of coding by AI, fewer jobs for software engineers: Zoho’s Sridhar Vembu and OpenAI’s Sam Altman give - The Economic Times
+INFO:root:Inserted article: Vibe Coding: How Devs and Laymen Alike Are Using AI to Create Apps and Games - Decrypt
+INFO:root:Inserted article: Java News Roundup: JDK 24, GraalVM for JDK 24, Payara Platform, Kafka 4.0, Spring CVEs, JavaOne 2025 - InfoQ.com
+INFO:root:Inserted article: Oracle Releases Java 24 - Oracle
+INFO:root:Inserted article: Raye, Tunde to grace stage at 20th Java Jazz Festival - The Jakarta Post
+INFO:root:Inserted article: Oracle Unveils Java 24 with Focus on AI Integration, Post-Quantum Cryptography and Developer Experience - DevOps.com
+INFO:root:Inserted article: Minecraft capes – How to get a cape in Java and Bedrock - PCGamesN
+INFO:root:Inserted article: Pilbara snake handler's video shows olive python eating whole pigeon - ABC News
+INFO:root:Inserted article: 11 Python Libraries Every AI Engineer Should Know - KDnuggets
+INFO:root:Inserted article: Robbed at fang point: python-wielding thieves snatch $400 in CBD oil from Tennessee gas station - The Guardian US
+INFO:root:Inserted article: 2025 Is the Last Year of Python Dominance in AI: Java Comin’ - The New Stack
+INFO:root:Inserted article: Import GPU: Python Programming With CUDA - Hackaday
+INFO:root:Inserted article: How Wasm reinvents web development - InfoWorld
+INFO:root:Inserted article: Pagoda: A Web Development Starter Kit for Go Programmers - The New Stack
+INFO:root:Inserted article: All things Web Development at the Esri Developer and Technology Summit 2025! - Esri
+INFO:root:Inserted article: 10 Best Web Development Blogs \u0422o Follow in 2025 - DesignRush
+INFO:root:Inserted article: Prompt Engineering for Web Development - SitePoint
+INFO:root:Inserted article: Scope Technologies Secures $1.5 Million for Quantum-Resistant App Development - TipRanks
+INFO:root:Inserted article: Scope Technologies Announces $1.5 Million Private Placement Financing and Acceleration of QSE Mobile App Development - PR Newswire
+INFO:root:Inserted article: Sports App Development Company: Revolutionizing the Way We Experience Sports - Programming Insider
+INFO:root:Inserted article: Streamlining App Development with Gemini’s New Canvas Feature - DevOps.com
+INFO:root:Inserted article: Hyperlink InfoSystem Emerges as New York's Finest Mobile App Development Company for 2025 - Yahoo Finance
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Inserted article: DFS Recruiting Computer Systems Analyst to Work on Florida PALM - GovTech
+INFO:root:Inserted article: Systems Analyst: Breaking down the best defensive strategies for playoffs - Sportsnet.ca
+INFO:root:Inserted article: Supply systems analyst ends 6 decades of service to DLA - DLA
+INFO:root:Inserted article: This Veeva Systems Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday - Benzinga
+INFO:root:Inserted article: Key Systems Analyst Skills You Need in 2025 - Simplilearn
+INFO:root:Inserted article: Microsoft working to help protect IT systems of rural hospitals - Columbia Basin Herald
+INFO:root:Inserted article: Cloak Ransomware Hits Virginia Attorney General’s Office, Disrupts IT Systems - HackRead
+INFO:root:Inserted article: West Haven temporarily shuts down IT systems after breach - MSN
+INFO:root:Inserted article: Former contractor shuts down British Museum's IT systems, gets arrested - DatacenterDynamics
+INFO:root:Inserted article: Complexity of IT systems could be increasing security risks for businesses - TechRadar
+INFO:root:Inserted article: March Madness Day 4: Live updates, analysis as women's Sweet 16 is set - ESPN
+INFO:root:Inserted article: US could default on debt as soon as July: Analysis - The Hill
+INFO:root:Inserted article: Your guide to men's March Madness Day 4: Analysis, every winner's keys to Sweet 16 - ESPN.co.uk
+INFO:root:Inserted article: AUD/USD Elliott Wave technical analysis [Video] - FXStreet
+INFO:root:Inserted article: Colin Cieszynski's Market Outlook: Technical analysis - BNN Bloomberg
+INFO:root:Inserted article: Oracle plants agentic AI flag in business process automation - ComputerWeekly.com
+INFO:root:Inserted article: Malaysia Customer Experience Business Process Outsourcing Market Report, 2030 - Grand View Research
+INFO:root:Inserted article: Top 12 business process management certifications for 2025 - TechTarget
+INFO:root:Inserted article: Using business process management to transform your business - Celonis
+INFO:root:Inserted article: How to know a business process is ripe for agentic AI - CIO
+INFO:root:Inserted article: Master Your Lightroom Workflow on iPad - Fstoppers
+INFO:root:Inserted article: Fair-code pioneer n8n raises $60M for AI-powered workflow automation - TechCrunch
+INFO:root:Inserted article: Maximizing monday.com: 10 Workflow Automation Strategies IT Leaders Should Implement - UC Today
+INFO:root:Inserted article: How Content Creators Can Use ChatGPT To Improve Workflow - Forbes
+INFO:root:Inserted article: How Does Music Impact Your Brain and Workflow? - DISCOVER Magazine
+INFO:root:Inserted article: Top 10: Technology Consultants - Technology Magazine
+INFO:root:Inserted article: How this technology consultant is adapting to industry changes - SiliconRepublic.com
+INFO:root:Inserted article: A healthcare simulation technology consultant can save time, money, and headaches - Building Design + Construction
+INFO:root:Inserted article: Assistive Technology consultant Jonathan Mosen - RNZ
+INFO:root:Inserted article: Ontario’s Employment Standards Act Exempts Certain Business and Information Technology Consultants, if Conditions Are Met - Ogletree Deakins
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Inserted article: AI & Machine Learning in Database Management: Studying Trends and Applications with Nithin Gadicharla - Tech Times
+INFO:root:Inserted article: Latest2All.com: The Ultimate Hub for AI-Powered Database Management, Tools & Tutorials - The Tribune India
+INFO:root:Inserted article: Database administrators are the groundskeepers of data—and can make close to six-figure salaries - Fortune
+INFO:root:Inserted article: Database Administrator Skills 2025 for High-Paying Jobs - Simplilearn
+INFO:root:Inserted article: Introducing IBM Database Assistant: An AI-powered assistant for database administrators - IBM
+INFO:root:Inserted article: Learn the Best Methods for Tuning DBMS Configurations - hackernoon.com
+INFO:root:Inserted article: Oracle Named a Leader in the 2024 Gartner® Magic Quadrant™ for Cloud Database Management Systems - Oracle
+INFO:root:Inserted article: (PDF) Database Management System in Accounting: Assessing the Role of Internet Service Communication of Accounting System Information - ResearchGate
+INFO:root:Inserted article: ArcGIS clients and DBMS upgrade considerations - Esri
+INFO:root:Inserted article: Huawei Cloud Named a Challenger in Gartner® Magic Quadrant™ for Cloud DBMSs - PR Newswire
+INFO:root:Inserted article: WordPress Plug-in Vulnerability Let Hackers Inject Malicious SQL Queries - CybersecurityNews
+INFO:root:Inserted article: Data Management in SQL – Basic - Mercer University
+INFO:root:Inserted article: The New SQL Field Calculate Experience - Esri
+INFO:root:Inserted article: WordPress Plugin Vulnerability Opens Door to SQL Injection Exploits - GBHackers
+INFO:root:Inserted article: Microsoft SQL Server 2019 shuffles out of mainstream support - The Register
+INFO:root:Inserted article: Data Management in SQL – Basic - Mercer University
+INFO:root:Inserted article: AI & Machine Learning in Database Management: Studying Trends and Applications with Nithin Gadicharla - Tech Times
+INFO:root:Inserted article: Oracle Named a Leader in the 2024 Gartner® Magic Quadrant™ for Cloud Database Management Systems - Oracle
+INFO:root:Inserted article: Latest2All.com: The Ultimate Hub for AI-Powered Database Management, Tools & Tutorials - The Tribune India
+INFO:root:Inserted article: What Are the Best Tools for SQL Server Database Management? - Built In
+INFO:root:Inserted article: MySQL Explained: Your Guide to Mastering This Powerful Database - Oracle
+INFO:root:Inserted article: Azure Database for Mysql Trigger for Azure Functions in Public Preview - InfoQ.com
+INFO:root:Inserted article: How To Set, Change, and Recover Your MySQL Root Password - TechRepublic
+INFO:root:Inserted article: Migrate very large databases to Amazon Aurora MySQL using MyDumper and MyLoader - AWS Blog
+INFO:root:Inserted article: Amazon RDS for MySQL LTS version 8.4 is now generally available - AWS Blog
+INFO:root:Inserted article: Oracle Denies Claim of Oracle Cloud Breach of 6M Records - Dark Reading
+INFO:root:Inserted article: Massive Oracle Cloud Breach Compromises 6 Million Records, Over 140,000 Businesses At Risk, Says CloudSEK - NDTV Profit
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Prediction: Oracle Stock Could Surge by 200% in the Next 5 Years - The Motley Fool
+INFO:root:Inserted article: Hacker claims Oracle breach, sending business and agencies scrambling - The Australian Financial Review
+INFO:root:Inserted article: Microsoft SQL Server 2019 shuffles out of mainstream support - The Register
+INFO:root:Inserted article: Continuous Replication to Amazon RDS for SQL Server from Azure SQL - AWS Blog
+INFO:root:Inserted article: Microsoft Previews Copilot AI in SQL Server Management Studio - Visual Studio Magazine
+INFO:root:Inserted article: What Are the Best Tools for SQL Server Database Management? - Built In
+INFO:root:Inserted article: DataNumen SQL Recovery 7.1: A Revolution in SQL Server Database Recovery - Newsfile
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Inserted article: How network engineers can prepare for the future with AI - TechTarget
+INFO:root:Inserted article: Network engineer chose humiliation over a night on the datacenter floor - The Register
+INFO:root:Inserted article: Senior Technology Network Engineer - Washoe Life
+INFO:root:Inserted article: Network Engineer Job Description & Key Responsibilities - Simplilearn
+INFO:root:Inserted article: Network Engineer at Google. How did he do it? - Condia
+INFO:root:Inserted article: Why There’s No Substitute For The Power Of In-Person Networking - Forbes
+INFO:root:Inserted article: Phoenix Contact and Xona bridge industrial networking, OT cybersecurity with zero-trust solutions - IndustrialCyber
+INFO:root:Inserted article: NVIDIA (NVDA) Breaks Barriers with Advanced AI Networking - Insider Monkey
+INFO:root:Inserted article: Strathmore business leaders gather for wine, cheese, and networking - StrathmoreNow.com
+INFO:root:Inserted article: Algonquin College - Algonquin College helps build industry connections at Business - Marketing networking event - Education News Canada
+INFO:root:Inserted article: Corero Network Security Earns Spot in the 2025 CRN® Partner Program Guide - PR Newswire
+INFO:root:Inserted article: The evolving landscape of network security in 2025 - CIO
+INFO:root:Inserted article: dYdX jumps 8% after introducing token buyback program to bolster network security - CryptoSlate
+INFO:root:Inserted article: Dell Technologies Collaborates with 6WIND to Deliver Cutting-Edge Networking Solutions for Communication Service Providers and Enterprises across EMEA - jim o brien
+INFO:root:Inserted article: Security is the best policy – documenting digital security compliance in an increasingly regulated landscape - Taylor Wessing
+INFO:root:Inserted article: Netgear launches its most affordable WiFi 7 router yet – the Nighthawk RS100 - KitGuru
+INFO:root:Inserted article: Wi-Fi Routers Get a Makeover as Game-Changing and Artful Gadgets You Can Show-Off - Yanko Design
+INFO:root:Inserted article: I replaced my high-end Wi-Fi 7 router with a more affordable option - and have zero regrets - ZDNet
+INFO:root:Inserted article: Should You Replace Your TP-Link Router? We Asked 4 Cybersecurity Experts to Weigh In - CNET
+INFO:root:Inserted article: Change Keenetic router credentials now: users exposed in massive data leak - CyberNews.com
+INFO:root:Inserted article: Palworld Communications Director Says Nintendo Switch 2 Version '100% Worth Considering' if the Console Is 'Beefy Enough' - IGN
+INFO:root:Inserted article: Nintendo Switch 2 anti-scalper plans praised by fans ahead of launch - GAMINGbible
+INFO:root:Inserted article: Nintendo Switch 2, PlayStation 5 Will Get a Lot More Xbox Games in 2025 - Wccftech
+INFO:root:Inserted article: Rumor: Switch 1 Direct possibly happening later this week - My Nintendo News
+INFO:root:Inserted article: Why did Canada switch to metric? - CBC.ca
+INFO:root:Inserted article: Soup’s On: Lan Noodle - EDify Edmonton
+INFO:root:Inserted article: Ms. Truong My Lan appeared in court for appeal in the 30,000 billion VND bond case. - Báo H\u1ea3i D\u01b0\u01a1ng
+INFO:root:Inserted article: Wheel Of Time S3E4 Clip Shows Lan Sparring With Aviendha - LRM Online
+INFO:root:Inserted article: LincPlus LincStation N2 Review: A compact NAS with 10 GbE LAN, four M.2 slots and support for two 2.5 inch drives - Liliputing
+INFO:root:Inserted article: Rackfinity Unveils Cutting-Edge LAN Stations, Workstations, and Training Tables to Revolutionize Modern Workspaces - Yahoo Finance
+INFO:root:Inserted article: The 'Knight Rider' Reboot From James Wan Sounded Awesome — So Why Hasn’t It Happened? - Collider
+INFO:root:Inserted article: Huawei Unveils AI WAN For Network Intelligence In The Net5.5G Age - Telecoms.com
+INFO:root:Inserted article: AI WAN: Leading IP Networks into the Intelligent Era - Developing Telecoms
+INFO:root:Inserted article: Zhang Wan Yi Cast as General Huo Qu Bing in Upcoming Big Budget C-drama Han Dynasty Epic with Deng Chao and... - A Koala's Playground
+INFO:root:Inserted article: Falling examination lamp hit two at Hong Kong Adventist Hospital - Tsuen Wan - Hong Kong Standard
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Inserted article: NEXCOM NSA 5200 Enhances Cybersecurity with AI Acceleration - Canada NewsWire
+INFO:root:Inserted article: Canada offers cybersecurity training with job placement in 16 roles - Businessday
+INFO:root:Inserted article: Cyber Guardians: INE Security Champions Cybersecurity Training During National Physicians Week 2025 - GlobeNewswire
+INFO:root:Inserted article: Brückner Partners with Secomea to Elevate Remote Service Capabilities and Cybersecurity - Yahoo Canada Finance
+INFO:root:Inserted article: Cybersecurity Experts Are Sounding the Alarm on DOGE - TIME
+INFO:root:Inserted article: Brennan buys Canberra-based cloud and security specialist CBR Cyber - Consultancy.com.au
+INFO:root:Inserted article: Control Systems Security Specialist Training: Strengthening our Critical Systems - Space Force
+INFO:root:Inserted article: Integrity360 expands into France with acquisition of Holiseum, a leading cyber security specialist for critical and industrial infrastructure - Sync NI
+INFO:root:Inserted article: Career Spotlight: Cloud Security Specialist - BankInfoSecurity.com
+INFO:root:Inserted article: 'We Need A Lot More Money -- Quickly': British Security Specialist Pitches Rearmament Bank - Radio Free Europe / Radio Liberty
+INFO:root:Inserted article: Kudos Achieves ISO 27001 Certification, Proving Its Commitment to Best-in-Class Information Security in Employee Recognition and Rewards - TradingView
+INFO:root:Inserted article: Our Leaders Somehow Still Don’t Take Information Security Seriously - National Review
+INFO:root:Inserted article: FCC investigating China-linked companies over evasion of U.S. national security measures - Cybersecurity Dive
+INFO:root:Inserted article: Post & Schell Receives SOC 2 Clean Audit of Information Security Systems - citybiz
+INFO:root:Inserted article: PSX attains ISO 27001:2022 certification for information security management - The News International
+INFO:root:Inserted article: Former NFL coach pleads not guilty over alleged hacking of athletes’ intimate photos - The Guardian
+INFO:root:Inserted article: Former NFL and college assistant coach pleads not guilty to hacking for women's images - CTV News
+INFO:root:Inserted article: Lawsuit filed against former Michigan coach in alleged hacking case - ABC News
+INFO:root:Inserted article: North Korea launches new unit with a focus on AI hacking, per report - TechCrunch
+INFO:root:Inserted article: Top 10 web hacking techniques of 2024 - The Daily Swig
+INFO:root:Inserted article: A Win for Encryption: France Rejects Backdoor Mandate - EFF
+INFO:root:Inserted article: Akira ransomware can be cracked with 16 RTX 4090 GPUs in around ten hours — new counterattack breaks encryption - Tom's Hardware
+INFO:root:Inserted article: RCS update adds end-to-end encryption, Google and Apple confirm support - 9to5Google
+INFO:root:Inserted article: The war on encryption is dangerous - Financial Times
+INFO:root:Inserted article: Signal threatens to leave France if encryption backdoor required - Computerworld
+INFO:root:Inserted article: Corero Network Security Earns Spot in the 2025 CRN® Partner Program Guide - PR Newswire
+INFO:root:Inserted article: The evolving landscape of network security in 2025 - CIO
+INFO:root:Inserted article: dYdX jumps 8% after introducing token buyback program to bolster network security - CryptoSlate
+INFO:root:Inserted article: Network security tool defects are endemic, eroding enterprise defense - Cybersecurity Dive
+INFO:root:Inserted article: Cybersecurity Market Size, Share, Analysis | Global Report 2032 - Fortune Business Insights
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Inserted article: Former students sue Ontario company for $108K in tuition for unapproved web developer program - CBC.ca
+INFO:root:Inserted article: How To Become A Entry-Level Web Developer in 2025 - Simplilearn
+INFO:root:Inserted article: Best web design software of 2024 - TechRadar
+INFO:root:Inserted article: Sam Vargas: From Naval Officer to Portugal-Based Web Developer - Portugalist
+INFO:root:Inserted article: Civitta adds Hungary-based mobile and web developer AZinec - Consultancy.eu
+INFO:root:Inserted article: How Do You Handle Responsive Font Sizes in Pure CSS? - SitePoint
+INFO:root:Inserted article: ESLint Now Officially Supports CSS, JSON, and Markdown - InfoQ.com
+INFO:root:Inserted article: Spruce up your pop-ups with CSS - Esri
+INFO:root:Inserted article: Cybercriminals Exploit CSS to Evade Spam Filters and Track Email Users' Actions - The Hacker News
+INFO:root:Inserted article: A Night in the Cold for a Cause at St. David CSS - WCDSB
+INFO:root:Inserted article: How we train AI to uncover malicious JavaScript intent and make web surfing safer - The Cloudflare Blog
+INFO:root:Inserted article: TypeScript 5.8 Released with Improved Inference and Better JavaScript Ecosystem Interoperability - InfoQ.com
+INFO:root:Inserted article: JavaScript Tutorial: Learn JavaScript from Scratch - Simplilearn
+INFO:root:Inserted article: What's new in ArcGIS Maps for JavaScript (4.32) - Esri
+INFO:root:Inserted article: Generative AI with JavaScript - Microsoft
+INFO:root:Inserted article: Best Web Design Companies Vancouver - Search Engine People
+INFO:root:Inserted article: AI-Powered Web Design - Trend Hunter
+INFO:root:Inserted article: The 10+ Best AI & Pro Web Design Tools for 2025 - SitePoint
+INFO:root:Inserted article: Weberous Transforms Digital Presence with Award-Winning, Conversion-Driven Web Design - openPR
+INFO:root:Inserted article: Best Web Design Companies Toronto - Search Engine People
+INFO:root:Inserted article: Essential Configurations for Scalable ArcGIS Online Web Applications - Esri
+INFO:root:Inserted article: (PDF) Hybrid Security Assessment Methodology for Web Applications - ResearchGate
+INFO:root:Inserted article: Best Practices to Secure Web Applications - InfoQ.com
+INFO:root:Inserted article: Web maps—the foundation of ArcGIS web applications - Esri
+INFO:root:Inserted article: Hackers Exploit Cobalt Strike, SQLMap, and Other Tools to Target Web Applications - GBHackers
+INFO:root:Inserted article: Front-End Developer Interview Course - Google Amazon Meta Apple Front-End Engineer Mock Interviews 2025 Update - GlobeNewswire
+INFO:root:Inserted article: Touchuponastar Spoils Sierra Leone's Return With Front-End Score In New Orleans Classic - Paulick Report
+INFO:root:Inserted article: Ex-Guard releases front-end protection guard for Freightliner’s fifth-generation Cascadia - FleetOwner
+INFO:root:Inserted article: Ex-Guard’s front-end protection for fifth-gen Cascadia - trucknews.com
+INFO:root:Inserted article: Joy ride featuring front-end loader ends with criminal charges from Kingston Police - The Kingston Whig-Standard
+INFO:root:Inserted article: Observe links end-user experience with back-end troubleshooting - Network World
+INFO:root:Inserted article: Workshop on the Role of Innovation in the Nuclear Back-End: Harnessing Robotics and Advanced Technologies for Safer, More Efficient Activities - Nuclear Energy Agency
+INFO:root:Inserted article: Webinar series on robotics and remote systems for the nuclear back-end: Robotic work at deep geological repositories and other underground nuclear applications - Nuclear Energy Agency
+INFO:root:Inserted article: Observe Launches Frontend Observability to Connect End-User Experience with Back-End Troubleshooting - PR Newswire
+INFO:root:Inserted article: Cisco Wants To Own Back-End Infrastructure For AI Datacenters - Forbes
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Inserted article: Research & Data Management – Senior Data Analyst - Chiefs of Ontario
+INFO:root:Inserted article: Vacancy: Data analyst - Carbon Brief
+INFO:root:Inserted article: My Experience Switching From Power BI to Looker (as a Senior Data Analyst) - Towards Data Science
+INFO:root:Inserted article: SU Names Tulyagijja Men's Basketball Data Analyst - Syracuse University Athletics
+INFO:root:Inserted article: Speed cameras at schools ‘do not stand up to even basic scrutiny,’ data analyst warns - Waterloo Region Record
+INFO:root:Inserted article: Google’s Data Science Agent: Can It Really Do Your Job? - Towards Data Science
+INFO:root:Inserted article: What Germany Currently Is Up To, Debt-Wise - Towards Data Science
+INFO:root:Inserted article: Undergraduate Upends a 40-Year-Old Data Science Conjecture - Quanta Magazine
+INFO:root:Inserted article: Write for Towards Data Science - Towards Data Science
+INFO:root:Inserted article: Towards Data Science is Launching as an Independent Publication - Towards Data Science
+INFO:root:Inserted article: Saskatoon City Councillor on "hugely alarming" overdose statistics. - CTV News
+INFO:root:Inserted article: Immigration ethnocultural diversity and Statistics - Statistique Canada
+INFO:root:Inserted article: Sustaining Economic Statistics - Northern Trust - Commentaries - Advisor Perspectives
+INFO:root:Inserted article: 36 Instagram statistics marketers need to know in 2025 - Hootsuite
+INFO:root:Inserted article: Sask. retains spot as third-fastest growing in building permits in Statistics Canada data - DiscoverMooseJaw.com
+INFO:root:Inserted article: WordPress Plug-in Vulnerability Let Hackers Inject Malicious SQL Queries - CybersecurityNews
+INFO:root:Inserted article: Data Management in SQL – Basic - Mercer University
+INFO:root:Inserted article: The New SQL Field Calculate Experience - Esri
+INFO:root:Inserted article: WordPress Plugin Vulnerability Opens Door to SQL Injection Exploits - GBHackers
+INFO:root:Inserted article: Microsoft SQL Server 2019 shuffles out of mainstream support - The Register
+INFO:root:Inserted article: 23 Best Data Visualization Tools You Can't Miss! - Simplilearn
+INFO:root:Inserted article: Skyward Unveils New Turnkey Data Visualization Tool During 2025 International Conference, iCon - GlobeNewswire
+INFO:root:Inserted article: Top 5 Data Visualization Tools for Data Scientists - KDnuggets
+INFO:root:Inserted article: How Florence Nightingale Used Data Visualization to Save Lives - Office for Science and Society
+INFO:root:Inserted article: How Data Visualization Helps Prevent Cyber Attacks - Security Boulevard
+INFO:root:Inserted article: If You Don't Use Excel's Hidden Camera Tool, You're Missing a Trick - How-To Geek
+INFO:root:Inserted article: Local school wrestlers repping Outlook excel on the mat - SaskToday.ca
+INFO:root:Inserted article: Scott Laughton's Journey to Adjust and Excel with the Toronto Maple Leafs Post Philadelphia Flyers Trade - Motorcycle Sports Australia
+INFO:root:Inserted article: The Microsoft Excel World Champion Isn't Worried About Copilot Beating Him (Yet) - PCMag
+INFO:root:Inserted article: ‘Someone dropped Surf Excel’: Netizens react to Bengaluru streets being blanketed in snow-like foam - The Tribune India
+INFO:root:Inserted article: Pilbara snake handler's video shows olive python eating whole pigeon - ABC News
+INFO:root:Inserted article: 11 Python Libraries Every AI Engineer Should Know - KDnuggets
+INFO:root:Inserted article: Robbed at fang point: python-wielding thieves snatch $400 in CBD oil from Tennessee gas station - The Guardian US
+INFO:root:Inserted article: 2025 Is the Last Year of Python Dominance in AI: Java Comin’ - The New Stack
+INFO:root:Inserted article: Import GPU: Python Programming With CUDA - Hackaday
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Inserted article: Oppo Find N5's hinge put to the test - can it support 45kg or will it break? - GSMArena.com news - GSMArena.com
+INFO:root:Inserted article: HDI’s Training and Consulting Helps Organizations and Professionals Improve Service Management and IT Support Performance - Business Wire
+INFO:root:Inserted article: AquaOrange Elevates IT Support Services in Thailand - The Globe and Mail
+INFO:root:Inserted article: How IT Support Services Are Boosting Productivity for London SMEs - GlobeNewswire
+INFO:root:Inserted article: Women in Tech: From UN Peacekeeping to global IT support with Branka Zelenbaba - UNDP
+INFO:root:Inserted article: April Natural Gas Futures Bounce Along Technical Support Near $4 - Natural Gas Intelligence
+INFO:root:Inserted article: Beware of technical support scams: OPP - SooToday
+INFO:root:Inserted article: North America IT Services Market Size, Share & Growth, 2033 - Market Data Forecast
+INFO:root:Inserted article: 86 Kenyan startups pitch for funding, technical support in Presidential Innovation Challenge - - Disrupt Africa
+INFO:root:Inserted article: 8 service desk automation examples to enhance IT support - TechTarget
+INFO:root:Inserted article: SplatOverflow enables remote hardware troubleshooting - Tech Xplore
+INFO:root:Inserted article: SplatOverflow Enables Remote Hardware Troubleshooting - Cornell Tech
+INFO:root:Inserted article: Jim Rossman: Tech troubleshooting 101: Working to solve your own issues - The Dallas Morning News
+INFO:root:Inserted article: Streamline AWS resource troubleshooting with Amazon Bedrock Agents and AWS Support Automation Workflows - AWS Blog
+INFO:root:Inserted article: NAB 2025: Leader Brings Clarity to NDI Troubleshooting - Sports Video Group
+INFO:root:Inserted article: Garden Help Desk: Spring really is here, and some crops can be started now - Daily Herald
+INFO:root:Inserted article: Open Source Help Desk Automation Market with a CAGR of 13.60% during the forecast period of 2024 to 2031 - openPR
+INFO:root:Inserted article: 8 service desk automation examples to enhance IT support - TechTarget
+INFO:root:Inserted article: Best help desk software of 2025 - TechRadar
+INFO:root:Inserted article: Fixify Secures $25 Million in Series A Funding to Modernize IT Help Desks by Keeping Humans in the Loop - GlobeNewswire
+INFO:root:Inserted article: Leaked Windows feature explains why your PC hardware struggles - PCWorld
+INFO:root:Inserted article: Next-generation AI hardware: 3D photonic-electronic platform boosts efficiency and bandwidth - Phys.org
+INFO:root:Inserted article: Better PC gaming Is only $15 away — No hardware required - PCWorld
+INFO:root:Inserted article: Moving Software Down To Hardware - Hackaday
+INFO:root:Inserted article: Windows 11 will soon let you know why your PC hardware sucks - The Verge
+INFO:root:Inserted article: How Software Engineers Actually Use AI - WIRED
+INFO:root:Inserted article: Tesla Software Update 2025.2 -- The Lesser Known Features (Undocumented Changes) - Not a Tesla App
+INFO:root:Inserted article: German software giant becomes most valuable company in Europe - The Brussels Times
+INFO:root:Inserted article: 90% of coding by AI, fewer jobs for software engineers: Zoho’s Sridhar Vembu and OpenAI’s Sam Altman give - The Economic Times
+INFO:root:Inserted article: The Apache Software Foundation Announces New Fundraising - GlobeNewswire
+INFO:root:Inserted article: CSK to Modernize IT Service Desk With 3CLogic for ServiceNow - Yahoo Canada Finance
+INFO:root:Inserted article: North America IT Services Market Size, Share & Growth, 2033 - Market Data Forecast
+INFO:root:Inserted article: A Look Back at IT Services & Consulting Stocks’ Q4 Earnings: EPAM (NYSE:EPAM) Vs The Rest Of The Pack - The Globe and Mail
+INFO:root:Inserted article: HDI’s Training and Consulting Helps Organizations and Professionals Improve Service Management and IT Support Performance - Business Wire
+INFO:root:Inserted article: Piper Sandler cautious on IT services industry outlook - Investing.com India
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Inserted article: Top 12 cloud computing careers of 2025 and how to get started - TechTarget
+INFO:root:Inserted article: Insights from Ravi Chandra Thota: A Cloud Engineer’s Vision for AI, DevOps, and Tomorrow’s Technology - mid-day.com
+INFO:root:Inserted article: Which are the 5 Countries to Study Cloud Engineering? Certs, Salary & Jobs - After School Africa
+INFO:root:Inserted article: PwC Canada and AWS Launch "Jump Start Your Career" Program, Fueling Next Generation of Cloud Engineering Talent - Canada NewsWire
+INFO:root:Inserted article: 5 free Cloud Computing courses you can take in 2025 - Techloy
+INFO:root:Inserted article: Manitoba to Begin Collecting Tax on Cloud Computing - ChrisD.ca
+INFO:root:Inserted article: The latest cloud computing trends: Flexera 2025 State of the Cloud Report - Enterprise License Optimization Blog
+INFO:root:Inserted article: Oracle to provide cloud computing, AI services to Singapore military - Reuters
+INFO:root:Inserted article: Devastating Akira ransomware cracked in hours using cloud computing - Mashable
+INFO:root:Inserted article: Supercharged Cloud: How AI is Revolutionizing Cloud Computing - Oracle
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Amdocs (DOX) Expands AI-Powered Telecom Solutions with NVIDIA and AWS - Insider Monkey
+INFO:root:Inserted article: European cloud hosts are offering an escape from AWS, Azure, and GCP - TNW
+INFO:root:Inserted article: Amazon's AWS forms new group focused on agentic AI - Reuters
+INFO:root:Inserted article: Nigerians are building affordable alternatives to AWS and Google Cloud - Rest of World
+INFO:root:Inserted article: Former Microsoft Director discusses Azure’s ’moat’ By Investing.com - Investing.com Canada
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Accelerating agentic workflows with Azure AI Foundry, NVIDIA NIM, and NVIDIA AgentIQ - Microsoft
+INFO:root:Inserted article: Nvidia Launches New Google And Microsoft Azure Products At GTC 2025 - CRN
+INFO:root:Inserted article: Announcing the Responses API and Computer-Using Agent in Azure AI Foundry - Microsoft
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Wiz to Join Google Cloud: Making Magic Together - Wiz
+INFO:root:Inserted article: Nigerians are building affordable alternatives to AWS and Google Cloud - Rest of World
+INFO:root:Inserted article: Salesforce strikes multibillion-dollar deal to bring its AI agents to Google Cloud - SiliconANGLE News
+INFO:root:Inserted article: Klang Games partners with Google Cloud on AI-driven simulation game Seed - VentureBeat
+INFO:root:Inserted article: Comcast Accelerates Virtualization and AI Technologies Throughout the Nation’s Largest and Fastest Network Using DriveNets Network Cloud - Business Wire
+INFO:root:Inserted article: Comcast expands Janus virtualization, AI trial with DriveNets - RCR Wireless News
+INFO:root:Inserted article: Protect your virtual machine investments with OpenShift Virtualization - TechCentral
+INFO:root:Inserted article: Data Virtualization Market Share Growing at 21.7% CAGR Reach USD 22.2 Billion by 2031 - openPR
+INFO:root:Inserted article: Parallel Works Expands ACTIVATE with New Virtualization Integrations to Streamline Cloud Resource Management - HPCwire
+INFO:root:Inserted article: The cloud architecture renaissance of 2025 - InfoWorld
+INFO:root:Inserted article: Orange, AWS and Nokia are collaborating on hybrid cloud for RAN - Hello Future
+INFO:root:Inserted article: The benefits of migrating to a railway cloud architecture - Railway Gazette
+INFO:root:Inserted article: Telefónica advances public Cloud exploration for Cloud RAN with AWS and Nokia - Telefónica
+INFO:root:Inserted article: 2025 Predictions: Cloud Architectures, Cost Management and Hybrid By Design - Gigaom
+INFO:root:Scraping for career path ID 10 with keywords: Business Intelligence, Data Analytics, Power BI, Tableau, Data Visualization, Business Insights
+INFO:root:Inserted article: Cloud-focused Business Intelligence Workshop on Emerging Technologies features speakers from Microsoft, FinLocker - UMSL Daily
+INFO:root:Inserted article: Process Tempo Aims to Disrupt The Business Intelligence Market - PR Web
+INFO:root:Inserted article: Business Intelligence Group Names Swoop in Best Places to Work 2025 - Business Wire
+INFO:root:Inserted article: What is Business Intelligence and its Role in Modern Organizations? - Industry Leaders Magazine
+INFO:root:Inserted article: AI-Powered Business Intelligence —A New Era Of Insights - Forbes
+INFO:root:Inserted article: AI and Data Analytics Redefine Decision-Making in Equipment Lease Finance Due Diligence - Monitor Daily
+INFO:root:Inserted article: How Jetstar is tapping data analytics - ComputerWeekly.com
+INFO:root:Inserted article: Big data analytics in food industry: a state-of-the-art literature review - Nature.com
+INFO:root:Inserted article: AI-Driven Data Analytics in Cryptocurrency Trading - Blockchain.News
+INFO:root:Inserted article: How the Middle East’s event industry is embracing data analytics - Campaign Middle East
+INFO:root:Inserted article: Oktopost Adds Microsoft Power BI Integration to Improve B2B Social Media Measurement - Demand Gen Report
+INFO:root:Inserted article: Hoowla case management software introduces API and Webhook integration with Power BI for enhanced data visualisation - Legal Futures
+INFO:root:Inserted article: My Experience Switching From Power BI to Looker (as a Senior Data Analyst) - Towards Data Science
+INFO:root:Inserted article: Bear Analytics partners with Microsoft Power BI to accelerate decision-making for event organizers - Microsoft
+INFO:root:Inserted article: Fabric's Growing Pains: Meeting the Needs of Power BI and Enterprise Customers - Redmondmag.com
+INFO:root:Inserted article: Duo Single Sign-On for Tableau Online - Decipher
+INFO:root:Inserted article: 17 AI Assisted Analysis: Tableau Agent and Tableau Pulse - O'Reilly Media
+INFO:root:Inserted article: No More Tableau Downtime: Metadata API for Proactive Data Health - Towards Data Science
+INFO:root:Inserted article: Status Update: Tableau Kitchen closes at South Coast Plaza - OCRegister
+INFO:root:Inserted article: Duo Single Sign-On for Tableau Server - Decipher
+INFO:root:Inserted article: 23 Best Data Visualization Tools You Can't Miss! - Simplilearn
+INFO:root:Inserted article: Skyward Unveils New Turnkey Data Visualization Tool During 2025 International Conference, iCon - GlobeNewswire
+INFO:root:Inserted article: Top 5 Data Visualization Tools for Data Scientists - KDnuggets
+INFO:root:Inserted article: How Florence Nightingale Used Data Visualization to Save Lives - Office for Science and Society
+INFO:root:Inserted article: How Data Visualization Helps Prevent Cyber Attacks - Security Boulevard
+INFO:root:Inserted article: Cybersecurity Market Size, Share, Analysis | Global Report 2032 - Fortune Business Insights
+INFO:root:Inserted article: Agentic AI Is a Delicate Four-Way Dance Democratizing Access to Critical Business Insights - Unite.AI
+INFO:root:Inserted article: 2025 University of Puget Sound Business Insights Lunch - KNKX Public Radio
+INFO:root:Inserted article: Fencing Champion Turned Entrepreneur Shares Business Insights with St. John’s Students - St John's University News
+INFO:root:Inserted article: Skincare Market Size, Share, Trends | Growth Analysis [2032] - Fortune Business Insights
+INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Inserted article: Charted: The Decline of U.S. Software Developer Jobs - Visual Capitalist
+INFO:root:Inserted article: Tech leaders at Anthropic, IBM, and Meta warn that AI is coming for software developer jobs - Fortune
+INFO:root:Inserted article: The AI coding apocalypse - Business Insider
+INFO:root:Inserted article: Nvidia CEO Jensen Huang defends AI lead at company’s annual software developer conference - The Globe and Mail
+INFO:root:Inserted article: A developer's guide to thrive vs. AI in coding - TheServerSide.com
+INFO:root:Inserted article: Does 'vibe coding' make everyone a programmer? - FRANCE 24 English
+INFO:root:Inserted article: AI To Steal Most Coding Jobs? Zoho Founder Sridhar Vembu Says Yes, Sam Altman Agrees - NDTV
+INFO:root:Inserted article: Now you don’t even need code to be a programmer. But you do still need expertise - The Guardian
+INFO:root:Inserted article: AI coding assistant refuses to write code, tells user to learn programming instead - Ars Technica
+INFO:root:Inserted article: Hot Docs names former TIFF programmer Diana Sanchez as its new executive director - CityNews Toronto
+INFO:root:Inserted article: Does Vibe Coding Really Work? We Built a Game With Claude—Here's How It Turned Out - Decrypt
+INFO:root:Inserted article: 90% of coding by AI, fewer jobs for software engineers: Zoho’s Sridhar Vembu and OpenAI’s Sam Altman give - The Economic Times
+INFO:root:Inserted article: Vibe Coding: How Devs and Laymen Alike Are Using AI to Create Apps and Games - Decrypt
+INFO:root:Inserted article: Java News Roundup: JDK 24, GraalVM for JDK 24, Payara Platform, Kafka 4.0, Spring CVEs, JavaOne 2025 - InfoQ.com
+INFO:root:Inserted article: Oracle Releases Java 24 - Oracle
+INFO:root:Inserted article: Raye, Tunde to grace stage at 20th Java Jazz Festival - The Jakarta Post
+INFO:root:Inserted article: Oracle Unveils Java 24 with Focus on AI Integration, Post-Quantum Cryptography and Developer Experience - DevOps.com
+INFO:root:Inserted article: Minecraft capes – How to get a cape in Java and Bedrock - PCGamesN
+INFO:root:Inserted article: Pilbara snake handler's video shows olive python eating whole pigeon - ABC News
+INFO:root:Inserted article: 11 Python Libraries Every AI Engineer Should Know - KDnuggets
+INFO:root:Inserted article: Robbed at fang point: python-wielding thieves snatch $400 in CBD oil from Tennessee gas station - The Guardian US
+INFO:root:Inserted article: 2025 Is the Last Year of Python Dominance in AI: Java Comin’ - The New Stack
+INFO:root:Inserted article: Import GPU: Python Programming With CUDA - Hackaday
+INFO:root:Inserted article: How Wasm reinvents web development - InfoWorld
+INFO:root:Inserted article: Pagoda: A Web Development Starter Kit for Go Programmers - The New Stack
+INFO:root:Inserted article: All things Web Development at the Esri Developer and Technology Summit 2025! - Esri
+INFO:root:Inserted article: 10 Best Web Development Blogs \u0422o Follow in 2025 - DesignRush
+INFO:root:Inserted article: Prompt Engineering for Web Development - SitePoint
+INFO:root:Inserted article: Scope Technologies Secures $1.5 Million for Quantum-Resistant App Development - TipRanks
+INFO:root:Inserted article: Scope Technologies Announces $1.5 Million Private Placement Financing and Acceleration of QSE Mobile App Development - PR Newswire
+INFO:root:Inserted article: Sports App Development Company: Revolutionizing the Way We Experience Sports - Programming Insider
+INFO:root:Inserted article: Streamlining App Development with Gemini’s New Canvas Feature - DevOps.com
+INFO:root:Inserted article: Hyperlink InfoSystem Emerges as New York's Finest Mobile App Development Company for 2025 - Yahoo Finance
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Inserted article: DFS Recruiting Computer Systems Analyst to Work on Florida PALM - GovTech
+INFO:root:Inserted article: Systems Analyst: Breaking down the best defensive strategies for playoffs - Sportsnet.ca
+INFO:root:Inserted article: Supply systems analyst ends 6 decades of service to DLA - DLA
+INFO:root:Inserted article: This Veeva Systems Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday - Benzinga
+INFO:root:Inserted article: Key Systems Analyst Skills You Need in 2025 - Simplilearn
+INFO:root:Inserted article: Microsoft working to help protect IT systems of rural hospitals - Columbia Basin Herald
+INFO:root:Inserted article: Cloak Ransomware Hits Virginia Attorney General’s Office, Disrupts IT Systems - HackRead
+INFO:root:Inserted article: West Haven temporarily shuts down IT systems after breach - MSN
+INFO:root:Inserted article: Former contractor shuts down British Museum's IT systems, gets arrested - DatacenterDynamics
+INFO:root:Inserted article: Complexity of IT systems could be increasing security risks for businesses - TechRadar
+INFO:root:Inserted article: Your guide to men's March Madness Day 4: Analysis, every winner's keys to Sweet 16 - ESPN.co.uk
+INFO:root:Inserted article: US could default on debt as soon as July: Analysis - The Hill
+INFO:root:Inserted article: AUD/USD Elliott Wave technical analysis [Video] - FXStreet
+INFO:root:Inserted article: Colin Cieszynski's Market Outlook: Technical analysis - BNN Bloomberg
+INFO:root:Inserted article: USDJPY Technical Analysis – We are trading at a key resistance - TradingView
+INFO:root:Inserted article: Oracle plants agentic AI flag in business process automation - ComputerWeekly.com
+INFO:root:Inserted article: Malaysia Customer Experience Business Process Outsourcing Market Report, 2030 - Grand View Research
+INFO:root:Inserted article: Top 12 business process management certifications for 2025 - TechTarget
+INFO:root:Inserted article: Using business process management to transform your business - Celonis
+INFO:root:Inserted article: How to know a business process is ripe for agentic AI - CIO
+INFO:root:Inserted article: Simplify Your Workflow with Lightroom's AI Denoise - Fstoppers
+INFO:root:Inserted article: Fair-code pioneer n8n raises $60M for AI-powered workflow automation - TechCrunch
+INFO:root:Inserted article: Maximizing monday.com: 10 Workflow Automation Strategies IT Leaders Should Implement - UC Today
+INFO:root:Inserted article: How Content Creators Can Use ChatGPT To Improve Workflow - Forbes
+INFO:root:Inserted article: How Does Music Impact Your Brain and Workflow? - DISCOVER Magazine
+INFO:root:Inserted article: Top 10: Technology Consultants - Technology Magazine
+INFO:root:Inserted article: How this technology consultant is adapting to industry changes - SiliconRepublic.com
+INFO:root:Inserted article: A healthcare simulation technology consultant can save time, money, and headaches - Building Design + Construction
+INFO:root:Inserted article: Assistive Technology consultant Jonathan Mosen - RNZ
+INFO:root:Inserted article: Ontario’s Employment Standards Act Exempts Certain Business and Information Technology Consultants, if Conditions Are Met - Ogletree Deakins
+INFO:root:Inserted article: How to Use AI to Automate Your Workflow: 4 Examples - IoT For All
+INFO:root:Inserted article: AI Business Process Automation: Enhancing Workflow Efficiency - Netguru
+INFO:root:Inserted article: Shastic Announces Partnership with MeridianLink to Provide AI Workflow Automation for Banks and Credit Unions - Business Wire
+INFO:root:Inserted article: Ready for AI Automation? Use a Large Language Model Agentic Workflow To Power Your Business Processes - Alvarez & Marsal
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Inserted article: AI & Machine Learning in Database Management: Studying Trends and Applications with Nithin Gadicharla - Tech Times
+INFO:root:Inserted article: Latest2All.com: The Ultimate Hub for AI-Powered Database Management, Tools & Tutorials - The Tribune India
+INFO:root:Inserted article: Database administrators are the groundskeepers of data—and can make close to six-figure salaries - Fortune
+INFO:root:Inserted article: Database Administrator Skills 2025 for High-Paying Jobs - Simplilearn
+INFO:root:Inserted article: Introducing IBM Database Assistant: An AI-powered assistant for database administrators - IBM
+INFO:root:Inserted article: Learn the Best Methods for Tuning DBMS Configurations - hackernoon.com
+INFO:root:Inserted article: Oracle Named a Leader in the 2024 Gartner® Magic Quadrant™ for Cloud Database Management Systems - Oracle
+INFO:root:Inserted article: (PDF) Database Management System in Accounting: Assessing the Role of Internet Service Communication of Accounting System Information - ResearchGate
+INFO:root:Inserted article: ArcGIS clients and DBMS upgrade considerations - Esri
+INFO:root:Inserted article: Neo4j transforms Aura DBMS with new enhancements & features - IT Brief Australia
+INFO:root:Inserted article: WordPress Plug-in Vulnerability Let Hackers Inject Malicious SQL Queries - CybersecurityNews
+INFO:root:Inserted article: Data Management in SQL – Basic - Mercer University
+INFO:root:Inserted article: The New SQL Field Calculate Experience - Esri
+INFO:root:Inserted article: WordPress Plugin Vulnerability Opens Door to SQL Injection Exploits - GBHackers
+INFO:root:Inserted article: Microsoft SQL Server 2019 shuffles out of mainstream support - The Register
+INFO:root:Inserted article: What Are the Best Tools for SQL Server Database Management? - Built In
+INFO:root:Inserted article: MySQL Explained: Your Guide to Mastering This Powerful Database - Oracle
+INFO:root:Inserted article: Azure Database for Mysql Trigger for Azure Functions in Public Preview - InfoQ.com
+INFO:root:Inserted article: How To Set, Change, and Recover Your MySQL Root Password - TechRepublic
+INFO:root:Inserted article: Migrate very large databases to Amazon Aurora MySQL using MyDumper and MyLoader - AWS Blog
+INFO:root:Inserted article: Amazon RDS for MySQL LTS version 8.4 is now generally available - AWS Blog
+INFO:root:Inserted article: Oracle Denies Claim of Oracle Cloud Breach of 6M Records - Dark Reading
+INFO:root:Inserted article: Massive Oracle Cloud Breach Compromises 6 Million Records, Over 140,000 Businesses At Risk, Says CloudSEK - NDTV Profit
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Prediction: Oracle Stock Could Surge by 200% in the Next 5 Years - The Motley Fool
+INFO:root:Inserted article: Hacker claims Oracle breach, sending business and agencies scrambling - The Australian Financial Review
+INFO:root:Inserted article: Continuous Replication to Amazon RDS for SQL Server from Azure SQL - AWS Blog
+INFO:root:Inserted article: Microsoft Previews Copilot AI in SQL Server Management Studio - Visual Studio Magazine
+INFO:root:Inserted article: DataNumen SQL Recovery 7.1: A Revolution in SQL Server Database Recovery - Newsfile
+INFO:root:Inserted article: AI, automation, and resilience is Oracle’s vision for supply chain management: Derek Gittoes - ETCIO
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Inserted article: How network engineers can prepare for the future with AI - TechTarget
+INFO:root:Inserted article: Network engineer chose humiliation over a night on the datacenter floor - The Register
+INFO:root:Inserted article: Senior Technology Network Engineer - Washoe Life
+INFO:root:Inserted article: Network Engineer Job Description & Key Responsibilities - Simplilearn
+INFO:root:Inserted article: Network Engineer at Google. How did he do it? - Condia
+INFO:root:Inserted article: Why There’s No Substitute For The Power Of In-Person Networking - Forbes
+INFO:root:Inserted article: Phoenix Contact and Xona bridge industrial networking, OT cybersecurity with zero-trust solutions - IndustrialCyber
+INFO:root:Inserted article: NVIDIA (NVDA) Breaks Barriers with Advanced AI Networking - Insider Monkey
+INFO:root:Inserted article: Strathmore business leaders gather for wine, cheese, and networking - StrathmoreNow.com
+INFO:root:Inserted article: Algonquin College - Algonquin College helps build industry connections at Business - Marketing networking event - Education News Canada
+INFO:root:Inserted article: Corero Network Security Earns Spot in the 2025 CRN® Partner Program Guide - PR Newswire
+INFO:root:Inserted article: The evolving landscape of network security in 2025 - CIO
+INFO:root:Inserted article: dYdX jumps 8% after introducing token buyback program to bolster network security - CryptoSlate
+INFO:root:Inserted article: Dell Technologies Collaborates with 6WIND to Deliver Cutting-Edge Networking Solutions for Communication Service Providers and Enterprises across EMEA - jim o brien
+INFO:root:Inserted article: Security is the best policy – documenting digital security compliance in an increasingly regulated landscape - Taylor Wessing
+INFO:root:Inserted article: Netgear launches its most affordable WiFi 7 router yet – the Nighthawk RS100 - KitGuru
+INFO:root:Inserted article: Wi-Fi Routers Get a Makeover as Game-Changing and Artful Gadgets You Can Show-Off - Yanko Design
+INFO:root:Inserted article: I replaced my high-end Wi-Fi 7 router with a more affordable option - and have zero regrets - ZDNet
+INFO:root:Inserted article: Should You Replace Your TP-Link Router? We Asked 4 Cybersecurity Experts to Weigh In - CNET
+INFO:root:Inserted article: Change Keenetic router credentials now: users exposed in massive data leak - CyberNews.com
+INFO:root:Inserted article: Palworld Communications Director Says Nintendo Switch 2 Version '100% Worth Considering' if the Console Is 'Beefy Enough' - IGN
+INFO:root:Inserted article: Nintendo Switch 2 anti-scalper plans praised by fans ahead of launch - GAMINGbible
+INFO:root:Inserted article: Overclocked Nintendo Switch Can Run Zelda: Tears of the Kingdom, Skyrim and Other Titles at Averages Well Above 60 FPS, New Video Highlights - Wccftech
+INFO:root:Inserted article: Rumor: Switch 1 Direct possibly happening later this week - My Nintendo News
+INFO:root:Inserted article: Why did Canada switch to metric? - CBC.ca
+INFO:root:Inserted article: Soup’s On: Lan Noodle - EDify Edmonton
+INFO:root:Inserted article: Ms. Truong My Lan appeared in court for appeal in the 30,000 billion VND bond case. - Báo H\u1ea3i D\u01b0\u01a1ng
+INFO:root:Inserted article: Wheel Of Time S3E4 Clip Shows Lan Sparring With Aviendha - LRM Online
+INFO:root:Inserted article: LincPlus LincStation N2 Review: A compact NAS with 10 GbE LAN, four M.2 slots and support for two 2.5 inch drives - Liliputing
+INFO:root:Inserted article: Rackfinity Unveils Cutting-Edge LAN Stations, Workstations, and Training Tables to Revolutionize Modern Workspaces - Yahoo Finance
+INFO:root:Inserted article: The 'Knight Rider' Reboot From James Wan Sounded Awesome — So Why Hasn’t It Happened? - Collider
+INFO:root:Inserted article: Huawei Unveils AI WAN For Network Intelligence In The Net5.5G Age - Telecoms.com
+INFO:root:Inserted article: AI WAN: Leading IP Networks into the Intelligent Era - Developing Telecoms
+INFO:root:Inserted article: Zhang Wan Yi Cast as General Huo Qu Bing in Upcoming Big Budget C-drama Han Dynasty Epic with Deng Chao and... - A Koala's Playground
+INFO:root:Inserted article: Falling examination lamp hit two at Hong Kong Adventist Hospital - Tsuen Wan - Hong Kong Standard
+INFO:root:Inserted article: Elon Musk wants to use AI to run US gov’t, but experts say ‘very bad’ idea - Al Jazeera English
+INFO:root:Inserted article: The Future Landscape of AI-Driven Automation - AI Business
+INFO:root:Inserted article: AI and Automation Set to Redefine the GCC Landscape in India - Entrepreneur
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Inserted article: NEXCOM NSA 5200 Enhances Cybersecurity with AI Acceleration - Canada NewsWire
+INFO:root:Inserted article: NEXCOM NSA 5200 Enhances Cybersecurity with AI Acceleration - The Globe and Mail
+INFO:root:Inserted article: Canada offers cybersecurity training with job placement in 16 roles - Businessday
+INFO:root:Inserted article: Cyber Guardians: INE Security Champions Cybersecurity Training During National Physicians Week 2025 - GlobeNewswire
+INFO:root:Inserted article: Brückner Partners with Secomea to Elevate Remote Service Capabilities and Cybersecurity - Yahoo Canada Finance
+INFO:root:Inserted article: Brennan buys Canberra-based cloud and security specialist CBR Cyber - Consultancy.com.au
+INFO:root:Inserted article: Top 8 in-demand cybersecurity jobs for 2025 and beyond - TechTarget
+INFO:root:Inserted article: Control Systems Security Specialist Training: Strengthening our Critical Systems - Space Force
+INFO:root:Inserted article: Integrity360 expands into France with acquisition of Holiseum, a leading cyber security specialist for critical and industrial infrastructure - Sync NI
+INFO:root:Inserted article: 'We Need A Lot More Money -- Quickly': British Security Specialist Pitches Rearmament Bank - Radio Free Europe / Radio Liberty
+INFO:root:Inserted article: Kudos Achieves ISO 27001 Certification, Proving Its Commitment to Best-in-Class Information Security in Employee Recognition and Rewards - TradingView
+INFO:root:Inserted article: Our Leaders Somehow Still Don’t Take Information Security Seriously - National Review
+INFO:root:Inserted article: FCC investigating China-linked companies over evasion of U.S. national security measures - Cybersecurity Dive
+INFO:root:Inserted article: Post & Schell Receives SOC 2 Clean Audit of Information Security Systems - citybiz
+INFO:root:Inserted article: PSX attains ISO 27001:2022 certification for information security management - The News International
+INFO:root:Inserted article: Former NFL coach pleads not guilty over alleged hacking of athletes’ intimate photos - The Guardian
+INFO:root:Inserted article: Former NFL and college assistant coach pleads not guilty to hacking for women's images - CTV News
+INFO:root:Inserted article: Lawsuit filed against former Michigan coach in alleged hacking case - ABC News
+INFO:root:Inserted article: North Korea launches new unit with a focus on AI hacking, per report - TechCrunch
+INFO:root:Inserted article: Top 10 web hacking techniques of 2024 - The Daily Swig
+INFO:root:Inserted article: A Win for Encryption: France Rejects Backdoor Mandate - EFF
+INFO:root:Inserted article: Akira ransomware can be cracked with 16 RTX 4090 GPUs in around ten hours — new counterattack breaks encryption - Tom's Hardware
+INFO:root:Inserted article: RCS update adds end-to-end encryption, Google and Apple confirm support - 9to5Google
+INFO:root:Inserted article: The war on encryption is dangerous - Financial Times
+INFO:root:Inserted article: Signal threatens to leave France if encryption backdoor required - Computerworld
+INFO:root:Inserted article: Network security tool defects are endemic, eroding enterprise defense - Cybersecurity Dive
+INFO:root:Inserted article: Cybersecurity Market Size, Share, Analysis | Global Report 2032 - Fortune Business Insights
+INFO:root:Inserted article: The Rise of Agentic AI: How Hyper-Automation is Reshaping Cybersecurity and the Workforce - TechSpective
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Inserted article: Former students sue Ontario company for $108K in tuition for unapproved web developer program - CBC.ca
+INFO:root:Inserted article: How To Become A Entry-Level Web Developer in 2025 - Simplilearn
+INFO:root:Inserted article: Best web design software of 2024 - TechRadar
+INFO:root:Inserted article: Sam Vargas: From Naval Officer to Portugal-Based Web Developer - Portugalist
+INFO:root:Inserted article: Civitta adds Hungary-based mobile and web developer AZinec - Consultancy.eu
+INFO:root:Inserted article: How Do You Handle Responsive Font Sizes in Pure CSS? - SitePoint
+INFO:root:Inserted article: ESLint Now Officially Supports CSS, JSON, and Markdown - InfoQ.com
+INFO:root:Inserted article: Spruce up your pop-ups with CSS - Esri
+INFO:root:Inserted article: Cybercriminals Exploit CSS to Evade Spam Filters and Track Email Users' Actions - The Hacker News
+INFO:root:Inserted article: A Night in the Cold for a Cause at St. David CSS - WCDSB
+INFO:root:Inserted article: How we train AI to uncover malicious JavaScript intent and make web surfing safer - The Cloudflare Blog
+INFO:root:Inserted article: TypeScript 5.8 Released with Improved Inference and Better JavaScript Ecosystem Interoperability - InfoQ.com
+INFO:root:Inserted article: JavaScript Tutorial: Learn JavaScript from Scratch - Simplilearn
+INFO:root:Inserted article: What's new in ArcGIS Maps for JavaScript (4.32) - Esri
+INFO:root:Inserted article: Generative AI with JavaScript - Microsoft
+INFO:root:Inserted article: Best Web Design Companies Vancouver - Search Engine People
+INFO:root:Inserted article: AI-Powered Web Design - Trend Hunter
+INFO:root:Inserted article: The 10+ Best AI & Pro Web Design Tools for 2025 - SitePoint
+INFO:root:Inserted article: Weberous Transforms Digital Presence with Award-Winning, Conversion-Driven Web Design - openPR
+INFO:root:Inserted article: Best Web Design Companies Toronto - Search Engine People
+INFO:root:Inserted article: (PDF) Hybrid Security Assessment Methodology for Web Applications - ResearchGate
+INFO:root:Inserted article: Web maps—the foundation of ArcGIS web applications - Esri
+INFO:root:Inserted article: Best Practices to Secure Web Applications - InfoQ.com
+INFO:root:Inserted article: Hackers Exploit Cobalt Strike, SQLMap, and Other Tools to Target Web Applications - GBHackers
+INFO:root:Inserted article: MirrorTab Secures $8.5 Million to Shield Web Applications from Constantly Evolving Hacking, Bot, and Malware Threats - Business Wire
+INFO:root:Inserted article: Front-End Developer Interview Course - Google Amazon Meta Apple Front-End Engineer Mock Interviews 2025 Update - GlobeNewswire
+INFO:root:Inserted article: Touchuponastar Spoils Sierra Leone's Return With Front-End Score In New Orleans Classic - Paulick Report
+INFO:root:Inserted article: Ex-Guard releases front-end protection guard for Freightliner’s fifth-generation Cascadia - FleetOwner
+INFO:root:Inserted article: Ex-Guard’s front-end protection for fifth-gen Cascadia - trucknews.com
+INFO:root:Inserted article: Joy ride featuring front-end loader ends with criminal charges from Kingston Police - The Kingston Whig-Standard
+INFO:root:Inserted article: Workshop on the Role of Innovation in the Nuclear Back-End: Harnessing Robotics and Advanced Technologies for Safer, More Efficient Activities - Nuclear Energy Agency
+INFO:root:Inserted article: Observe links end-user experience with back-end troubleshooting - Network World
+INFO:root:Inserted article: Webinar series on robotics and remote systems for the nuclear back-end: Robotic work at deep geological repositories and other underground nuclear applications - Nuclear Energy Agency
+INFO:root:Inserted article: Observe Launches Frontend Observability to Connect End-User Experience with Back-End Troubleshooting - PR Newswire
+INFO:root:Inserted article: Cisco Wants To Own Back-End Infrastructure For AI Datacenters - Forbes
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Inserted article: Research & Data Management – Senior Data Analyst - Chiefs of Ontario
+INFO:root:Inserted article: Vacancy: Data analyst - Carbon Brief
+INFO:root:Inserted article: My Experience Switching From Power BI to Looker (as a Senior Data Analyst) - Towards Data Science
+INFO:root:Inserted article: SU Names Tulyagijja Men's Basketball Data Analyst - Syracuse University Athletics
+INFO:root:Inserted article: Speed cameras at schools ‘do not stand up to even basic scrutiny,’ data analyst warns - Waterloo Region Record
+INFO:root:Inserted article: Google’s Data Science Agent: Can It Really Do Your Job? - Towards Data Science
+INFO:root:Inserted article: What Germany Currently Is Up To, Debt-Wise - Towards Data Science
+INFO:root:Inserted article: Undergraduate Upends a 40-Year-Old Data Science Conjecture - Quanta Magazine
+INFO:root:Inserted article: Write for Towards Data Science - Towards Data Science
+INFO:root:Inserted article: Towards Data Science is Launching as an Independent Publication - Towards Data Science
+INFO:root:Inserted article: Saskatoon City Councillor on "hugely alarming" overdose statistics. - CTV News
+INFO:root:Inserted article: Immigration ethnocultural diversity and Statistics - Statistique Canada
+INFO:root:Inserted article: Sustaining Economic Statistics - Northern Trust - Commentaries - Advisor Perspectives
+INFO:root:Inserted article: 36 Instagram statistics marketers need to know in 2025 - Hootsuite
+INFO:root:Inserted article: Sask. retains spot as third-fastest growing in building permits in Statistics Canada data - DiscoverMooseJaw.com
+INFO:root:Inserted article: 23 Best Data Visualization Tools You Can't Miss! - Simplilearn
+INFO:root:Inserted article: Skyward Unveils New Turnkey Data Visualization Tool During 2025 International Conference, iCon - GlobeNewswire
+INFO:root:Inserted article: Top 5 Data Visualization Tools for Data Scientists - KDnuggets
+INFO:root:Inserted article: How Florence Nightingale Used Data Visualization to Save Lives - Office for Science and Society
+INFO:root:Inserted article: How Data Visualization Helps Prevent Cyber Attacks - Security Boulevard
+INFO:root:Inserted article: If You Don't Use Excel's Hidden Camera Tool, You're Missing a Trick - How-To Geek
+INFO:root:Inserted article: Local school wrestlers repping Outlook excel on the mat - SaskToday.ca
+INFO:root:Inserted article: Scott Laughton's Journey to Adjust and Excel with the Toronto Maple Leafs Post Philadelphia Flyers Trade - Motorcycle Sports Australia
+INFO:root:Inserted article: The Microsoft Excel World Champion Isn't Worried About Copilot Beating Him (Yet) - PCMag
+INFO:root:Inserted article: ‘Someone dropped Surf Excel’: Netizens react to Bengaluru streets being blanketed in snow-like foam - The Tribune India
+INFO:root:Inserted article: The Economics of Artificial Intelligence – what does automation mean for workers? - Towards Data Science
+INFO:root:Inserted article: The impact of AI-powered automation on workforce dynamics and job roles - Data Science Central
+INFO:root:Inserted article: Key trends in intelligent automation: From AI-augmented to cognitive - Data Science Central
+INFO:root:Inserted article: AI Statistics Guide 2025 - Artificial Intelligence Trends - Tech.co
+INFO:root:Inserted article: AI Replacing Jobs Statistics By AI's Impact on Job, AI Skills and Facts - ElectroIQ
+INFO:root:Inserted article: Will generative AI replace data analysts? - TechTarget
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Inserted article: Oppo Find N5's hinge put to the test - can it support 45kg or will it break? - GSMArena.com news - GSMArena.com
+INFO:root:Inserted article: HDI’s Training and Consulting Helps Organizations and Professionals Improve Service Management and IT Support Performance - Business Wire
+INFO:root:Inserted article: AquaOrange Elevates IT Support Services in Thailand - The Globe and Mail
+INFO:root:Inserted article: How IT Support Services Are Boosting Productivity for London SMEs - GlobeNewswire
+INFO:root:Inserted article: Women in Tech: From UN Peacekeeping to global IT support with Branka Zelenbaba - UNDP
+INFO:root:Inserted article: April Natural Gas Futures Bounce Along Technical Support Near $4 - Natural Gas Intelligence
+INFO:root:Inserted article: Beware of technical support scams: OPP - SooToday
+INFO:root:Inserted article: North America IT Services Market Size, Share & Growth, 2033 - Market Data Forecast
+INFO:root:Inserted article: 86 Kenyan startups pitch for funding, technical support in Presidential Innovation Challenge - - Disrupt Africa
+INFO:root:Inserted article: 8 service desk automation examples to enhance IT support - TechTarget
+INFO:root:Inserted article: SplatOverflow enables remote hardware troubleshooting - Tech Xplore
+INFO:root:Inserted article: SplatOverflow Enables Remote Hardware Troubleshooting - Cornell Tech
+INFO:root:Inserted article: Jim Rossman: Tech troubleshooting 101: Working to solve your own issues - The Dallas Morning News
+INFO:root:Inserted article: Streamline AWS resource troubleshooting with Amazon Bedrock Agents and AWS Support Automation Workflows - AWS Blog
+INFO:root:Inserted article: NAB 2025: Leader Brings Clarity to NDI Troubleshooting - Sports Video Group
+INFO:root:Inserted article: Garden Help Desk: Spring really is here, and some crops can be started now - Daily Herald
+INFO:root:Inserted article: Open Source Help Desk Automation Market with a CAGR of 13.60% during the forecast period of 2024 to 2031 - openPR
+INFO:root:Inserted article: Best help desk software of 2025 - TechRadar
+INFO:root:Inserted article: Fixify Secures $25 Million in Series A Funding to Modernize IT Help Desks by Keeping Humans in the Loop - GlobeNewswire
+INFO:root:Inserted article: Leaked Windows feature explains why your PC hardware struggles - PCWorld
+INFO:root:Inserted article: Next-generation AI hardware: 3D photonic-electronic platform boosts efficiency and bandwidth - Phys.org
+INFO:root:Inserted article: Better PC gaming Is only $15 away — No hardware required - PCWorld
+INFO:root:Inserted article: Moving Software Down To Hardware - Hackaday
+INFO:root:Inserted article: Windows 11 will soon let you know why your PC hardware sucks - The Verge
+INFO:root:Inserted article: How Software Engineers Actually Use AI - WIRED
+INFO:root:Inserted article: Tesla Software Update 2025.2 -- The Lesser Known Features (Undocumented Changes) - Not a Tesla App
+INFO:root:Inserted article: German software giant becomes most valuable company in Europe - The Brussels Times
+INFO:root:Inserted article: The Apache Software Foundation Announces New Fundraising - GlobeNewswire
+INFO:root:Inserted article: CSK to Modernize IT Service Desk With 3CLogic for ServiceNow - Yahoo Canada Finance
+INFO:root:Inserted article: A Look Back at IT Services & Consulting Stocks’ Q4 Earnings: EPAM (NYSE:EPAM) Vs The Rest Of The Pack - The Globe and Mail
+INFO:root:Inserted article: Piper Sandler cautious on IT services industry outlook - Investing.com India
+INFO:root:Inserted article: AI and automation "could cause IT service desks to go extinct" - TechRadar
+INFO:root:Inserted article: Will genAI kill the help desk and other IT jobs? - Computerworld
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Inserted article: How A Seasoned Cloud Engineer Is Transforming Infrastructure Management - Inkl
+INFO:root:Inserted article: Top 12 cloud computing careers of 2025 and how to get started - TechTarget
+INFO:root:Inserted article: Insights from Ravi Chandra Thota: A Cloud Engineer’s Vision for AI, DevOps, and Tomorrow’s Technology - mid-day.com
+INFO:root:Inserted article: Which are the 5 Countries to Study Cloud Engineering? Certs, Salary & Jobs - After School Africa
+INFO:root:Inserted article: PwC Canada and AWS Launch "Jump Start Your Career" Program, Fueling Next Generation of Cloud Engineering Talent - Canada NewsWire
+INFO:root:Inserted article: Manitoba to Begin Collecting Tax on Cloud Computing - ChrisD.ca
+INFO:root:Inserted article: The latest cloud computing trends: Flexera 2025 State of the Cloud Report - Enterprise License Optimization Blog
+INFO:root:Inserted article: Oracle to provide cloud computing, AI services to Singapore military - Reuters
+INFO:root:Inserted article: Devastating Akira ransomware cracked in hours using cloud computing - Mashable
+INFO:root:Inserted article: Best cloud computing provider of 2025 - TechRadar
+INFO:root:Inserted article: Amdocs (DOX) Expands AI-Powered Telecom Solutions with NVIDIA and AWS - Insider Monkey
+INFO:root:Inserted article: European cloud hosts are offering an escape from AWS, Azure, and GCP - TNW
+INFO:root:Inserted article: Amazon's AWS forms new group focused on agentic AI - Reuters
+INFO:root:Inserted article: Nigerians are building affordable alternatives to AWS and Google Cloud - Rest of World
+INFO:root:Inserted article: Former Microsoft Director discusses Azure’s ’moat’ By Investing.com - Investing.com Canada
+INFO:root:Inserted article: Accelerating agentic workflows with Azure AI Foundry, NVIDIA NIM, and NVIDIA AgentIQ - Microsoft
+INFO:root:Inserted article: Nvidia Launches New Google And Microsoft Azure Products At GTC 2025 - CRN
+INFO:root:Inserted article: Announcing the Responses API and Computer-Using Agent in Azure AI Foundry - Microsoft
+INFO:root:Inserted article: Wiz to Join Google Cloud: Making Magic Together - Wiz
+INFO:root:Inserted article: Salesforce strikes multibillion-dollar deal to bring its AI agents to Google Cloud - SiliconANGLE News
+INFO:root:Inserted article: Klang Games partners with Google Cloud on AI-driven simulation game Seed - VentureBeat
+INFO:root:Inserted article: Comcast Accelerates Virtualization and AI Technologies Throughout the Nation’s Largest and Fastest Network Using DriveNets Network Cloud - Business Wire
+INFO:root:Inserted article: Comcast expands Janus virtualization, AI trial with DriveNets - RCR Wireless News
+INFO:root:Inserted article: Protect your virtual machine investments with OpenShift Virtualization - TechCentral
+INFO:root:Inserted article: The Best Virtualization Software for 2025 - PCMag
+INFO:root:Inserted article: Data Virtualization Market Share Growing at 21.7% CAGR Reach USD 22.2 Billion by 2031 - openPR
+INFO:root:Inserted article: The cloud architecture renaissance of 2025 - InfoWorld
+INFO:root:Inserted article: Orange, AWS and Nokia are collaborating on hybrid cloud for RAN - Hello Future
+INFO:root:Inserted article: The benefits of migrating to a railway cloud architecture - Railway Gazette
+INFO:root:Inserted article: Telefónica advances public Cloud exploration for Cloud RAN with AWS and Nokia - Telefónica
+INFO:root:Inserted article: 2025 Predictions: Cloud Architectures, Cost Management and Hybrid By Design - Gigaom
+INFO:root:Inserted article: With new division, AWS bets big on agentic AI automation - Computerworld
+INFO:root:Inserted article: IBM Champions Generative AI and Automation to Safeguard Security Across AWS Environments - IBM Newsroom
+INFO:root:Crawler finished.
+INFO:root:Database connection successful!
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: Software Developer, Programmer, Coding, Java, Python, C++, Web Development, App Development
+INFO:root:Inserted article: Charted: The Decline of U.S. Software Developer Jobs - Visual Capitalist
+INFO:root:Inserted article: Tech leaders at Anthropic, IBM, and Meta warn that AI is coming for software developer jobs - Fortune
+INFO:root:Inserted article: The AI coding apocalypse - Business Insider
+INFO:root:Inserted article: Nvidia CEO Jensen Huang defends AI lead at company’s annual software developer conference - The Globe and Mail
+INFO:root:Inserted article: A developer's guide to thrive vs. AI in coding - TheServerSide.com
+INFO:root:Inserted article: Does 'vibe coding' make everyone a programmer? - FRANCE 24 English
+INFO:root:Inserted article: AI To Steal Most Coding Jobs? Zoho Founder Sridhar Vembu Says Yes, Sam Altman Agrees - NDTV
+INFO:root:Inserted article: You don't need code to be a programmer. But you do need expertise | John Naughton - The Guardian
+INFO:root:Inserted article: AI coding assistant refuses to write code, tells user to learn programming instead - Ars Technica
+INFO:root:Inserted article: Hot Docs names former TIFF programmer Diana Sanchez as its new executive director - CityNews Toronto
+INFO:root:Inserted article: Does Vibe Coding Really Work? We Built a Game With Claude—Here's How It Turned Out - Decrypt
+INFO:root:Inserted article: 90% of coding by AI, fewer jobs for software engineers: Zoho’s Sridhar Vembu and OpenAI’s Sam Altman give - The Economic Times
+INFO:root:Inserted article: Vibe Coding: How Devs and Laymen Alike Are Using AI to Create Apps and Games - Decrypt
+INFO:root:Inserted article: Java News Roundup: JDK 24, GraalVM for JDK 24, Payara Platform, Kafka 4.0, Spring CVEs, JavaOne 2025 - InfoQ.com
+INFO:root:Inserted article: Oracle Releases Java 24 - Oracle
+INFO:root:Inserted article: Raye, Tunde to grace stage at 20th Java Jazz Festival - The Jakarta Post
+INFO:root:Inserted article: Oracle Unveils Java 24 with Focus on AI Integration, Post-Quantum Cryptography and Developer Experience - DevOps.com
+INFO:root:Inserted article: Minecraft capes – How to get a cape in Java and Bedrock - PCGamesN
+INFO:root:Inserted article: Pilbara snake handler's video shows olive python eating whole pigeon - ABC News
+INFO:root:Inserted article: 11 Python Libraries Every AI Engineer Should Know - KDnuggets
+INFO:root:Inserted article: Robbed at fang point: python-wielding thieves snatch $400 in CBD oil from Tennessee gas station - The Guardian US
+INFO:root:Inserted article: 2025 Is the Last Year of Python Dominance in AI: Java Comin’ - The New Stack
+INFO:root:Inserted article: Import GPU: Python Programming With CUDA - Hackaday
+INFO:root:Inserted article: How Wasm reinvents web development - InfoWorld
+INFO:root:Inserted article: Pagoda: A Web Development Starter Kit for Go Programmers - The New Stack
+INFO:root:Inserted article: All things Web Development at the Esri Developer and Technology Summit 2025! - Esri
+INFO:root:Inserted article: 10 Best Web Development Blogs \u0422o Follow in 2025 - DesignRush
+INFO:root:Inserted article: Prompt Engineering for Web Development - SitePoint
+INFO:root:Inserted article: Scope Technologies Secures $1.5 Million for Quantum-Resistant App Development - TipRanks
+INFO:root:Inserted article: Scope Technologies Announces $1.5 Million Private Placement Financing and Acceleration of QSE Mobile App Development - PR Newswire
+INFO:root:Inserted article: Sports App Development Company: Revolutionizing the Way We Experience Sports - Programming Insider
+INFO:root:Inserted article: Streamlining App Development with Gemini’s New Canvas Feature - DevOps.com
+INFO:root:Inserted article: Hyperlink InfoSystem Emerges as New York's Finest Mobile App Development Company for 2025 - Yahoo Finance
+INFO:root:Scraping for career path ID 2 with keywords: Systems Analyst, IT Systems, Analysis, Business Process, Workflow, Technology Consultant
+INFO:root:Inserted article: DFS Recruiting Computer Systems Analyst to Work on Florida PALM - GovTech
+INFO:root:Inserted article: Systems Analyst: Breaking down the best defensive strategies for playoffs - Sportsnet.ca
+INFO:root:Inserted article: Supply systems analyst ends 6 decades of service to DLA - DLA
+INFO:root:Inserted article: This Veeva Systems Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday - Benzinga
+INFO:root:Inserted article: Key Systems Analyst Skills You Need in 2025 - Simplilearn
+INFO:root:Inserted article: Microsoft working to help protect IT systems of rural hospitals - Columbia Basin Herald
+INFO:root:Inserted article: Cloak Ransomware Hits Virginia Attorney General’s Office, Disrupts IT Systems - HackRead
+INFO:root:Inserted article: West Haven temporarily shuts down IT systems after breach - MSN
+INFO:root:Inserted article: Former contractor shuts down British Museum's IT systems, gets arrested - DatacenterDynamics
+INFO:root:Inserted article: Complexity of IT systems could be increasing security risks for businesses - TechRadar
+INFO:root:Inserted article: March Madness Day 4: Live updates, analysis as women's Sweet 16 is set - ESPN
+INFO:root:Inserted article: US could default on debt as soon as July: Analysis - The Hill
+INFO:root:Inserted article: Your guide to men's March Madness Day 4: Analysis, every winner's keys to Sweet 16 - ESPN.co.uk
+INFO:root:Inserted article: AUD/USD Elliott Wave technical analysis [Video] - FXStreet
+INFO:root:Inserted article: Colin Cieszynski's Market Outlook: Technical analysis - BNN Bloomberg
+INFO:root:Inserted article: Oracle plants agentic AI flag in business process automation - ComputerWeekly.com
+INFO:root:Inserted article: Malaysia Customer Experience Business Process Outsourcing Market Report, 2030 - Grand View Research
+INFO:root:Inserted article: Top 12 business process management certifications for 2025 - TechTarget
+INFO:root:Inserted article: Using business process management to transform your business - Celonis
+INFO:root:Inserted article: How to know a business process is ripe for agentic AI - CIO
+INFO:root:Inserted article: Simplify Your Workflow with Lightroom's AI Denoise - Fstoppers
+INFO:root:Inserted article: Fair-code pioneer n8n raises $60M for AI-powered workflow automation - TechCrunch
+INFO:root:Inserted article: Maximizing monday.com: 10 Workflow Automation Strategies IT Leaders Should Implement - UC Today
+INFO:root:Inserted article: How Content Creators Can Use ChatGPT To Improve Workflow - Forbes
+INFO:root:Inserted article: How Does Music Impact Your Brain and Workflow? - DISCOVER Magazine
+INFO:root:Inserted article: Top 10: Technology Consultants - Technology Magazine
+INFO:root:Inserted article: How this technology consultant is adapting to industry changes - SiliconRepublic.com
+INFO:root:Inserted article: A healthcare simulation technology consultant can save time, money, and headaches - Building Design + Construction
+INFO:root:Inserted article: Assistive Technology consultant Jonathan Mosen - RNZ
+INFO:root:Inserted article: Ontario’s Employment Standards Act Exempts Certain Business and Information Technology Consultants, if Conditions Are Met - Ogletree Deakins
+INFO:root:Inserted article: How to Use AI to Automate Your Workflow: 4 Examples - IoT For All
+INFO:root:Inserted article: AI Business Process Automation: Enhancing Workflow Efficiency - Netguru
+INFO:root:Inserted article: Shastic Announces Partnership with MeridianLink to Provide AI Workflow Automation for Banks and Credit Unions - Business Wire
+INFO:root:Scraping for career path ID 3 with keywords: Database Administrator, DBMS, SQL, Database Management, MySQL, Oracle, SQL Server
+INFO:root:Inserted article: AI & Machine Learning in Database Management: Studying Trends and Applications with Nithin Gadicharla - Tech Times
+INFO:root:Inserted article: Latest2All.com: The Ultimate Hub for AI-Powered Database Management, Tools & Tutorials - The Tribune India
+INFO:root:Inserted article: Database administrators are the groundskeepers of data—and can make close to six-figure salaries - Fortune
+INFO:root:Inserted article: Database Administrator Skills 2025 for High-Paying Jobs - Simplilearn
+INFO:root:Inserted article: Introducing IBM Database Assistant: An AI-powered assistant for database administrators - IBM
+INFO:root:Inserted article: Learn the Best Methods for Tuning DBMS Configurations - hackernoon.com
+INFO:root:Inserted article: Oracle Named a Leader in the 2024 Gartner® Magic Quadrant™ for Cloud Database Management Systems - Oracle
+INFO:root:Inserted article: (PDF) Database Management System in Accounting: Assessing the Role of Internet Service Communication of Accounting System Information - ResearchGate
+INFO:root:Inserted article: ArcGIS clients and DBMS upgrade considerations - Esri
+INFO:root:Inserted article: Neo4j transforms Aura DBMS with new enhancements & features - IT Brief Australia
+INFO:root:Inserted article: WordPress Plug-in Vulnerability Let Hackers Inject Malicious SQL Queries - CybersecurityNews
+INFO:root:Inserted article: Data Management in SQL – Basic - Mercer University
+INFO:root:Inserted article: The New SQL Field Calculate Experience - Esri
+INFO:root:Inserted article: WordPress Plugin Vulnerability Opens Door to SQL Injection Exploits - GBHackers
+INFO:root:Inserted article: Microsoft SQL Server 2019 shuffles out of mainstream support - The Register
+INFO:root:Inserted article: What Are the Best Tools for SQL Server Database Management? - Built In
+INFO:root:Inserted article: MySQL Explained: Your Guide to Mastering This Powerful Database - Oracle
+INFO:root:Inserted article: Azure Database for Mysql Trigger for Azure Functions in Public Preview - InfoQ.com
+INFO:root:Inserted article: How To Set, Change, and Recover Your MySQL Root Password - TechRepublic
+INFO:root:Inserted article: Migrate very large databases to Amazon Aurora MySQL using MyDumper and MyLoader - AWS Blog
+INFO:root:Inserted article: Amazon RDS for MySQL LTS version 8.4 is now generally available - AWS Blog
+INFO:root:Inserted article: Oracle Denies Claim of Oracle Cloud Breach of 6M Records - Dark Reading
+INFO:root:Inserted article: Massive Oracle Cloud Breach Compromises 6 Million Records, Over 140,000 Businesses At Risk, Says CloudSEK - NDTV Profit
+INFO:root:Inserted article: AWS Vs. Azure Vs. GCP Vs. Oracle Vs. IBM Customer Spending Face-Off: Report - CRN
+INFO:root:Inserted article: Prediction: Oracle Stock Could Surge by 200% in the Next 5 Years - The Motley Fool
+INFO:root:Inserted article: Hacker claims Oracle breach, sending business and agencies scrambling - The Australian Financial Review
+INFO:root:Inserted article: Continuous Replication to Amazon RDS for SQL Server from Azure SQL - AWS Blog
+INFO:root:Inserted article: Microsoft Previews Copilot AI in SQL Server Management Studio - Visual Studio Magazine
+INFO:root:Inserted article: DataNumen SQL Recovery 7.1: A Revolution in SQL Server Database Recovery - Newsfile
+INFO:root:Scraping for career path ID 4 with keywords: Network Engineer, Networking, Network Security, Router, Switch, LAN, WAN
+INFO:root:Inserted article: How network engineers can prepare for the future with AI - TechTarget
+INFO:root:Inserted article: Network engineer chose humiliation over a night on the datacenter floor - The Register
+INFO:root:Inserted article: Senior Technology Network Engineer - Washoe Life
+INFO:root:Inserted article: Network Engineer Job Description & Key Responsibilities - Simplilearn
+INFO:root:Inserted article: Network Engineer at Google. How did he do it? - Condia
+INFO:root:Inserted article: Why There’s No Substitute For The Power Of In-Person Networking - Forbes
+INFO:root:Inserted article: Phoenix Contact and Xona bridge industrial networking, OT cybersecurity with zero-trust solutions - IndustrialCyber
+INFO:root:Inserted article: NVIDIA (NVDA) Breaks Barriers with Advanced AI Networking - Insider Monkey
+INFO:root:Inserted article: Strathmore business leaders gather for wine, cheese, and networking - StrathmoreNow.com
+INFO:root:Inserted article: Algonquin College - Algonquin College helps build industry connections at Business - Marketing networking event - Education News Canada
+INFO:root:Inserted article: Corero Network Security Earns Spot in the 2025 CRN® Partner Program Guide - PR Newswire
+INFO:root:Inserted article: The evolving landscape of network security in 2025 - CIO
+INFO:root:Inserted article: dYdX jumps 8% after introducing token buyback program to bolster network security - CryptoSlate
+INFO:root:Inserted article: Dell Technologies Collaborates with 6WIND to Deliver Cutting-Edge Networking Solutions for Communication Service Providers and Enterprises across EMEA - jim o brien
+INFO:root:Inserted article: Security is the best policy – documenting digital security compliance in an increasingly regulated landscape - Taylor Wessing
+INFO:root:Inserted article: Netgear launches its most affordable WiFi 7 router yet – the Nighthawk RS100 - KitGuru
+INFO:root:Inserted article: Wi-Fi Routers Get a Makeover as Game-Changing and Artful Gadgets You Can Show-Off - Yanko Design
+INFO:root:Inserted article: I replaced my high-end Wi-Fi 7 router with a more affordable option - and have zero regrets - ZDNet
+INFO:root:Inserted article: Should You Replace Your TP-Link Router? We Asked 4 Cybersecurity Experts to Weigh In - CNET
+INFO:root:Inserted article: Change Keenetic router credentials now: users exposed in massive data leak - CyberNews.com
+INFO:root:Inserted article: Palworld Communications Director Says Nintendo Switch 2 Version '100% Worth Considering' if the Console Is 'Beefy Enough' - IGN
+INFO:root:Inserted article: Nintendo Switch 2 anti-scalper plans praised by fans ahead of launch - GAMINGbible
+INFO:root:Inserted article: Overclocked Nintendo Switch Can Run Zelda: Tears of the Kingdom, Skyrim and Other Titles at Averages Well Above 60 FPS, New Video Highlights - Wccftech
+INFO:root:Inserted article: Rumor: Switch 1 Direct possibly happening later this week - My Nintendo News
+INFO:root:Inserted article: Why did Canada switch to metric? - CBC.ca
+INFO:root:Inserted article: Soup’s On: Lan Noodle - EDify Edmonton
+INFO:root:Inserted article: Ms. Truong My Lan appeared in court for appeal in the 30,000 billion VND bond case. - Báo H\u1ea3i D\u01b0\u01a1ng
+INFO:root:Inserted article: Wheel Of Time S3E4 Clip Shows Lan Sparring With Aviendha - LRM Online
+INFO:root:Inserted article: LincPlus LincStation N2 Review: A compact NAS with 10 GbE LAN, four M.2 slots and support for two 2.5 inch drives - Liliputing
+INFO:root:Inserted article: Rackfinity Unveils Cutting-Edge LAN Stations, Workstations, and Training Tables to Revolutionize Modern Workspaces - Yahoo Finance
+INFO:root:Inserted article: The 'Knight Rider' Reboot From James Wan Sounded Awesome — So Why Hasn’t It Happened? - Collider
+INFO:root:Inserted article: Huawei Unveils AI WAN For Network Intelligence In The Net5.5G Age - Telecoms.com
+INFO:root:Inserted article: AI WAN: Leading IP Networks into the Intelligent Era - Developing Telecoms
+INFO:root:Inserted article: Zhang Wan Yi Cast as General Huo Qu Bing in Upcoming Big Budget C-drama Han Dynasty Epic with Deng Chao and... - A Koala's Playground
+INFO:root:Inserted article: Falling examination lamp hit two at Hong Kong Adventist Hospital - Tsuen Wan - Hong Kong Standard
+INFO:root:Inserted article: Elon Musk wants to use AI to run US gov’t, but experts say ‘very bad’ idea - Al Jazeera English
+INFO:root:Inserted article: The Future Landscape of AI-Driven Automation - AI Business
+INFO:root:Inserted article: AI and Automation Set to Redefine the GCC Landscape in India - Entrepreneur
+INFO:root:Scraping for career path ID 5 with keywords: Cybersecurity, Security Specialist, Information Security, Hacking, Encryption, Network Security
+INFO:root:Inserted article: NEXCOM NSA 5200 Enhances Cybersecurity with AI Acceleration - Canada NewsWire
+INFO:root:Inserted article: NEXCOM NSA 5200 Enhances Cybersecurity with AI Acceleration - The Globe and Mail
+INFO:root:Inserted article: Canada offers cybersecurity training with job placement in 16 roles - Businessday
+INFO:root:Inserted article: Cyber Guardians: INE Security Champions Cybersecurity Training During National Physicians Week 2025 - GlobeNewswire
+INFO:root:Inserted article: Brückner Partners with Secomea to Elevate Remote Service Capabilities and Cybersecurity - Yahoo Canada Finance
+INFO:root:Inserted article: Brennan buys Canberra-based cloud and security specialist CBR Cyber - Consultancy.com.au
+INFO:root:Inserted article: Top 8 in-demand cybersecurity jobs for 2025 and beyond - TechTarget
+INFO:root:Inserted article: Control Systems Security Specialist Training: Strengthening our Critical Systems - Space Force
+INFO:root:Inserted article: Integrity360 expands into France with acquisition of Holiseum, a leading cyber security specialist for critical and industrial infrastructure - Sync NI
+INFO:root:Inserted article: 'We Need A Lot More Money -- Quickly': British Security Specialist Pitches Rearmament Bank - Radio Free Europe / Radio Liberty
+INFO:root:Inserted article: Kudos Achieves ISO 27001 Certification, Proving Its Commitment to Best-in-Class Information Security in Employee Recognition and Rewards - TradingView
+INFO:root:Inserted article: Our Leaders Somehow Still Don’t Take Information Security Seriously - National Review
+INFO:root:Inserted article: FCC investigating China-linked companies over evasion of U.S. national security measures - Cybersecurity Dive
+INFO:root:Inserted article: Post & Schell Receives SOC 2 Clean Audit of Information Security Systems - citybiz
+INFO:root:Inserted article: PSX attains ISO 27001:2022 certification for information security management - The News International
+INFO:root:Inserted article: Former NFL coach pleads not guilty over alleged hacking of athletes’ intimate photos - The Guardian
+INFO:root:Inserted article: Former NFL and college assistant coach pleads not guilty to hacking for women's images - CTV News
+INFO:root:Inserted article: Lawsuit filed against former Michigan coach in alleged hacking case - ABC News
+INFO:root:Inserted article: North Korea launches new unit with a focus on AI hacking, per report - TechCrunch
+INFO:root:Inserted article: Top 10 web hacking techniques of 2024 - The Daily Swig
+INFO:root:Inserted article: A Win for Encryption: France Rejects Backdoor Mandate - EFF
+INFO:root:Inserted article: Akira ransomware can be cracked with 16 RTX 4090 GPUs in around ten hours — new counterattack breaks encryption - Tom's Hardware
+INFO:root:Inserted article: RCS update adds end-to-end encryption, Google and Apple confirm support - 9to5Google
+INFO:root:Inserted article: The war on encryption is dangerous - Financial Times
+INFO:root:Inserted article: Signal threatens to leave France if encryption backdoor required - Computerworld
+INFO:root:Inserted article: Network security tool defects are endemic, eroding enterprise defense - Cybersecurity Dive
+INFO:root:Inserted article: Cybersecurity Market Size, Share, Analysis | Global Report 2032 - Fortune Business Insights
+INFO:root:Inserted article: The Rise of Agentic AI: How Hyper-Automation is Reshaping Cybersecurity and the Workforce - TechSpective
+INFO:root:Scraping for career path ID 6 with keywords: Web Developer, HTML, CSS, JavaScript, Web Design, Web Applications, Front-End, Back-End
+INFO:root:Inserted article: Former students sue Ontario company for $108K in tuition for unapproved web developer program - CBC.ca
+INFO:root:Inserted article: How To Become A Entry-Level Web Developer in 2025 - Simplilearn
+INFO:root:Inserted article: Best web design software of 2024 - TechRadar
+INFO:root:Inserted article: Sam Vargas: From Naval Officer to Portugal-Based Web Developer - Portugalist
+INFO:root:Inserted article: Civitta adds Hungary-based mobile and web developer AZinec - Consultancy.eu
+INFO:root:Inserted article: How Do You Handle Responsive Font Sizes in Pure CSS? - SitePoint
+INFO:root:Inserted article: ESLint Now Officially Supports CSS, JSON, and Markdown - InfoQ.com
+INFO:root:Inserted article: Spruce up your pop-ups with CSS - Esri
+INFO:root:Inserted article: Cybercriminals Exploit CSS to Evade Spam Filters and Track Email Users' Actions - The Hacker News
+INFO:root:Inserted article: A Night in the Cold for a Cause at St. David CSS - WCDSB
+INFO:root:Inserted article: How we train AI to uncover malicious JavaScript intent and make web surfing safer - The Cloudflare Blog
+INFO:root:Inserted article: TypeScript 5.8 Released with Improved Inference and Better JavaScript Ecosystem Interoperability - InfoQ.com
+INFO:root:Inserted article: JavaScript Tutorial: Learn JavaScript from Scratch - Simplilearn
+INFO:root:Inserted article: What's new in ArcGIS Maps for JavaScript (4.32) - Esri
+INFO:root:Inserted article: Generative AI with JavaScript - Microsoft
+INFO:root:Inserted article: Best Web Design Companies Vancouver - Search Engine People
+INFO:root:Inserted article: AI-Powered Web Design - Trend Hunter
+INFO:root:Inserted article: The 10+ Best AI & Pro Web Design Tools for 2025 - SitePoint
+INFO:root:Inserted article: Weberous Transforms Digital Presence with Award-Winning, Conversion-Driven Web Design - openPR
+INFO:root:Inserted article: Best Web Design Companies Toronto - Search Engine People
+INFO:root:Inserted article: (PDF) Hybrid Security Assessment Methodology for Web Applications - ResearchGate
+INFO:root:Inserted article: Web maps—the foundation of ArcGIS web applications - Esri
+INFO:root:Inserted article: Best Practices to Secure Web Applications - InfoQ.com
+INFO:root:Inserted article: Hackers Exploit Cobalt Strike, SQLMap, and Other Tools to Target Web Applications - GBHackers
+INFO:root:Inserted article: MirrorTab Secures $8.5 Million to Shield Web Applications from Constantly Evolving Hacking, Bot, and Malware Threats - Business Wire
+INFO:root:Inserted article: Front-End Developer Interview Course - Google Amazon Meta Apple Front-End Engineer Mock Interviews 2025 Update - GlobeNewswire
+INFO:root:Inserted article: Touchuponastar Spoils Sierra Leone's Return With Front-End Score In New Orleans Classic - Paulick Report
+INFO:root:Inserted article: Ex-Guard releases front-end protection guard for Freightliner’s fifth-generation Cascadia - FleetOwner
+INFO:root:Inserted article: Ex-Guard’s front-end protection for fifth-gen Cascadia - trucknews.com
+INFO:root:Inserted article: Joy ride featuring front-end loader ends with criminal charges from Kingston Police - The Kingston Whig-Standard
+INFO:root:Inserted article: Workshop on the Role of Innovation in the Nuclear Back-End: Harnessing Robotics and Advanced Technologies for Safer, More Efficient Activities - Nuclear Energy Agency
+INFO:root:Inserted article: Observe links end-user experience with back-end troubleshooting - Network World
+INFO:root:Inserted article: Webinar series on robotics and remote systems for the nuclear back-end: Robotic work at deep geological repositories and other underground nuclear applications - Nuclear Energy Agency
+INFO:root:Inserted article: Observe Launches Frontend Observability to Connect End-User Experience with Back-End Troubleshooting - PR Newswire
+INFO:root:Inserted article: Cisco Wants To Own Back-End Infrastructure For AI Datacenters - Forbes
+INFO:root:Scraping for career path ID 7 with keywords: Data Analyst, Data Science, Statistics, SQL, Data Visualization, Excel, Python
+INFO:root:Inserted article: Research & Data Management – Senior Data Analyst - Chiefs of Ontario
+INFO:root:Inserted article: Vacancy: Data analyst - Carbon Brief
+INFO:root:Inserted article: My Experience Switching From Power BI to Looker (as a Senior Data Analyst) - Towards Data Science
+INFO:root:Inserted article: SU Names Tulyagijja Men's Basketball Data Analyst - Syracuse University Athletics
+INFO:root:Inserted article: Speed cameras at schools ‘do not stand up to even basic scrutiny,’ data analyst warns - Waterloo Region Record
+INFO:root:Inserted article: Google’s Data Science Agent: Can It Really Do Your Job? - Towards Data Science
+INFO:root:Inserted article: What Germany Currently Is Up To, Debt-Wise - Towards Data Science
+INFO:root:Inserted article: Undergraduate Upends a 40-Year-Old Data Science Conjecture - Quanta Magazine
+INFO:root:Inserted article: Write for Towards Data Science - Towards Data Science
+INFO:root:Inserted article: Towards Data Science is Launching as an Independent Publication - Towards Data Science
+INFO:root:Inserted article: Saskatoon City Councillor on "hugely alarming" overdose statistics. - CTV News
+INFO:root:Inserted article: Immigration ethnocultural diversity and Statistics - Statistique Canada
+INFO:root:Inserted article: Sustaining Economic Statistics - Northern Trust - Commentaries - Advisor Perspectives
+INFO:root:Inserted article: 36 Instagram statistics marketers need to know in 2025 - Hootsuite
+INFO:root:Inserted article: Sask. retains spot as third-fastest growing in building permits in Statistics Canada data - DiscoverMooseJaw.com
+INFO:root:Inserted article: 23 Best Data Visualization Tools You Can't Miss! - Simplilearn
+INFO:root:Inserted article: Skyward Unveils New Turnkey Data Visualization Tool During 2025 International Conference, iCon - GlobeNewswire
+INFO:root:Inserted article: Top 5 Data Visualization Tools for Data Scientists - KDnuggets
+INFO:root:Inserted article: How Florence Nightingale Used Data Visualization to Save Lives - Office for Science and Society
+INFO:root:Inserted article: How Data Visualization Helps Prevent Cyber Attacks - Security Boulevard
+INFO:root:Inserted article: If You Don't Use Excel's Hidden Camera Tool, You're Missing a Trick - How-To Geek
+INFO:root:Inserted article: Local school wrestlers repping Outlook excel on the mat - SaskToday.ca
+INFO:root:Inserted article: Scott Laughton's Journey to Adjust and Excel with the Toronto Maple Leafs Post Philadelphia Flyers Trade - Motorcycle Sports Australia
+INFO:root:Inserted article: The Microsoft Excel World Champion Isn't Worried About Copilot Beating Him (Yet) - PCMag
+INFO:root:Inserted article: Guide to connecting to Excel files in ArcGIS Pro - Esri
+INFO:root:Inserted article: The Economics of Artificial Intelligence – what does automation mean for workers? - Towards Data Science
+INFO:root:Inserted article: The impact of AI-powered automation on workforce dynamics and job roles - Data Science Central
+INFO:root:Inserted article: AI Statistics Guide 2025 - Artificial Intelligence Trends - Tech.co
+INFO:root:Inserted article: AI Replacing Jobs Statistics By AI's Impact on Job, AI Skills and Facts - ElectroIQ
+INFO:root:Inserted article: Will generative AI replace data analysts? - TechTarget
+INFO:root:Scraping for career path ID 8 with keywords: IT Support, Technical Support, Troubleshooting, Help Desk, Hardware, Software, IT Service
+INFO:root:Inserted article: Oppo Find N5's hinge put to the test - can it support 45kg or will it break? - GSMArena.com news - GSMArena.com
+INFO:root:Inserted article: HDI’s Training and Consulting Helps Organizations and Professionals Improve Service Management and IT Support Performance - Business Wire
+INFO:root:Inserted article: AquaOrange Elevates IT Support Services in Thailand - The Globe and Mail
+INFO:root:Inserted article: How IT Support Services Are Boosting Productivity for London SMEs - GlobeNewswire
+INFO:root:Inserted article: Women in Tech: From UN Peacekeeping to global IT support with Branka Zelenbaba - UNDP
+INFO:root:Inserted article: April Natural Gas Futures Bounce Along Technical Support Near $4 - Natural Gas Intelligence
+INFO:root:Inserted article: Beware of technical support scams: OPP - SooToday
+INFO:root:Inserted article: North America IT Services Market Size, Share & Growth, 2033 - Market Data Forecast
+INFO:root:Inserted article: 86 Kenyan startups pitch for funding, technical support in Presidential Innovation Challenge - - Disrupt Africa
+INFO:root:Inserted article: 8 service desk automation examples to enhance IT support - TechTarget
+INFO:root:Inserted article: SplatOverflow enables remote hardware troubleshooting - Tech Xplore
+INFO:root:Inserted article: SplatOverflow Enables Remote Hardware Troubleshooting - Cornell Tech
+INFO:root:Inserted article: Jim Rossman: Tech troubleshooting 101: Working to solve your own issues - The Dallas Morning News
+INFO:root:Inserted article: Streamline AWS resource troubleshooting with Amazon Bedrock Agents and AWS Support Automation Workflows - AWS Blog
+INFO:root:Inserted article: NAB 2025: Leader Brings Clarity to NDI Troubleshooting - Sports Video Group
+INFO:root:Inserted article: Garden Help Desk: Spring really is here, and some crops can be started now - Daily Herald
+INFO:root:Inserted article: Open Source Help Desk Automation Market with a CAGR of 13.60% during the forecast period of 2024 to 2031 - openPR
+INFO:root:Inserted article: Best help desk software of 2025 - TechRadar
+INFO:root:Inserted article: Fixify Secures $25 Million in Series A Funding to Modernize IT Help Desks by Keeping Humans in the Loop - GlobeNewswire
+INFO:root:Inserted article: Leaked Windows feature explains why your PC hardware struggles - PCWorld
+INFO:root:Inserted article: Next-generation AI hardware: 3D photonic-electronic platform boosts efficiency and bandwidth - Phys.org
+INFO:root:Inserted article: U.S. asks Malaysia to 'monitor every shipment' to close the flow of restricted GPUs to China - Tom's Hardware
+INFO:root:Inserted article: After Super Micro Computer (SMCI) Becomes “The Best Performing Stock” In Hardware, Goldman Sachs Grows Cautious On “Unfavorable” Risk-Reward Going Forward - Wccftech
+INFO:root:Inserted article: Better PC gaming Is only $15 away — No hardware required - PCWorld
+INFO:root:Inserted article: How Software Engineers Actually Use AI - WIRED
+INFO:root:Inserted article: Tesla Software Update 2025.2 -- The Lesser Known Features (Undocumented Changes) - Not a Tesla App
+INFO:root:Inserted article: German software giant becomes most valuable company in Europe - The Brussels Times
+INFO:root:Inserted article: The Apache Software Foundation Announces New Fundraising - GlobeNewswire
+INFO:root:Inserted article: CSK to Modernize IT Service Desk With 3CLogic for ServiceNow - Yahoo Canada Finance
+INFO:root:Inserted article: A Look Back at IT Services & Consulting Stocks’ Q4 Earnings: EPAM (NYSE:EPAM) Vs The Rest Of The Pack - The Globe and Mail
+INFO:root:Inserted article: Piper Sandler cautious on IT services industry outlook - Investing.com India
+INFO:root:Inserted article: Exploring AI's Role in Automating Software Testing - InfoQ.com
+INFO:root:Inserted article: AI and automation "could cause IT service desks to go extinct" - TechRadar
+INFO:root:Inserted article: Will genAI kill the help desk and other IT jobs? - Computerworld
+INFO:root:Scraping for career path ID 9 with keywords: Cloud Engineer, Cloud Computing, AWS, Azure, Google Cloud, Virtualization, Cloud Architecture
+INFO:root:Inserted article: How A Seasoned Cloud Engineer Is Transforming Infrastructure Management - Inkl
+INFO:root:Inserted article: Top 12 cloud computing careers of 2025 and how to get started - TechTarget
+INFO:root:Inserted article: Insights from Ravi Chandra Thota: A Cloud Engineer’s Vision for AI, DevOps, and Tomorrow’s Technology - mid-day.com
+INFO:root:Inserted article: Which are the 5 Countries to Study Cloud Engineering? Certs, Salary & Jobs - After School Africa
+INFO:root:Inserted article: PwC Canada and AWS Launch "Jump Start Your Career" Program, Fueling Next Generation of Cloud Engineering Talent - Canada NewsWire
+INFO:root:Inserted article: Manitoba to Begin Collecting Tax on Cloud Computing - ChrisD.ca
+INFO:root:Inserted article: The latest cloud computing trends: Flexera 2025 State of the Cloud Report - Enterprise License Optimization Blog
+INFO:root:Inserted article: Oracle to provide cloud computing, AI services to Singapore military - Reuters
+INFO:root:Inserted article: Devastating Akira ransomware cracked in hours using cloud computing - Mashable
+INFO:root:Inserted article: Best cloud computing provider of 2025 - TechRadar
+INFO:root:Inserted article: Amdocs (DOX) Expands AI-Powered Telecom Solutions with NVIDIA and AWS - Insider Monkey
+INFO:root:Inserted article: European cloud hosts are offering an escape from AWS, Azure, and GCP - TNW
+INFO:root:Inserted article: Amazon's AWS forms new group focused on agentic AI - Reuters
+INFO:root:Inserted article: Nigerians are building affordable alternatives to AWS and Google Cloud - Rest of World
+INFO:root:Inserted article: Former Microsoft Director discusses Azure’s ’moat’ By Investing.com - Investing.com Canada
+INFO:root:Inserted article: Accelerating agentic workflows with Azure AI Foundry, NVIDIA NIM, and NVIDIA AgentIQ - Microsoft
+INFO:root:Inserted article: Nvidia Launches New Google And Microsoft Azure Products At GTC 2025 - CRN
+INFO:root:Inserted article: Announcing the Responses API and Computer-Using Agent in Azure AI Foundry - Microsoft
+INFO:root:Inserted article: Wiz to Join Google Cloud: Making Magic Together - Wiz
+INFO:root:Inserted article: Salesforce strikes multibillion-dollar deal to bring its AI agents to Google Cloud - SiliconANGLE News
+INFO:root:Inserted article: Klang Games partners with Google Cloud on AI-driven simulation game Seed - VentureBeat
+INFO:root:Inserted article: Comcast Accelerates Virtualization and AI Technologies Throughout the Nation’s Largest and Fastest Network Using DriveNets Network Cloud - Business Wire
+INFO:root:Inserted article: Comcast expands Janus virtualization, AI trial with DriveNets - RCR Wireless News
+INFO:root:Inserted article: Protect your virtual machine investments with OpenShift Virtualization - TechCentral
+INFO:root:Inserted article: Data Virtualization Market Share Growing at 21.7% CAGR Reach USD 22.2 Billion by 2031 - openPR
+INFO:root:Inserted article: Parallel Works Expands ACTIVATE with New Virtualization Integrations to Streamline Cloud Resource Management - HPCwire
+INFO:root:Inserted article: The cloud architecture renaissance of 2025 - InfoWorld
+INFO:root:Inserted article: Orange, AWS and Nokia are collaborating on hybrid cloud for RAN - Hello Future
+INFO:root:Inserted article: The benefits of migrating to a railway cloud architecture - Railway Gazette
+INFO:root:Inserted article: Telefónica advances public Cloud exploration for Cloud RAN with AWS and Nokia - Telefónica
+INFO:root:Inserted article: 2025 Predictions: Cloud Architectures, Cost Management and Hybrid By Design - Gigaom
+INFO:root:Inserted article: With new division, AWS bets big on agentic AI automation - Computerworld
+INFO:root:Inserted article: IBM Champions Generative AI and Automation to Safeguard Security Across AWS Environments - IBM Newsroom
+INFO:root:Crawler finished.

@@ -8,11 +8,11 @@ logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
 def log_message(message):
     logging.info(message)
 
-# Connect to the MySQL database
+# Connect to the remote MySQL database
 db = mysql.connector.connect(
-    host="localhost",
+    host="your-remote-server.com",  # Replace with the remote server's IP or domain
     user="root",  # Your MySQL username
-    password="",  # Your MySQL password
+    password="djkyd",  # Your MySQL password
     database="djkyd"  # Your database name
 )
 
@@ -82,9 +82,15 @@ def main():
 
     log_message("Crawler started.")
     
-    # For each career path, scrape articles based on the keywords
-    for career_id, keywords in career_paths:
-        keyword_list = keywords.split(',')  # Split the keywords string into a list
+    # Set of previously inserted articles (to avoid duplicates)
+    inserted_articles = set()
+    
+    # Add the AI keyword for replacing IT jobs
+    ai_keywords = ["AI replacing IT jobs", "AI automation IT", "AI technology job replacement"]
+
+    # Loop through the first 9 career paths
+    for i, (career_id, keywords) in enumerate(career_paths[:9]):
+        keyword_list = keywords.split(',') + ai_keywords  # Add AI-related keywords
         
         # Log career path info
         log_message(f"Scraping for career path ID {career_id} with keywords: {keywords}")
@@ -92,11 +98,17 @@ def main():
         # Fetch articles using RSS
         articles = fetch_articles_rss(keyword_list)
         
-        # Insert the articles into the database
+        # Insert the articles into the database, avoiding duplicates
         for article in articles:
-            insert_article(career_id, article['title'], article['link'])
-            log_message(f"Inserted article: {article['title']}")
-            print(f"Inserted article: {article['title']}")
+            if article['link'] not in inserted_articles:
+                insert_article(career_id, article['title'], article['link'])
+                inserted_articles.add(article['link'])
+                log_message(f"Inserted article: {article['title']}")
+                print(f"Inserted article: {article['title']}")
+        
+        # Stop after the first 9 career paths
+        if i >= 8:
+            break
 
     log_message("Crawler finished.")
 
