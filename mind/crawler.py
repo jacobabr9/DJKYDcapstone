@@ -8,11 +8,11 @@ logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
 def log_message(message):
     logging.info(message)
 
-# Connect to the remote MySQL database
+# Connect to the MySQL database
 db = mysql.connector.connect(
-    host="djkyd-ai-support.site",  # Remote server's IP or domain
-    user="root",  # Your MySQL username
-    password="djkyd",  # Your MySQL password
+    host="your-server-host",  # Replace with your server host (e.g., 'localhost' or the live server's IP)
+    user="your-db-username",  # Replace with your MySQL username
+    password="your-db-password",  # Replace with your MySQL password
     database="djkyd"  # Your database name
 )
 
@@ -35,7 +35,7 @@ def test_database_connection():
 
 # Function to fetch career paths and their keywords from the database
 def fetch_career_paths():
-    cursor.execute("SELECT `Career ID`, `Keywords` FROM `career_path`")
+    cursor.execute("SELECT `CareerID`, `Keywords` FROM `career_path`")
     return cursor.fetchall()
 
 # Function to fetch articles from Google News RSS
@@ -68,7 +68,7 @@ def fetch_articles_rss(keywords, max_articles_per_keyword=5):
 # Function to insert scraped articles into the database
 def insert_article(career_id, title, link):
     # Prepare the SQL query to insert the article
-    query = "INSERT INTO `news` (`Career ID`, `Title`, `Link`) VALUES (%s, %s, %s)"
+    query = "INSERT INTO `news` (`CareerID`, `Title`, `Link`) VALUES (%s, %s, %s)"
     cursor.execute(query, (career_id, title, link))
     db.commit()
 
@@ -88,9 +88,9 @@ def main():
     # Add the AI keyword for replacing IT jobs
     ai_keywords = ["AI replacing IT jobs", "AI automation IT", "AI technology job replacement"]
 
-    # Loop through the first 9 career paths
-    for i, (career_id, keywords) in enumerate(career_paths[:9]):
-        keyword_list = keywords.split(',') + ai_keywords  # Add AI-related keywords
+    # Loop through all career paths (including AI-related jobs for Career Path ID 10)
+    for i, (career_id, keywords) in enumerate(career_paths):
+        keyword_list = keywords.split(',') + ai_keywords if career_id == 10 else keywords.split(',')  # Add AI-related keywords for Career Path 10
         
         # Log career path info
         log_message(f"Scraping for career path ID {career_id} with keywords: {keywords}")
@@ -105,10 +105,6 @@ def main():
                 inserted_articles.add(article['link'])
                 log_message(f"Inserted article: {article['title']}")
                 print(f"Inserted article: {article['title']}")
-        
-        # Stop after the first 9 career paths
-        if i >= 8:
-            break
 
     log_message("Crawler finished.")
 
