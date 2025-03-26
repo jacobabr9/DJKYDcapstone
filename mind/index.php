@@ -82,6 +82,7 @@ if ($conn->connect_error) {
                       <li> <a href="#learn">My Profile</a> </li>
                       <li> <a href="#important">Become an Instructor</a> </li>
                       <li> <a href="#contact">Contact</a> </li>
+                      <li> <a href="YOUR_URL_HERE">ChatBot</a> </li>git5
                      </ul>
                    </nav>
                  </div>
