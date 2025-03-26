@@ -61,8 +61,8 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li> <a href="index.php">Home</a> </li>
-                      <li class="active"> <a href="#courses">Students</a> </li>
-                      <li> <a href="faculty-page.html">Faculty</a> </li>
+                      <li> <a href="students-page.html">Students</a> </li>
+                      <li class="active"> <a href="#about">Faculty</a> </li>
                       <li> <a href="#learn">Community</a> </li>
                       <li> <a href="#important">Ask AI</a> </li>
                       <li> <a href="#contact">News</a> </li>
@@ -80,85 +80,27 @@
      </div>
      <!-- end header inner -->
 
+     <?php
+// Start the session
+session_start();
+
+// Check if the user is logged in and if they are a student
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'faculty') {
+    // If the user is not logged in or is not a student, show an error message
+    echo "<p>You must be logged in as faculty to view this page.</p>";
+    // Optionally, redirect to the login page
+    // header("Location: login.php");
+    exit(); // Stop further execution to prevent access to the page
+}
+?>
+
+
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!--<ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>-->
         <div class="carousel-inner">
-          <!--<div class="carousel-item active">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      
-                      <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
-                      <p>By DJKYD</p>
-                      <a href="#about">About</a>
-
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a><a href="#">get a qoute</a>
-                    </div>
-                  </div>
-
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>-->
-
-
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption ">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a> <a href="#">get a qoute</a>
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
         </div>
       </div>
     </div>
@@ -176,159 +118,14 @@
 </div>
 </header>
 
-
-
-<!-- about  -->
-<!--<div id="about" class="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
-          <h2>About: <strong class="yellow">Why is this useful?</strong></h2>
-          <p> Due to the advancement in AI, navigating appropriate use in the classroom and finding jobs has become more challenging. On our website, you will find support for both <b>students</b> and <b>faculty</b> that is tailored to your program, all in <b>one</b> place. </p>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
-          <figure><img src="images/about.jpg" alt="#" /></figure>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>-->
-<!-- end abouts -->
-
-
-
-<!-- our -->
-<!--<div id="important" class="important">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="titlepage">
-          <h2><strong class="yellow">AI Resources for Students</strong></h2>
-          <h2>Getting Started</h2>
-          <span>A brief insight into the global AI climate (all according to <a href="https://www.vellum.ai/blog/must-know-ai-facts-and-statistics"><u>Vellum</u>)</a></span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="important_bg">
-    <div class="container">
-      <div class="row">
-
-        <div class="col col-xs-12">
-          <div class="important_box">
-            <h3>74%</h3>
-            <span>more demand for AI related skills since 2021</span>
-          </div>
-        </div>
-        <div class="col col-xs-12">
-          <div class="important_box">
-            <h3>73%</h3>
-            <span>of companies are seeking talent related to AI</span>
-          </div>
-        </div>
-        <div class="col col-xs-12">
-          <div class="important_box">
-            <h3>75%</h3>
-            <span>of the 73% are unsuccessful in filling this demand</span>
-          </div>
-        </div>
-        <div class="col col-xs-12">
-          <div class="important_box">
-            <h3>34%</h3>
-            <span>of companies lack enough data scientists to keep up with AI</span>
-          </div>
-        </div>
-        <div class="col col-xs-12">
-          <div class="important_box">
-            <h3>21x</h3>
-            <span>more job postings related to AI in the past 3 years</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>-->
-
-<!-- end our -->
-<!-- Courses -->
-<!--<div id="courses" class="Courses">
-  <div class="container-fluid padding_left3">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="box_bg">
-          <div class="box_bg_img">
-            <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my1.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Data Structures</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my2.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Cinematography</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my3.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Skills</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my4.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Teaching Science</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
-        <div class="box_text">
-          <div class="titlepage">
-            <h2>My <strong class="yellow"> Courses</strong></h2>
-          </div>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-          <a href="Javascript:void(0)">Read more</a>
-        </div>
-      </div> 
-    </div>
-  </div>
-</div>-->
-<!-- end Courses -->
-
 <!-- learn -->
-
 
 <div id="learn" class="learn">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2><strong class="yellow">AI Resources for Students</strong></h2><br><br>
+          <h2><strong class="yellow">AI Resources for Faculty</strong></h2><br><br>
           <h2>Getting Started<strong class="yellow"></strong></h2>
           <span><a href="https://hai.stanford.edu/ai-index"><u>Stanford AI Index</u></a></span><br>
           <span><a href="https://www.weforum.org/stories/emerging-technologies/"><u>World Economic Forum: Emerging Technologies</u></a></span><br>
@@ -612,8 +409,6 @@ function initMap() {
 <!-- google map js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
 <!-- end google map js -->
-
-
 
 </body>
 

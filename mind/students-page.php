@@ -61,8 +61,8 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li> <a href="index.php">Home</a> </li>
-                      <li> <a href="students-page.html">Students</a> </li>
-                      <li class="active"> <a href="#about">Faculty</a> </li>
+                      <li class="active"> <a href="#courses">Students</a> </li>
+                      <li> <a href="faculty-page.html">Faculty</a> </li>
                       <li> <a href="#learn">Community</a> </li>
                       <li> <a href="#important">Ask AI</a> </li>
                       <li> <a href="#contact">News</a> </li>
@@ -80,85 +80,26 @@
      </div>
      <!-- end header inner -->
 
+     <?php
+// Start the session
+session_start();
+
+// Check if the user is logged in and if they are a student
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
+    // If the user is not logged in or is not a student, show an error message
+    echo "<p>You must be logged in as a student to view this page.</p>";
+    // Optionally, redirect to the login page
+    // header("Location: login.php");
+    exit(); // Stop further execution to prevent access to the page
+}
+?>
+
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!--<ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>-->
         <div class="carousel-inner">
-          <!--<div class="carousel-item active">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      
-                      <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
-                      <p>By DJKYD</p>
-                      <a href="#about">About</a>
-
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a><a href="#">get a qoute</a>
-                    </div>
-                  </div>
-
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>-->
-
-
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption ">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a> <a href="#">get a qoute</a>
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
         </div>
       </div>
     </div>
@@ -328,7 +269,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2><strong class="yellow">AI Resources for Faculty</strong></h2><br><br>
+          <h2><strong class="yellow">AI Resources for Students</strong></h2><br><br>
           <h2>Getting Started<strong class="yellow"></strong></h2>
           <span><a href="https://hai.stanford.edu/ai-index"><u>Stanford AI Index</u></a></span><br>
           <span><a href="https://www.weforum.org/stories/emerging-technologies/"><u>World Economic Forum: Emerging Technologies</u></a></span><br>

@@ -84,6 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if (password_verify($password, $user['Password'])) {
                 // Successful login, store session
                 $_SESSION['username'] = $user['Username'];
+                $_SESSION['role'] = 'student';  // 'faculty' or 'student' based on user data
                 $_SESSION['professor_id'] = $user['Professor ID'];
 
                 // Redirect to the professor dashboard

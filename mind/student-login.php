@@ -53,6 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($conn->query($insert_sql) === TRUE) {
             // Login the user automatically
             $_SESSION['username'] = $username_reg;  // Store username in session
+            $_SESSION['role'] = 'faculty';  // 'faculty' or 'student' based on user data
             $_SESSION['student_id'] = $student_id;  // Optionally, store the student ID in session (if you need it)
 
             // Redirect to the homepage or another page after successful login
