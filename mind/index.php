@@ -100,11 +100,6 @@ if ($mysqli->connect_error) {
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!--<ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>-->
         <div class="carousel-inner">
           <div class="carousel-item active">
 
@@ -129,53 +124,6 @@ if ($mysqli->connect_error) {
               </div>
             </div>
           </div>
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a><a href="#">get a qoute</a>
-                    </div>
-                  </div>
-
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>-->
-
-
-          <!--<div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption ">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a> <a href="#">get a qoute</a>
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
         </div>
       </div>
     </div>
@@ -271,74 +219,8 @@ if ($mysqli->connect_error) {
 </div>
 
 <!-- end our -->
-<!-- Courses -->
-<!--<div id="courses" class="Courses">
-  <div class="container-fluid padding_left3">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="box_bg">
-          <div class="box_bg_img">
-            <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my1.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Data Structures</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my2.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Cinematography</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my3.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Skills</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="box_my">
-                  <figure><img src="images/my4.jpg"></figure>
-                  <div class="overlay">
-                    <h3>Teaching Science</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
-        <div class="box_text">
-          <div class="titlepage">
-            <h2>My <strong class="yellow"> Courses</strong></h2>
-          </div>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-          <a href="Javascript:void(0)">Read more</a>
-        </div>
-      </div> 
-    </div>
-  </div>
-</div>-->
-<!-- end Courses -->
 
 <!-- learn -->
-
-
 <div id="learn" class="learn">
   <div class="container">
     <div class="row">
@@ -368,20 +250,6 @@ if ($mysqli->connect_error) {
         </div>
       </div>
     </div>
-    <!--<div class="row">
-      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-        <div class="make_text">
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-          </p>
-          <a href="Javascript:void(0)">Strat now</a>
-        </div>
-      </div>
-      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-        <div class="make_img">
-          <figure><img src="images/make_img.jpg"></figure>
-        </div>
-      </div>
-    </div>-->
   </div>
 </div>
 <!-- end MAKE --> 
@@ -433,20 +301,12 @@ if ($mysqli->connect_error) {
     <!-- end contact -->
 
     <!--  footer -->
-    <footr>
+    <footer>
       <div class="footer ">
         <div class="container">
           <div class="row">
-
-            <!--<div class="col-md-12">
-              <form class="news">
-                <input class="newslatter" placeholder="Email" type="text" name=" Email">
-                <button class="submit">Subscribe</button>
-              </form>
-            </div>-->
             <div class="col-md-12">
               <h2><br><br></h2>
-              <!--<span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in  </span>-->
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
               <div class="row">
@@ -519,7 +379,7 @@ if ($mysqli->connect_error) {
                 </div>
               </div>
             </div>
-          </footr>
+          </footer>
           <!-- end footer -->
           <!-- Javascript files-->
           <script src="js/jquery.min.js"></script>
@@ -559,8 +419,6 @@ function initMap() {
 <!-- google map js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
 <!-- end google map js -->
-
-
 
 </body>
 
