@@ -32,7 +32,24 @@
 </head>
 <!-- body -->
 
-     <!-- put stuff here  -->
+<h2>Choose Login Type</h2>
+
+<div id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <a href="student-login.php">
+             <button>Student Login</button>
+          </a>
+          <a href="staff-login.php">
+             <button>Faculty Login</button>
+          </a>
+         </div>
+       </div>
+    </div>
+  </div>
+</div>
 
          <!--  footer -->
     <footer>

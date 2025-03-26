@@ -94,7 +94,6 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'faculty') {
 }
 ?>
 
-
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">

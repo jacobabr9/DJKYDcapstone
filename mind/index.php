@@ -76,19 +76,19 @@ if ($mysqli->connect_error) {
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
-                      <li class="active"> <a href="index.php">Home</a> </li>
-                      <li> <a href="students-page.html">Students</a> </li>
-                      <li> <a href="faculty-page.html">Faculty</a> </li>
+                      <li class="active"> <a href="#Home">Home</a> </li>
+                      <li> <a href="students-page.php">Students</a> </li>
+                      <li> <a href="faculty-page.php">Faculty</a> </li>
                       <li> <a href="#Community">Community</a> </li>
                       <li> <a href="#Ask_AI">Ask AI</a> </li>
-                      <li> <a href="#News">News</a> </li>
+                      <li> <a href="news.php">News</a> </li>
                       <li> <a href="#My_Profile">My Profile</a> </li>
                      </ul>
                    </nav>
                  </div>
                </div> 
                <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="student-login.php">Sign Up/Login</a></div>              
+                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="select-teacher-or-student.php">Sign Up/Login</a></div>              
              </div>
            </div>
          </div>
