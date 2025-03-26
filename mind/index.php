@@ -7,12 +7,12 @@ $username = "root";
 $password = "djkyd";        
 $dbname = "djkyd";   
 
-// Create connection
+// Create connection with your given credentials
 $mysqli = new mysqli("localhost", "root", "djkyd", "djkyd");
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
 }
 ?>
 
@@ -77,12 +77,12 @@ if ($conn->connect_error) {
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li class="active"> <a href="index.php">Home</a> </li>
-                      <li> <a href="#courses">Students</a> </li>
-                      <li> <a href="#about">Faculty</a> </li>
-                      <li> <a href="#learn">Community</a> </li>
-                      <li> <a href="#important">Ask AI</a> </li>
-                      <li> <a href="#contact">News</a> </li>
-                      <li> <a href="#contact">My Profile</a> </li>
+                      <li> <a href="#Students">Students</a> </li>
+                      <li> <a href="#Faculty">Faculty</a> </li>
+                      <li> <a href="#Community">Community</a> </li>
+                      <li> <a href="#Ask_AI">Ask AI</a> </li>
+                      <li> <a href="#News">News</a> </li>
+                      <li> <a href="#My_Profile">My Profile</a> </li>
 
                      </ul>
                    </nav>

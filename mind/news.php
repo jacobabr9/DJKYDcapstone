@@ -91,12 +91,12 @@ $username = "root";   // MySQL username for the remote server
 $password = "djkyd";  // MySQL password for the remote server
 $dbname = "djkyd";    // Your database name
 
-// Connect to the remote MySQL database
+// Create connection with your given credentials
 $mysqli = new mysqli("localhost", "root", "djkyd", "djkyd");
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
 }
 
 // File to store the last run timestamp
