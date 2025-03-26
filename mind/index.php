@@ -77,13 +77,12 @@ if ($mysqli->connect_error) {
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li class="active"> <a href="index.php">Home</a> </li>
-                      <li> <a href="#Students">Students</a> </li>
-                      <li> <a href="#Faculty">Faculty</a> </li>
+                      <li> <a href="students-page.html">Students</a> </li>
+                      <li> <a href="faculty-page.html">Faculty</a> </li>
                       <li> <a href="#Community">Community</a> </li>
                       <li> <a href="#Ask_AI">Ask AI</a> </li>
                       <li> <a href="#News">News</a> </li>
                       <li> <a href="#My_Profile">My Profile</a> </li>
-
                      </ul>
                    </nav>
                  </div>
@@ -246,7 +245,7 @@ if ($mysqli->connect_error) {
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2>Make Your <strong class="white_colo">Courses Standout</strong></h2>
+          <h2>Sign up or login <strong class="white_colo">using the button in the top right to access all these resources!</strong></h2>
         </div>
       </div>
     </div>
