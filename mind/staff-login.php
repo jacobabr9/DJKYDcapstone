@@ -6,11 +6,11 @@ $password = "djkyd";
 $dbname = "djkyd";   
 
 // Create connection with your given credentials
-$conn = new mysqli($host, $username, $password, $dbname);
+$mysqli = new mysqli($host, $username, $password, $dbname);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
 }
 
 session_start();
