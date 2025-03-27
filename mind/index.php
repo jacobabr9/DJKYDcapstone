@@ -2,7 +2,7 @@
 
 <?php
 // Database credentials
-$host = "djkyd-ai-support.site"; 
+$host = "142.93.152.37"; 
 $username = "root";   
 $password = "djkyd";        
 $dbname = "djkyd";   
