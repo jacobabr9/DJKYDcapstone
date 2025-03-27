@@ -112,9 +112,8 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a> <a href="#">get a qoute</a>
+                    <h1>Welcome to the BIT student support hub!</h1>
+                      <p>By the DJKYD team</p>
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -134,9 +133,10 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a><a href="#">get a qoute</a>
+
+                      <h1>Your One-Stop Hub for Students and Faculty</h1>
+                      <p>High Quality Resources and Help Available!</p>
+
                     </div>
                   </div>
 
@@ -159,9 +159,10 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-                      <h1>Search your Favorite Course here</h1>
-                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                      <a href="#">Read more</a> <a href="#">get a qoute</a>
+
+                      <h1>Navigating AI in Education & Careers</h1>
+                      <p>Tailored Support for BIT Students</p>
+
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -186,23 +187,23 @@ if ($conn->connect_error) {
     </a>
   </div>
 
-</section>
-</div>
-</header>
-
 <!-- MAKE --> 
 <div class="make">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2>Sign up or login <strong class="white_colo">using the button in the top right to access all these resources!</strong></h2>
+          <h2>Sign up or login <strong class="white_colo">using the button in the top right to access all our resources!</strong></h2>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!-- end MAKE --> 
+ 
+</section>
+</div>
+</header>
 
 <!-- about  -->
 <div id="about" class="about">
