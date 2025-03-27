@@ -46,6 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($check_result->num_rows > 0) {
         echo "<p class='text-danger'>The Username or Student ID already exists. Please choose a different one.</p>";
     } else {
+        // Hash the password
+        $hashed_password = password_hash($password_reg, PASSWORD_DEFAULT);
+
         // Insert the new student into the database
         $insert_sql = "INSERT INTO students (`First name`, `Last name`, `Username`, `Password`, `Email`, `Student ID`, `BIT program ID`) 
                        VALUES ('$first_name', '$last_name', '$username_reg', '$password_reg', '$email', '$student_id', '$program_id')";
