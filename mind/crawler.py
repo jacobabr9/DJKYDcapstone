@@ -10,7 +10,7 @@ def log_message(message):
 
 # Connect to the MySQL database
 db = mysql.connector.connect(
-    host="djkyd-ai-support.site",  #  server host 
+    host="localhost",  #  server host 
     user="root",  #  MySQL username
     password="djkyd",  #  MySQL password
     database="djkyd"  #  database name

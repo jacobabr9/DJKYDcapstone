@@ -1,6 +1,6 @@
 <?php
 // Database credentials
-$host = "djkyd-ai-support.site"; 
+$host = "localhost"; 
 $username = "root";   
 $password = "djkyd";        
 $dbname = "djkyd";   

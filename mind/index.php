@@ -2,7 +2,7 @@
 
 <?php
 // Database credentials
-$host = "142.93.152.37"; 
+$host = "localhost"; 
 $username = "root";   
 $password = "djkyd";        
 $dbname = "djkyd";   
