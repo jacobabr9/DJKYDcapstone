@@ -126,7 +126,7 @@ if (!file_exists($timestampFile) || file_get_contents($timestampFile) < strtotim
 }
 
 // Fetch career paths for the dropdown
-$sql_career_paths = "SELECT CareerID, CareerPathName FROM career_path";
+$sql_career_paths = "SELECT Career ID, CareerPathName FROM career_path";
 $career_result = $mysqli->query($sql_career_paths);
 
 // Get the selected career path from the search form
@@ -137,14 +137,14 @@ if ($career_path_id == 'all') {
     // Show all articles
     $sql = "SELECT n.Title, n.Link, c.CareerPathName 
             FROM news n
-            JOIN career_path c ON n.CareerID = c.CareerID
+            JOIN career_path c ON n.Career ID = c.Career ID
             ORDER BY n.DateAdded DESC"; // Sorting by the newest articles
 } else {
     // Show articles related to the selected Career Path ID (including AI)
     $sql = "SELECT n.Title, n.Link, c.CareerPathName 
             FROM news n
-            JOIN career_path c ON n.CareerID = c.CareerID
-            WHERE n.CareerID = ? 
+            JOIN career_path c ON n.Career ID = c.Career ID
+            WHERE n.Career ID = ? 
             ORDER BY n.DateAdded DESC";
 }
 
@@ -168,7 +168,7 @@ $result = $stmt->get_result();
         <?php
         // Display career paths in dropdown
         while ($row = $career_result->fetch_assoc()) {
-            echo "<option value='" . $row['CareerID'] . "' " . ($career_path_id == $row['CareerID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
+            echo "<option value='" . $row['Career ID'] . "' " . ($career_path_id == $row['Career ID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
         }
         ?>
     </select>
