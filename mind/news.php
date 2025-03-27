@@ -84,18 +84,18 @@
 // Include the database connection
 session_start();
 
-// Remote database credentials (replace with your actual credentials)
-$host = "djkyd-ai-support.site";  // Remote server's hostname or IP
-$username = "root";   // MySQL username for the remote server
-$password = "djkyd";  // MySQL password for the remote server
-$dbname = "djkyd";    // Your database name
+// Database credentials
+$host = "djkyd-ai-support.site"; 
+$username = "root";   
+$password = "djkyd";        
+$dbname = "djkyd";   
 
 // Create connection with your given credentials
-$mysqli = new mysqli($host, $username, $password, $dbname);
+$conn = new mysqli($host, $username, $password, $dbname);
 
 // Check connection
-if ($mysqli->connect_error) {
-    die("Connection failed: " . $mysqli->connect_error);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 
 // File to store the last run timestamp

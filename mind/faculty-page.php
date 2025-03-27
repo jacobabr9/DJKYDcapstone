@@ -186,15 +186,6 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'faculty') {
           <span><a href="askthelibrary@carleton.ca"><u>askthelibrary@carleton.ca</u></a></span><br>
           <span><a href="https://carleton.ca/its/contact/"><u>Contact Information Technology Services (ITS)</u></a></span>
 
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </div>

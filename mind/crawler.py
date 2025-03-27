@@ -10,9 +10,9 @@ def log_message(message):
 
 # Connect to the MySQL database
 db = mysql.connector.connect(
-    host="your-server-host",  # Replace with your server host (e.g., 'localhost' or the live server's IP)
-    user="your-db-username",  # Replace with your MySQL username
-    password="your-db-password",  # Replace with your MySQL password
+    host="djkyd-ai-support.site",  # Replace with your server host (e.g., 'localhost' or the live server's IP)
+    user="root",  # Replace with your MySQL username
+    password="djkyd",  # Replace with your MySQL password
     database="djkyd"  # Your database name
 )
 
