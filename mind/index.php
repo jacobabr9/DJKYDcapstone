@@ -97,7 +97,36 @@ if ($conn->connect_error) {
      <!-- end header inner -->
 
      <!-- end header -->
-                <div class="carousel-item">
+     <section class="slider_section">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+                      <h1>Search your Favorite Course here</h1>
+                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
+                      <a href="#">Read more</a> <a href="#">get a qoute</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img2.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
 
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
@@ -105,10 +134,9 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-
-                      <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
-                      <p>By DJKYD</p>
-
+                      <h1>Search your Favorite Course here</h1>
+                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
+                      <a href="#">Read more</a><a href="#">get a qoute</a>
                     </div>
                   </div>
 
@@ -131,57 +159,14 @@ if ($conn->connect_error) {
                 <div class="row">
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
-
-                    <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
-                      <p>By DJKYD</p>
-                      
+                      <h1>Search your Favorite Course here</h1>
+                      <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
+                      <a href="#">Read more</a> <a href="#">get a qoute</a>
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                     <div class="images_box">
                       <figure><img src="images/img4.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-<!-- MAKE --> 
-<div class="make">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="titlepage">
-          <h2>Sign up or login <strong class="white_colo">using the button in the top right to access all these resources!</strong></h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end MAKE --> 
-
-
-     <section class="slider_section">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                    <div class="text-bg">
-                      
-                      <h1>Welcome to the AI Support Hub for BIT at Carleton University</h1>
-                      <p>By DJKYD</p>
-                      <a href="#about">About</a>
-
-                    </div>
-                  </div>
-                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
                     </div>
                   </div>
                 </div>
