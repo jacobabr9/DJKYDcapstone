@@ -159,6 +159,10 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 ?>
+<br>
+<br>
+<br>
+<br>
 
 <form method="get" action="">
     <label for="career_path">Choose a Career Path or AI-related Job:</label>
