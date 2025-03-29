@@ -1,10 +1,10 @@
 <?php
-// insert_article.php
+// crawler-handler.php
 
 // Set up database connection
 $servername = "localhost";
-$username = "crawler";  // Use the crawler user
-$password = "news";     // Use the news password
+$username = "root";  // Use the crawler user
+$password = "djkyd";     // Use the news password
 $dbname = "djkyd";      // Use your database name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -15,17 +15,24 @@ if ($conn->connect_error) {
 }
 
 // Get data from POST request
-$career_id = $_POST['career_id'];
-$title = $_POST['title'];
-$link = $_POST['link'];
+if(isset($_POST['career_id']) && isset($_POST['title']) && isset($_POST['link'])) {
+    $career_id = $_POST['career_id'];
+    $title = $_POST['title'];
+    $link = $_POST['link'];
 
-// Prepare and execute SQL query
-$sql = "INSERT INTO news (CareerID, Title, Link) VALUES ('$career_id', '$title', '$link')";
+    // Use prepared statement to prevent SQL injection
+    $stmt = $conn->prepare("INSERT INTO news (CareerID, Title, Link) VALUES (?, ?, ?)");
+    $stmt->bind_param("iss", $career_id, $title, $link);  // 'i' for integer, 's' for string
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    if ($stmt->execute()) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Missing required data.";
 }
 
 $conn->close();

@@ -10,7 +10,7 @@ def log_message(message):
 
 # Function to send article to PHP script for insertion
 def send_article_to_php(career_id, title, link):
-    url = "http://localhost/crawler-handler.php"  # URL of the PHP script
+    url = "http://localhost/myPHP/DJKYDcapstone/mind/crawler-handler.php"  # Updated URL to PHP handler
     
     # Prepare the data to send via POST request
     data = {
@@ -22,6 +22,10 @@ def send_article_to_php(career_id, title, link):
     # Send a POST request to the PHP file
     try:
         response = requests.post(url, data=data)
+        
+        # Debugging: Print the response text to help track the issue
+        print("Response from PHP:", response.text)  # Added debug print
+        
         if response.status_code == 200:
             log_message(f"Article '{title}' sent to PHP for insertion.")
             print(f"Article '{title}' sent to PHP for insertion.")
