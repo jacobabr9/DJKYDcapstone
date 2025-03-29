@@ -8283,3 +8283,38 @@ INFO:root:Inserted article: 2025 Predictions: Cloud Architectures, Cost Manageme
 INFO:root:Inserted article: With new division, AWS bets big on agentic AI automation - Computerworld
 INFO:root:Inserted article: IBM Champions Generative AI and Automation to Safeguard Security Across AWS Environments - IBM Newsroom
 INFO:root:Crawler finished.
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: developer, programmer
+INFO:root:Failed to send article 'Case of Summerside developer charged with environmental, criminal offences adjourned again - CBC.ca' to PHP. Status code: 404
+INFO:root:Failed to send article 'InZoi developer resolves to strengthen internal review processes following bug which allowed players to run over and kill children - Eurogamer' to PHP. Status code: 404
+INFO:root:Failed to send article 'Marvel Cosmic Invasion Is a Retro Beat ‘Em-Up From the Developer of Teenage Mutant Ninja Turtles: Shredder's Revenge - IGN' to PHP. Status code: 404
+INFO:root:Failed to send article 'Charted: The Decline of U.S. Software Developer Jobs - Visual Capitalist' to PHP. Status code: 404
+INFO:root:Failed to send article 'Developer convicted for “kill switch” code activated upon his termination - Ars Technica' to PHP. Status code: 404
+INFO:root:Failed to send article 'Three chapters at Cloudflare: Programmer to CTO to Board of Directors - The Cloudflare Blog' to PHP. Status code: 404
+INFO:root:Failed to send article 'Exploring Aging of Programmers: Fostering Inclusive and Age-friendly Workplaces - InfoQ.com' to PHP. Status code: 404
+INFO:root:Failed to send article 'Now you don’t even need code to be a programmer. But you do still need expertise - The Guardian' to PHP. Status code: 404
+INFO:root:Failed to send article 'Gameplay Programmer - PC Games Insider' to PHP. Status code: 404
+INFO:root:Failed to send article 'Hot Docs names former TIFF programmer Diana Sanchez as its new executive director - CityNews Toronto' to PHP. Status code: 404
+INFO:root:Scraping for career path ID 2 with keywords: data analyst, data science
+INFO:root:Failed to send article 'Microsoft infuses enterprise agents with deep reasoning, unveils data Analyst agent that outsmarts competitors - VentureBeat' to PHP. Status code: 404
+INFO:root:Failed to send article '5 Excel functions that are dream for any data analyst - XDA Developers' to PHP. Status code: 404
+INFO:root:Failed to send article 'Research & Data Management – Senior Data Analyst - Chiefs of Ontario' to PHP. Status code: 404
+INFO:root:Failed to send article 'Vacancy: Data analyst - Carbon Brief' to PHP. Status code: 404
+INFO:root:Failed to send article 'What Does a Data Analyst Do? | SNHU - Southern New Hampshire University' to PHP. Status code: 404
+INFO:root:Failed to send article 'UK govt data people not 'technical,' says ex-Downing St data science head - The Register' to PHP. Status code: 404
+INFO:root:Failed to send article 'Quantum Computing D-Wave News - FAANG Data Science 2025 - GlobeNewswire' to PHP. Status code: 404
+INFO:root:Failed to send article 'Google launches free Gemini-powered Data Science Agent on its Colab Python platform - VentureBeat' to PHP. Status code: 404
+INFO:root:Failed to send article 'A Comprehensive Guide to the Grammar of Graphics for Effective Visualization of Multi-dimensional... - Towards Data Science' to PHP. Status code: 404
+INFO:root:Failed to send article 'AI Agents from Zero to Hero – Part 1 - Towards Data Science' to PHP. Status code: 404
+INFO:root:Scraping for career path ID 3 with keywords: designer, creative
+INFO:root:Failed to send article 'Elizabeth Goodspeed on why graphic designers can’t stop joking about hating their jobs - It's Nice That' to PHP. Status code: 404
+INFO:root:Failed to send article 'Rohit Bal’s will controversy: Friends of designer retract claims against Lalit Tehlan - Hindustan Times' to PHP. Status code: 404
+INFO:root:Failed to send article 'Reddit Says These $19 Bath & Body Works Perfumes Are Designer Dupes — We Put Them to the Test - Good Housekeeping' to PHP. Status code: 404
+INFO:root:Failed to send article 'Graphic designers weigh in as ChatGPT’s new image generator reshapes creative industry - CTV News' to PHP. Status code: 404
+INFO:root:Failed to send article 'Designer dresses made in MB for Christina Aguilera - CTV News' to PHP. Status code: 404
+INFO:root:Failed to send article 'Love motels and converted ferries: Brazil gets creative to host COP30 - Reuters' to PHP. Status code: 404
+INFO:root:Failed to send article 'March 29, 2025: Rare six-planet alignment in Pisces brings mystical energy and creative inspiration - The Times of India' to PHP. Status code: 404
+INFO:root:Failed to send article 'Strategy launches the 2025 Creative Report Card - Strategy Online' to PHP. Status code: 404
+INFO:root:Failed to send article 'Daredevil: Born Again episode 5 was “completely untouched” by the creative overhaul - JoBlo.com' to PHP. Status code: 404
+INFO:root:Failed to send article 'Most Consumers Wary of Fully AI-Generated Creative Content: Exclusive Survey - Variety' to PHP. Status code: 404
+INFO:root:Crawler finished.

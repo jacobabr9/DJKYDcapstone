@@ -1,6 +1,6 @@
-import mysql.connector
 import feedparser
 import logging
+import requests
 
 # Configure logging
 logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
@@ -8,35 +8,29 @@ logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
 def log_message(message):
     logging.info(message)
 
-# Connect to the MySQL database
-db = mysql.connector.connect(
-    host="localhost",  #  server host 
-    user="root",  #  MySQL username
-    password="djkyd",  #  MySQL password
-    database="djkyd"  #  database name
-)
-
-cursor = db.cursor()
-
-# Function to test the database connection
-def test_database_connection():
+# Function to send article to PHP script for insertion
+def send_article_to_php(career_id, title, link):
+    url = "http://localhost/crawler-handler.php"  # URL of the PHP script
+    
+    # Prepare the data to send via POST request
+    data = {
+        'career_id': career_id,
+        'title': title,
+        'link': link
+    }
+    
+    # Send a POST request to the PHP file
     try:
-        cursor.execute("SELECT 1")
-        result = cursor.fetchone()
-        if result:
-            log_message("Database connection successful!")
-            print("Database connection successful!")
+        response = requests.post(url, data=data)
+        if response.status_code == 200:
+            log_message(f"Article '{title}' sent to PHP for insertion.")
+            print(f"Article '{title}' sent to PHP for insertion.")
         else:
-            log_message("Database connection failed!")
-            print("Database connection failed!")
+            log_message(f"Failed to send article '{title}' to PHP. Status code: {response.status_code}")
+            print(f"Failed to send article '{title}' to PHP. Status code: {response.status_code}")
     except Exception as e:
-        log_message(f"Error testing database connection: {str(e)}")
-        print(f"Error testing database connection: {str(e)}")
-
-# Function to fetch career paths and their keywords from the database
-def fetch_career_paths():
-    cursor.execute("SELECT `CareerID`, `Keywords` FROM `career_path`")
-    return cursor.fetchall()
+        log_message(f"Error sending article '{title}' to PHP: {str(e)}")
+        print(f"Error sending article '{title}' to PHP: {str(e)}")
 
 # Function to fetch articles from Google News RSS
 def fetch_articles_rss(keywords, max_articles_per_keyword=5):
@@ -65,32 +59,27 @@ def fetch_articles_rss(keywords, max_articles_per_keyword=5):
 
     return articles
 
-# Function to insert scraped articles into the database
-def insert_article(career_id, title, link):
-    # Prepare the SQL query to insert the article
-    query = "INSERT INTO `news` (`CareerID`, `Title`, `Link`) VALUES (%s, %s, %s)"
-    cursor.execute(query, (career_id, title, link))
-    db.commit()
+# Function to fetch career paths and their keywords from the database
+def fetch_career_paths():
+    # You can add a database connection here if you need to fetch career paths dynamically
+    # For now, let's assume this is a static list of career paths with keywords
+    return [
+        (1, "developer, programmer"),
+        (2, "data analyst, data science"),
+        (3, "designer, creative"),
+        # Add more career paths here
+    ]
 
-# Main function to perform the scraping and storing
+# Main function to perform the scraping and sending
 def main():
-    # Test the database connection before starting the crawl
-    test_database_connection()
-
     # Fetch career paths and their associated keywords
     career_paths = fetch_career_paths()
 
     log_message("Crawler started.")
     
-    # Set of previously inserted articles (to avoid duplicates)
-    inserted_articles = set()
-    
-    # Add the AI keyword for replacing IT jobs
-    ai_keywords = ["AI replacing IT jobs", "AI automation IT", "AI technology job replacement"]
-
-    # Loop through all career paths (including AI-related jobs for Career Path ID 10)
+    # Loop through all career paths
     for i, (career_id, keywords) in enumerate(career_paths):
-        keyword_list = keywords.split(',') + ai_keywords if career_id == 10 else keywords.split(',')  # Add AI-related keywords for Career Path 10
+        keyword_list = keywords.split(',')  # Extract keywords for the current career path
         
         # Log career path info
         log_message(f"Scraping for career path ID {career_id} with keywords: {keywords}")
@@ -98,13 +87,9 @@ def main():
         # Fetch articles using RSS
         articles = fetch_articles_rss(keyword_list)
         
-        # Insert the articles into the database, avoiding duplicates
+        # Send the articles to PHP for insertion
         for article in articles:
-            if article['link'] not in inserted_articles:
-                insert_article(career_id, article['title'], article['link'])
-                inserted_articles.add(article['link'])
-                log_message(f"Inserted article: {article['title']}")
-                print(f"Inserted article: {article['title']}")
+            send_article_to_php(career_id, article['title'], article['link'])
 
     log_message("Crawler finished.")
 
