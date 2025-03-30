@@ -22,10 +22,6 @@ def send_article_to_php(career_id, title, link):
     # Send a POST request to the PHP file
     try:
         response = requests.post(url, data=data)
-        
-        # Debugging: Print the response text to help track the issue
-        print("Response from PHP:", response.text)  # Added debug print
-        
         if response.status_code == 200:
             log_message(f"Article '{title}' sent to PHP for insertion.")
             print(f"Article '{title}' sent to PHP for insertion.")

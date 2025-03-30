@@ -12,7 +12,7 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- fevicon -->
+  <!-- favicon -->
   <link rel="icon" href="images/fevicon.png" type="image/gif" />
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,7 +31,7 @@
 </head>
 
 <body class="main-layout">
-  <!-- loader  --
+  <!-- loader -->
   <div class="loader_bg">
     <div class="loader"><img src="images/loading.gif" alt="#" /></div>
   </div>
@@ -56,7 +56,7 @@
               <div class="header_information">
                 <div class="menu-area">
                   <div class="limit-box">
-                    <nav class="main-menu ">
+                    <nav class="main-menu">
                       <ul class="menu-area-main">
                         <li class="active"> <a href="index.php">Home</a> </li>
                         <li> <a href="#courses">My Courses </a> </li>
@@ -107,7 +107,7 @@ $pythonScriptPath = __DIR__ . '/crawler.py';  // Dynamically gets the path based
 // Check if the script has already run today
 if (!file_exists($timestampFile) || file_get_contents($timestampFile) < strtotime("today")) {
     // Run the Python script
-    $command = "python " . escapeshellarg($pythonScriptPath);
+    $command = "python " . escapeshellarg($pythonScriptPath) . " 2>&1";  // Capture stderr
     $output = shell_exec($command);
 
     // Error handling: Check if the command executed successfully
@@ -130,7 +130,7 @@ $sql_career_paths = "SELECT CareerID, CareerPathName FROM career_path";
 $career_result = $mysqli->query($sql_career_paths);
 
 // Get the selected career path from the search form
-$career_path_id = isset($_GET['career_path']) ? $_GET['career_path'] : 'all';
+$career_path_id = isset($_GET['career_path']) ? (int)$_GET['career_path'] : 'all';
 
 // Build the SQL query based on the selected career path
 if ($career_path_id == 'all') {
@@ -157,8 +157,8 @@ if ($career_path_id != 'all') {
 
 $stmt->execute();
 $result = $stmt->get_result();
-
 ?>
+
 <br>
 <br>
 <br>
@@ -184,10 +184,10 @@ $result = $stmt->get_result();
 if ($result->num_rows > 0) {
     echo "<div class='articles'>";
     while ($row = $result->fetch_assoc()) {
-        echo "<div class='article'>";
+        echo "<article class='article'>";
         echo "<h3><a href='" . $row['Link'] . "' target='_blank'>" . htmlspecialchars($row['Title']) . "</a></h3>";
         echo "<p><strong>Career Path:</strong> " . htmlspecialchars($row['CareerPathName']) . "</p>";
-        echo "</div>";
+        echo "</article>";
     }
     echo "</div>";
 } else {
@@ -220,50 +220,11 @@ $mysqli->close();
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="address">
-                <h3>Courses</h3>
-                <ul class="Menu_footer">
-                  <li class="active"> <a href="#">Masters Degree</a> </li>
-                  <li><a href="#">Post GraduateU</a> </li>
-                  <li><a href="#">Ndergraduate</a> </li>
-                  <li><a href="#">Engineering</a> </li>
-                  <li><a href="#">Ph.D Degree</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="address">
-                <h3>Information</h3>
-                <ul class="Links_footer">
-                  <li class="active"><a href="#">Campus Tour</a></li>
-                  <li><a href="#">Student Life</a></li>
-                  <li><a href="#">Scholarships</a></li>
-                  <li><a href="#">Admission</a></li>
-                  <li><a href="#">Leadership</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="address">
-                <a href="index.php"><img src="images/compactWHITE.png" alt="logo"></a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
-
-<!-- Javascript files-->
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/plugin.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/custom.js"></script>
-
 </body>
 </html>
