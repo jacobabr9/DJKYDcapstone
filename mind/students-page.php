@@ -345,35 +345,157 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
     </div>
   </div>
 </div>
-<!-- MAKE --> 
+
+<div class="make">
+  <div class="container">
+    <!-- Centered BIT Programs Title with Reduced Space -->
+    <div class="row" style="margin-bottom: 0px;">
+      <div class="col-md-12">
+        <div class="titlepage" style="text-align: center;">
+          <h2>BIT Programs</h2>
+        </div>
+      </div>
+    </div>
+
+<!-- the programs -->
 <div class="make">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="titlepage">
-          <h2> <strong class="white_colo"></strong></h2>
+          <h2> Information Resource Management<strong class="white_colo"> (IRM) </strong></h2>
         </div>
       </div>
     </div>
-    <!--<div class="row">
-      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+    <div class="row">
+      <div class="col-md-12">  <!-- Full width column -->
         <div class="make_text">
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-          </p>
-          <a href="Javascript:void(0)">Strat now</a>
+          <h2> 
+            <span style="color: white; display: block;">
+              IRM offers a dynamic combination of a Bachelor of Information Technology and a Library Technician Diploma, designed to equip students with the skills required for a career in digital information management. Through a unique partnership between Carleton University and Algonquin College, this program blends academic theory with real-world application. You’ll learn to manage digital resources, design data systems, and understand the complexities of e-commerce and web design, all while gaining practical experience through state-of-the-art labs and co-op opportunities. Graduating with both a major and a minor degree, IRM prepares you to work in a range of industries, from government agencies to private tech firms.
+            </span>
+            <br>
+          </h2>
+          <!-- Skills Section for IRM -->
+          <div class="important_bg" style="margin-top: 0; padding-top: 0;">
+            <div class="row">
+              <div class="col-12">
+                <div class="important_box" style="text-align: left; margin-top: 5px;">
+                  <span style="font-size: 22px; color: #f4b328ff; display: inline;">
+                    <b> Skills: </b>
+                  </span>
+                  <span style="font-size: 22px; color: white; display: inline;">
+                    Data Management, Programming, Information Systems, Database Development, Information Organization, Web Development, Data Analytics, Information Retrieval, UX Design, Digital Resources.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div> 
         </div>
       </div>
-      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-        <div class="make_img">
-          <figure><img src="images/make_img.jpg"></figure>
+    </div> 
+    <!-- Now, NET section with the same styling -->
+    <div class="row" style="margin-top: 30px;"> 
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2> Network Technology<strong class="white_colo"> (NET) </strong></h2>
         </div>
       </div>
-    </div>-->
-  </div>
-</div>
-<!-- end MAKE --> 
-<!-- end learn --> 
-
+    </div>
+    <div class="row">
+      <div class="col-12">  <!-- Full width column -->
+        <div class="make_text">
+          <h2> 
+            <span style="color: white; display: block;">
+              NET offers a dynamic combination of a Bachelor of Network Technology and a Library Technician Diploma, designed to equip students with the skills required for a career in network management. Through a unique partnership between Carleton University and Algonquin College, this program blends academic theory with real-world application. You’ll learn to manage network systems, design data infrastructure, and understand the complexities of e-commerce and web design, all while gaining practical experience through state-of-the-art labs and co-op opportunities. Graduating with both a major and a minor degree, NET prepares you to work in a range of industries, from government agencies to private tech firms.
+            </span>
+            <br>
+          </h2>
+          <div class="important_bg" style="margin-top: 0; padding-top: 0;">
+            <div class="row">
+              <div class="col-12">
+                <div class="important_box" style="text-align: left; margin-top: 5px;"> <!-- Reduced space before 'Skills:' -->
+                  <span style="font-size: 22px; color: #f4b328ff; display: inline;">
+                    <b> Skills: </b>
+                  </span>
+                  <span style="font-size: 22px; color: white; display: inline;">
+                    Networking, Cyber Security, System Administration, Network Protocols, Routing & Switching, Cloud Computing, IT Infrastructure, Troubleshooting, Communication, Problem-Solving.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>   
+    <!-- Now, IMD section with the same styling -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Interactive Multimedia and Design<strong class="white_colo"> (IMD)</strong></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">  <!-- Full width column -->
+        <div class="make_text">
+          <h2> 
+            <span style="color: white; display: block;">
+              The IMD program offers a unique multidisciplinary education combining creativity, technology, and practical experience. With a Bachelor of Information Technology from Carleton University and an Advanced Diploma of Applied Arts from Algonquin College, you’ll gain the skills to excel in the digital media sector. Specializing in areas like web design, 2D/3D animation, game development, visual effects, and human-computer interaction, this program prepares you for a career in the rapidly growing digital world. The program also offers specialized streams and co-op opportunities for hands-on experience with top tech companies.
+            </span>
+            <br>
+          </h2>
+          <div class="important_bg" style="margin-top: 0; padding-top: 0;">
+            <div class="row">
+              <div class="col-12">
+                <div class="important_box" style="text-align: left; margin-top: 5px;"> <!-- Reduced space before 'Skills:' -->
+                  <span style="font-size: 22px; color: #f4b328ff; display: inline;">
+                    <b> Skills: </b>
+                  </span>
+                  <span style="font-size: 22px; color: white; display: inline;">
+                    Web Design, 3D Animation, Game Development, Visual Effects, Human-Computer Interaction, UI/UX Design, Programming, Virtual Reality, Project Management, Digital Storytelling.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>                         
+        </div>
+      </div>
+    </div>  
+    <!-- Now, OSS section with the same styling -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Optical Systems & Sensors<strong class="white_colo"> (OSS)</strong></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">  <!-- Full width column -->
+        <div class="make_text">
+          <h2> 
+            <span style="color: white; display: block;">
+              OSS offers a unique multidisciplinary education that combines the integration of optical systems, signal processing, and sensor technologies. With a Bachelor of Information Technology from Carleton University and an Advanced Photonics Technology Diploma from Algonquin College, you’ll gain specialized skills in optical communication, laser technology, and remote sensing. Specializing in areas like autonomous vehicles, medical imaging, and biophotonics, this program prepares you for a rewarding career in industries such as defense, communications, and healthcare. The program also offers co-op opportunities with leading companies, ensuring you gain hands-on experience and are job-ready upon graduation.
+            </span>
+            <br>
+          </h2>
+          <div class="important_bg" style="margin-top: 0; padding-top: 0;">
+            <div class="row">
+              <div class="col-12">
+                <div class="important_box" style="text-align: left; margin-top: 5px;"> <!-- Reduced space before 'Skills:' -->
+                  <span style="font-size: 22px; color: #f4b328ff; display: inline;">
+                    <b> Skills: </b>
+                  </span>
+                  <span style="font-size: 22px; color: white; display: inline;">
+                    Optical Communications, Computer Vision, LIDAR, Laser Technology, Signal & Image Processing, Optoelectronic Devices, Remote Sensing, Programming, Problem-Solving, Communication.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>                         
+        </div>
+      </div>
+    </div>  
 
 <!-- contact -->
 <div id="contact" class="contact">
