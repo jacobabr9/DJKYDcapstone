@@ -1,83 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- basic -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- mobile metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <!-- site metas -->
-  <title>mind</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- favicon -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- style css -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Responsive-->
-  <link rel="stylesheet" href="css/responsive.css">  
-  <!-- Scrollbar Custom CSS -->
-  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-  <!-- Tweaks for older IEs-->
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-</head>
-
-  <!-- header -->
-  <header>
-    <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
-                <div class="menu-area">
-                  <div class="limit-box">
-                    <nav class="main-menu">
-                      <ul class="menu-area-main">
-                        <li class="active"> <a href="index.php">Home</a> </li>
-                        <li> <a href="#courses">My Courses </a> </li>
-                        <li> <a href="#about">About</a> </li>
-                        <li> <a href="#learn">My Profile</a> </li>
-                        <li> <a href="#important">Become an Instructor</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div> 
-                <div class="mean-last">
-                  <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">login/sing up</a>
-                </div>              
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- end header -->
-
 <?php
-// Enable error reporting for debugging
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Include the database connection
 session_start();
 
@@ -135,14 +56,14 @@ if ($career_path_id == 'all') {
     $sql = "SELECT n.Title, n.Link, c.CareerPathName 
             FROM news n
             JOIN career_path c ON n.CareerID = c.CareerID
-            ORDER BY n.DateAdded DESC"; // Sorting by the newest articles
+            ORDER BY n.Published_at DESC"; // Sorting by the newest articles
 } else {
-    // Show articles related to the selected Career Path ID (including AI)
+    // Show articles related to the selected Career Path ID
     $sql = "SELECT n.Title, n.Link, c.CareerPathName 
             FROM news n
             JOIN career_path c ON n.CareerID = c.CareerID
             WHERE n.CareerID = ? 
-            ORDER BY n.DateAdded DESC";
+            ORDER BY n.Published_at DESC";  // Sorting by the newest articles
 }
 
 $stmt = $mysqli->prepare($sql);
@@ -162,10 +83,9 @@ $result = $stmt->get_result();
 <br>
 
 <form method="get" action="">
-    <label for="career_path">Choose a Career Path or AI-related Job:</label>
+    <label for="career_path">Choose a Career Path:</label>
     <select name="career_path" id="career_path">
         <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
-        <option value="10" <?php if ($career_path_id == '10') echo 'selected'; ?>>AI Replacing Jobs</option>
         <?php
         // Display career paths in dropdown
         while ($row = $career_result->fetch_assoc()) {
@@ -193,35 +113,3 @@ if ($result->num_rows > 0) {
 
 $mysqli->close();
 ?>
-
-<!-- Footer -->
-<footer>
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <div class="address">
-                <h3>Contact us</h3>
-                <ul class="local">
-                  <li><a href="#"><img src="icon/loc.png" alt="#" />London 145<br>United Kingdom</a></li>
-                  <li><a href="#"><img src="icon/email.png" alt="#" />demo@gmail.com</a></li>
-                  <li><a href="#"><img src="icon/call.png" alt="#" />+12586954775</a></li>
-                </ul>
-                <ul class="social_link">
-                  <li><a href="#"><img src="icon/fb.png"></a></li>
-                  <li><a href="#"><img src="icon/tw.png"></a></li>
-                  <li><a href="#"><img src="icon/lin(2).png"></a></li>
-                  <li><a href="#"><img src="icon/instagram.png"></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-</body>
-</html>
