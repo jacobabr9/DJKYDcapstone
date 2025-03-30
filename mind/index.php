@@ -18,6 +18,7 @@ if ($conn->connect_error) {
 
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- basic -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
