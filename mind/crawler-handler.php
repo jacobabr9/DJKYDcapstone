@@ -1,5 +1,6 @@
+<!DOCTYPE html> 
+
 <?php
-// crawler-handler.php
 
 // Set up database connection
 $servername = "localhost";
@@ -37,3 +38,7 @@ if(isset($_POST['career_id']) && isset($_POST['title']) && isset($_POST['link'])
 
 $conn->close();
 ?>
+
+<html lang="en">
+
+</html>

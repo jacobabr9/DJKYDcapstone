@@ -81,7 +81,8 @@ if ($conn->connect_error) {
                       <li> <a href="faculty-page.php">Faculty</a> </li>
                       <li> <a href="#Community">Community</a> </li>
                       <li> <a href="#Ask_AI">Ask AI</a> </li>
-                      <li> <a href="news.php">News</a> </li>
+                      <li> <a href="news.php">News</a> </li>                      <li> <a href="news.php">News</a> </li>
+                      <li> <a href="crawler-handler.php">test</a> </li>
                       <li> <a href="#My_Profile">My Profile</a> </li>
                      </ul>
                    </nav>

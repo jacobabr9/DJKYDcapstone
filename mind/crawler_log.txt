@@ -8388,3 +8388,38 @@ INFO:root:Article 'Strategy launches the 2025 Creative Report Card - Strategy On
 INFO:root:Article 'Most Consumers Wary of Fully AI-Generated Creative Content: Exclusive Survey - Variety' sent to PHP for insertion.
 INFO:root:Article 'Daredevil: Born Again episode 5 was “completely untouched” by the creative overhaul - JoBlo.com' sent to PHP for insertion.
 INFO:root:Crawler finished.
+INFO:root:Crawler started.
+INFO:root:Scraping for career path ID 1 with keywords: developer, programmer
+INFO:root:Article 'Hamilton Charged Developer $650,000. Months Later Said It Made a Mistake, Sends $1.9-Million Bill - thepublicrecord.ca' sent to PHP for insertion.
+INFO:root:Article 'Case of Summerside developer charged with environmental, criminal offences adjourned again - CBC.ca' sent to PHP for insertion.
+INFO:root:Article 'InZoi developer resolves to strengthen internal review processes following bug which allowed players to run over and kill children - Eurogamer' sent to PHP for insertion.
+INFO:root:Article 'Want to learn Linux from legends? This mentorship pairs you with top developers - ZDNet' sent to PHP for insertion.
+INFO:root:Article 'Developer purchases plot of land in south Winnipeg known as the Sumka Forest - CBC.ca' sent to PHP for insertion.
+INFO:root:Article 'Three chapters at Cloudflare: Programmer to CTO to Board of Directors - The Cloudflare Blog' sent to PHP for insertion.
+INFO:root:Article 'Exploring Aging of Programmers: Fostering Inclusive and Age-friendly Workplaces - InfoQ.com' sent to PHP for insertion.
+INFO:root:Article 'You don't need code to be a programmer. But you do need expertise | John Naughton - The Guardian' sent to PHP for insertion.
+INFO:root:Article 'Gameplay Programmer - PC Games Insider' sent to PHP for insertion.
+INFO:root:Article 'Hot Docs names former TIFF programmer Diana Sanchez as its new executive director - The Canadian Press News' sent to PHP for insertion.
+INFO:root:Scraping for career path ID 2 with keywords: data analyst, data science
+INFO:root:Article 'Microsoft infuses enterprise agents with deep reasoning, unveils data Analyst agent that outsmarts competitors - VentureBeat' sent to PHP for insertion.
+INFO:root:Article '5 Excel functions that are dream for any data analyst - XDA Developers' sent to PHP for insertion.
+INFO:root:Article 'New Capability of Amazon Q in QuickSight Makes Every Employee Their Own Data Analyst - Business Wire' sent to PHP for insertion.
+INFO:root:Article 'Research & Data Management – Senior Data Analyst - Chiefs of Ontario' sent to PHP for insertion.
+INFO:root:Article 'Vacancy: Data analyst - Carbon Brief' sent to PHP for insertion.
+INFO:root:Article 'UK govt data people not 'technical,' says ex-Downing St data science head - The Register' sent to PHP for insertion.
+INFO:root:Article 'Tutorial to Create a Data Science Agent: A Code Implementation using gemini-2.0-flash-lite model through Google API, google.generativeai, Pandas and IPython.display for Interactive Data Analysis - MarkTechPost' sent to PHP for insertion.
+INFO:root:Article 'The 10 most innovative data science companies of 2025 - Fast Company' sent to PHP for insertion.
+INFO:root:Article 'Undergraduate Upends a 40-Year-Old Data Science Conjecture - Quanta Magazine' sent to PHP for insertion.
+INFO:root:Article 'Write for Towards Data Science - Towards Data Science' sent to PHP for insertion.
+INFO:root:Scraping for career path ID 3 with keywords: designer, creative
+INFO:root:Article 'Elizabeth Goodspeed on why graphic designers can’t stop joking about hating their jobs - It's Nice That' sent to PHP for insertion.
+INFO:root:Article 'Rohit Bal’s will controversy: Friends of designer retract claims against Lalit Tehlan - Hindustan Times' sent to PHP for insertion.
+INFO:root:Article 'Reddit Says These $19 Bath & Body Works Perfumes Are Designer Dupes — We Put Them to the Test - Good Housekeeping' sent to PHP for insertion.
+INFO:root:Article 'Graphic designers weigh in as ChatGPT’s new image generator reshapes creative industry - CTV News' sent to PHP for insertion.
+INFO:root:Article 'An interior designer’s adventures in De Beauvoir land - Financial Times' sent to PHP for insertion.
+INFO:root:Article 'Strategy launches the 2025 Creative Report Card - Strategy Online' sent to PHP for insertion.
+INFO:root:Article 'Love motels and converted ferries: Brazil gets creative to host COP30 - Reuters' sent to PHP for insertion.
+INFO:root:Article 'March 29, 2025: Rare six-planet alignment in Pisces brings mystical energy and creative inspiration - The Times of India' sent to PHP for insertion.
+INFO:root:Article 'Most Consumers Wary of Fully AI-Generated Creative Content: Exclusive Survey - Variety' sent to PHP for insertion.
+INFO:root:Article 'Daredevil: Born Again episode 5 was “completely untouched” by the creative overhaul - JoBlo.com' sent to PHP for insertion.
+INFO:root:Crawler finished.
