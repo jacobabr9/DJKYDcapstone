@@ -5,56 +5,101 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>mind</title>
+  <title>Mind - Career News</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9fc;
+      color: #333;
+    }
+    h1, h2 {
+      color: #1a73e8;
+    }
+    header {
+      background-color: #1a73e8;
+      padding: 15px 0;
+      color: white;
+    }
+    .header .logo img {
+      width: 150px;
+    }
+    .search-bar {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .search-bar select, .search-bar input {
+      padding: 10px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    .articles {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .article {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .article h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .article p {
+      font-size: 16px;
+    }
+    footer {
+      background-color: #1a73e8;
+      padding: 20px 0;
+      color: white;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- Header Section -->
   <header>
-    <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
-                <div class="menu-area">
-                  <div class="limit-box">
-                    <nav class="main-menu">
-                      <ul class="menu-area-main">
-                        <li class="active"> <a href="index.php">Home</a> </li>
-                        <li> <a href="#courses">My Courses</a> </li>
-                        <li> <a href="#about">About</a> </li>
-                        <li> <a href="#learn">My Profile</a> </li>
-                        <li> <a href="#important">Become an Instructor</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div> 
-              </div>
-            </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="logo">
+            <a href="index.php"><img src="images/colorized.png" alt="Logo" /></a>
           </div>
         </div>
       </div>
     </div>
   </header>
 
+  <!-- Search Bar Section -->
+  <div class="container search-bar">
+    <h2>Career News</h2>
+    <form method="get" action="">
+        <label for="career_path">Choose a Career Path:</label>
+        <select name="career_path" id="career_path">
+            <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
+            <?php
+            // Display career paths in dropdown
+            while ($row = $career_result->fetch_assoc()) {
+                echo "<option value='" . $row['CareerID'] . "' " . ($career_path_id == $row['CareerID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
+            }
+            ?>
+        </select>
+        <input type="submit" value="Search" class="btn btn-primary">
+    </form>
+  </div>
+
   <!-- Main Content Section -->
-  <div class="container mt-5">
+  <div class="container">
     <?php
     // Include the database connection
     session_start();
@@ -108,67 +153,34 @@
     $result = $stmt->get_result();
     ?>
 
-    <form method="get" action="">
-        <label for="career_path">Choose a Career Path:</label>
-        <select name="career_path" id="career_path">
-            <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
-            <?php
-            // Display career paths in dropdown
-            while ($row = $career_result->fetch_assoc()) {
-                echo "<option value='" . $row['CareerID'] . "' " . ($career_path_id == $row['CareerID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
-            }
-            ?>
-        </select>
-        <input type="submit" value="Search">
-    </form>
+    <!-- Display Articles -->
+    <div class="articles">
+      <?php
+      // Display the articles based on the selected Career Path
+      if ($result->num_rows > 0) {
+          while ($row = $result->fetch_assoc()) {
+              $link = htmlspecialchars($row['Link']);
+              $title = htmlspecialchars($row['Title']);
+              $careerPath = htmlspecialchars($row['CareerPathName']);
+              echo "<article class='article'>";
+              echo "<h3><a href='" . ($link ? $link : '#') . "' target='_blank'>" . $title . "</a></h3>";
+              echo "<p><strong>Career Path:</strong> " . $careerPath . "</p>";
+              echo "</article>";
+          }
+      } else {
+          echo "<p>No articles found for this career path.</p>";
+      }
+      ?>
+    </div>
 
     <?php
-    // Display the articles based on the selected Career Path
-    if ($result->num_rows > 0) {
-        echo "<div class='articles'>";
-        while ($row = $result->fetch_assoc()) {
-            echo "<article class='article'>";
-            echo "<h3><a href='" . htmlspecialchars($row['Link']) . "' target='_blank'>" . htmlspecialchars($row['Title']) . "</a></h3>";
-            echo "<p><strong>Career Path:</strong> " . htmlspecialchars($row['CareerPathName']) . "</p>";
-            echo "</article>";
-        }
-        echo "</div>";
-    } else {
-        echo "<p>No articles found.</p>";
-    }
-
     $mysqli->close();
     ?>
   </div>
 
   <!-- Footer Section -->
   <footer>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                <div class="address">
-                  <h3>Contact us</h3>
-                  <ul class="local">
-                    <li><a href="#"><img src="icon/loc.png" alt="#" />London 145<br>United Kingdom</a></li>
-                    <li><a href="#"><img src="icon/email.png" alt="#" />demo@gmail.com</a></li>
-                    <li><a href="#"><img src="icon/call.png" alt="#" />+12586954775</a></li>
-                  </ul>
-                  <ul class="social_link">
-                    <li><a href="#"><img src="icon/fb.png"></a></li>
-                    <li><a href="#"><img src="icon/tw.png"></a></li>
-                    <li><a href="#"><img src="icon/lin(2).png"></a></li>
-                    <li><a href="#"><img src="icon/instagram.png"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <p>&copy; 2025 Mind - Career News | All rights reserved.</p>
   </footer>
 
 </body>
