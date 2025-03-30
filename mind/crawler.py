@@ -10,7 +10,7 @@ def log_message(message):
 
 # Function to send article to PHP script for insertion
 def send_article_to_php(career_id, title, link):
-    url = "http://localhost/myPHP/DJKYDcapstone/mind/crawler-handler.php"  # Updated URL to PHP handler
+    url = "root@DJKYD:/var/www/html/DJKYDcapstone/mind/crawler-handler.php"  # Updated URL to PHP handler
     
     # Prepare the data to send via POST request
     data = {
