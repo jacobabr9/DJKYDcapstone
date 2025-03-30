@@ -1,186 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic meta tags and CSS files -->
+  <!-- basic -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mind - Career News</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>Mind</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- favicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">  
+  <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f9fc;
-      color: #333;
-    }
-    h1, h2 {
-      color: #1a73e8;
-    }
-    header {
-      background-color: #1a73e8;
-      padding: 15px 0;
-      color: white;
-    }
-    .header .logo img {
-      width: 150px;
-    }
-    .search-bar {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      text-align: center;
-    }
-    .search-bar select, .search-bar input {
-      padding: 10px;
-      font-size: 16px;
-      margin-right: 10px;
-    }
-    .articles {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .article {
-      background-color: #ffffff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .article h3 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-    .article p {
-      font-size: 16px;
-    }
-    footer {
-      background-color: #1a73e8;
-      padding: 20px 0;
-      color: white;
-      text-align: center;
-    }
-  </style>
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
 <body>
 
-  <!-- Header Section -->
+  <!-- header -->
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <div class="logo">
-            <a href="index.php"><img src="images/colorized.png" alt="Logo" /></a>
+    <div class="header-top">
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+              <div class="header_information">
+                <div class="menu-area">
+                  <div class="limit-box">
+                    <nav class="main-menu">
+                      <ul class="menu-area-main">
+                        <li class="active"> <a href="index.php">Home</a> </li>
+                        <li> <a href="#courses">My Courses </a> </li>
+                        <li> <a href="#about">About</a> </li>
+                        <li> <a href="#learn">My Profile</a> </li>
+                        <li> <a href="#important">Become an Instructor</a> </li>
+                        <li> <a href="#contact">Contact</a> </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div> 
+                <div class="mean-last">
+                  <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">login/sing up</a>
+                </div>              
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+  <!-- end header -->
 
-  <!-- Search Bar Section -->
-  <div class="container search-bar">
-    <h2>Career News</h2>
-    <form method="get" action="">
-        <label for="career_path">Choose a Career Path:</label>
-        <select name="career_path" id="career_path">
-            <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
-            <?php
-            // Display career paths in dropdown
-            while ($row = $career_result->fetch_assoc()) {
-                echo "<option value='" . $row['CareerID'] . "' " . ($career_path_id == $row['CareerID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
-            }
-            ?>
-        </select>
-        <input type="submit" value="Search" class="btn btn-primary">
-    </form>
-  </div>
+  <?php
+  // Include the database connection
+  session_start();
 
-  <!-- Main Content Section -->
-  <div class="container">
-    <?php
-    // Include the database connection
-    session_start();
+  // Database credentials
+  $host = "localhost"; 
+  $username = "root";   
+  $password = "djkyd";        
+  $dbname = "djkyd";   
 
-    // Database credentials
-    $host = "localhost"; 
-    $username = "root";   
-    $password = "djkyd";        
-    $dbname = "djkyd";   
+  // Create connection with your given credentials
+  $mysqli = new mysqli($host, $username, $password, $dbname);
 
-    // Create connection with your given credentials
-    $mysqli = new mysqli($host, $username, $password, $dbname);
+  // Check connection
+  if ($mysqli->connect_error) {
+      die("Connection failed: " . $mysqli->connect_error);
+  }
 
-    // Check connection
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
+  // File to store the last run timestamp
+  $timestampFile = 'last_run_timestamp.txt';
 
-    // Fetch career paths for the dropdown
-    $sql_career_paths = "SELECT CareerID, CareerPathName FROM career_path";
-    $career_result = $mysqli->query($sql_career_paths);
+  // Path to the Python script (ensure this is the correct path)
+  $pythonScriptPath = __DIR__ . '/crawler.py';  // Dynamically gets the path based on current directory
 
-    // Get the selected career path from the search form
-    $career_path_id = isset($_GET['career_path']) ? (int)$_GET['career_path'] : 'all';
+  // Check if the script has already run today
+  if (!file_exists($timestampFile) || file_get_contents($timestampFile) < strtotime("today")) {
+      // Run the Python script
+      $command = "python " . escapeshellarg($pythonScriptPath) . " 2>&1";  // Capture stderr
+      $output = shell_exec($command);
 
-    // Build the SQL query based on the selected career path
-    if ($career_path_id == 'all') {
-        // Show all articles from career paths 1 through 9
-        $sql = "SELECT n.Title, n.Link, c.CareerPathName 
-                FROM news n
-                JOIN career_path c ON n.CareerID = c.CareerID
-                WHERE n.CareerID BETWEEN 1 AND 9
-                ORDER BY n.Published_at DESC"; // Sorting by the newest articles
-    } else {
-        // Show articles related to the selected Career Path ID
-        $sql = "SELECT n.Title, n.Link, c.CareerPathName 
-                FROM news n
-                JOIN career_path c ON n.CareerID = c.CareerID
-                WHERE n.CareerID = ? 
-                ORDER BY n.Published_at DESC";  // Sorting by the newest articles
-    }
-
-    $stmt = $mysqli->prepare($sql);
-
-    // If a specific Career Path is selected, bind the parameter
-    if ($career_path_id != 'all') {
-        $stmt->bind_param('i', $career_path_id); // Bind the CareerPath ID parameter
-    }
-
-    $stmt->execute();
-    $result = $stmt->get_result();
-    ?>
-
-    <!-- Display Articles -->
-    <div class="articles">
-      <?php
-      // Display the articles based on the selected Career Path
-      if ($result->num_rows > 0) {
-          while ($row = $result->fetch_assoc()) {
-              $link = htmlspecialchars($row['Link']);
-              $title = htmlspecialchars($row['Title']);
-              $careerPath = htmlspecialchars($row['CareerPathName']);
-              echo "<article class='article'>";
-              echo "<h3><a href='" . ($link ? $link : '#') . "' target='_blank'>" . $title . "</a></h3>";
-              echo "<p><strong>Career Path:</strong> " . $careerPath . "</p>";
-              echo "</article>";
-          }
+      // Error handling: Check if the command executed successfully
+      if ($output === null) {
+          // Log the error if the script doesn't run
+          error_log("Error: Python script execution failed", 3, 'error_log.txt');
+          echo "Error: Python script execution failed.";
       } else {
-          echo "<p>No articles found for this career path.</p>";
+          // Log the successful execution
+          file_put_contents($timestampFile, time());  // Save the current timestamp (today)
+          echo "<pre>$output</pre>";  // Optionally display output for debugging
       }
-      ?>
-    </div>
+  } else {
+      // Optional: Show message if the script already ran today
+      echo "Crawler has already run today.";
+  }
 
-    <?php
-    $mysqli->close();
-    ?>
-  </div>
+  // Fetch career paths for the dropdown
+  $sql_career_paths = "SELECT CareerID, CareerPathName FROM career_path";
+  $career_result = $mysqli->query($sql_career_paths);
 
-  <!-- Footer Section -->
+  // Get the selected career path from the search form
+  $career_path_id = isset($_GET['career_path']) ? (int)$_GET['career_path'] : 'all';
+
+  // Build the SQL query based on the selected career path
+  if ($career_path_id == 'all') {
+      // Show all articles from career paths 1 through 9
+      $sql = "SELECT n.Title, n.Link, c.CareerPathName 
+              FROM news n
+              JOIN career_path c ON n.CareerID = c.CareerID
+              WHERE n.CareerID BETWEEN 1 AND 9
+              ORDER BY n.Published_at DESC"; // Sorting by the newest articles
+  } else {
+      // Show articles related to the selected Career Path ID
+      $sql = "SELECT n.Title, n.Link, c.CareerPathName 
+              FROM news n
+              JOIN career_path c ON n.CareerID = c.CareerID
+              WHERE n.CareerID = ? 
+              ORDER BY n.Published_at DESC";  // Sorting by the newest articles
+  }
+
+  $stmt = $mysqli->prepare($sql);
+
+  // If a specific Career Path is selected, bind the parameter
+  if ($career_path_id != 'all') {
+      $stmt->bind_param('i', $career_path_id); // Bind the CareerPath ID parameter
+  }
+
+  $stmt->execute();
+  $result = $stmt->get_result();
+  ?>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <form method="get" action="">
+      <label for="career_path">Choose a Career Path:</label>
+      <select name="career_path" id="career_path">
+          <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
+          <?php
+          // Display career paths in dropdown
+          while ($row = $career_result->fetch_assoc()) {
+              echo "<option value='" . $row['CareerID'] . "' " . ($career_path_id == $row['CareerID'] ? 'selected' : '') . ">" . htmlspecialchars($row['CareerPathName']) . "</option>";
+          }
+          ?>
+      </select>
+      <input type="submit" value="Search">
+  </form>
+
+  <?php
+  // Display the articles based on the selected Career Path
+  if ($result->num_rows > 0) {
+      echo "<div class='articles'>";
+      while ($row = $result->fetch_assoc()) {
+          echo "<article class='article'>";
+          echo "<h3><a href='" . ($row['Link'] ? $row['Link'] : '#') . "' target='_blank'>" . htmlspecialchars($row['Title']) . "</a></h3>";
+          echo "<p><strong>Career Path:</strong> " . htmlspecialchars($row['CareerPathName']) . "</p>";
+          echo "</article>";
+      }
+      echo "</div>";
+  } else {
+      echo "No articles found.";
+  }
+
+  $mysqli->close();
+  ?>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Mind - Career News | All rights reserved.</p>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="address">
+                  <h3>Contact us</h3>
+                  <ul class="local">
+                    <li><a href="#"><img src="icon/loc.png" alt="#" />London 145<br>United Kingdom</a></li>
+                    <li><a href="#"><img src="icon/email.png" alt="#" />demo@gmail.com</a></li>
+                    <li><a href="#"><img src="icon/call.png" alt="#" />+1234567890</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-9 col-lg-9 col-md-6 col-sm-6">
+                <div class="footer-logo">
+                  <a href="#"><img src="images/footer_logo.png" alt="#" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
 </body>
