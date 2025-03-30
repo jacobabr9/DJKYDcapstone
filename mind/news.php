@@ -30,13 +30,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
-<body class="main-layout">
-  <!-- loader -->
-  <div class="loader_bg">
-    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-  </div>
-  <!-- end loader -->
-
   <!-- header -->
   <header>
     <div class="header-top">
