@@ -75,7 +75,7 @@ if ($conn->connect_error) {
                     <ul class="menu-area-main">
                       <li> <a href="index.php">Home</a> </li>
                       <li class="active"> <a href="#courses">Students</a> </li>
-                      <li> <a href="faculty-page.html">Faculty</a> </li>
+                      <li> <a href="faculty-page.php">Faculty</a> </li>
                       <li> <a href="#learn">Community</a> </li>
                       <li> <a href="#important">Ask AI</a> </li>
                       <li> <a href="#contact">News</a> </li>
