@@ -163,7 +163,6 @@
   <form method="get" action="">
       <label for="career_path">Choose a Career Path:</label>
       <select name="career_path" id="career_path">
-          <option value="all" <?php if ($career_path_id == 'all') echo 'selected'; ?>>All Career Paths</option>
           <?php
           // Display career paths in dropdown
           while ($row = $career_result->fetch_assoc()) {
