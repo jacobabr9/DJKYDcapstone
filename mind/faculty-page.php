@@ -14,8 +14,12 @@ $conn = new mysqli($host, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
+// Start the session
+session_start();
 ?>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- basic -->
@@ -42,9 +46,6 @@ if ($conn->connect_error) {
   <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
 
@@ -93,18 +94,18 @@ if ($conn->connect_error) {
      <!-- end header inner -->
 
      <?php
-// Start the session
-session_start();
-
-// Check if the user is logged in and if they are a student
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'faculty') {
-    // If the user is not logged in or is not a student, show an error message
-    echo "<p>You must be logged in as faculty to view this page.</p>";
-    // Optionally, redirect to the login page
-    // header("Location: login.php");
-    exit(); // Stop further execution to prevent access to the page
-}
-?>
+     // Check if the user is logged in and if they are a professor (faculty)
+     if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'professor') {
+         // If the user is not logged in or is not a professor, show an error message
+         echo "<p>You must be logged in as a professor to view this page. Please <a href='student-login.php'>log in</a> as a professor.</p>";
+     } else {
+         // If the user is logged in as a professor, display the faculty content
+         echo "<h2>Welcome, Professor " . $_SESSION['username'] . "!</h2>";
+         // Display any other professor-specific content here
+         // For example:
+         echo "<p>Your ID: " . $_SESSION['professor_id'] . "</p>";
+     }
+     ?>
 
      <!-- end header -->
      <section class="slider_section">

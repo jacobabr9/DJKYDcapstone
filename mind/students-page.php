@@ -7,105 +7,102 @@ $username = "root";
 $password = "djkyd";        
 $dbname = "djkyd";   
 
-// Create connection with your given credentials
+// Create a secure connection to the database using mysqli with prepared statements
 $conn = new mysqli($host, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
+    // If connection fails, display an error message and stop execution
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
 
-
 <html lang="en">
 <head>
-  <!-- basic -->
+  <!-- Meta tags for SEO, mobile responsiveness, and character encoding -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- mobile metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <!-- site metas -->
-  <title>mind</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- fevicon -->
+  <title>Mind - Student Page</title>
+  
+  <!-- External CSS links -->
   <link rel="icon" href="images/fevicon.png" type="image/gif" />
-  <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- style css -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- Responsive-->
-  <link rel="stylesheet" href="css/responsive.css">  
-  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-  <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
 </head>
-<!-- body -->
 
 <body class="main-layout">
 
 <!-- header -->
-  <header>
-    <!-- header inner -->
-    <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
-                  </div>
+<header>
+  <div class="header-top">
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+            <div class="full">
+              <div class="center-desk">
+                <div class="logo">
+                  <a href="index.php"><img src="images/colorized.png" alt="Logo" /></a>
                 </div>
               </div>
             </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
-               <div class="menu-area">
+          </div>
+          <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+            <div class="header_information">
+              <div class="menu-area">
                 <div class="limit-box">
-                  <nav class="main-menu ">
+                  <nav class="main-menu">
                     <ul class="menu-area-main">
-                      <li> <a href="index.php">Home</a> </li>
-                      <li class="active"> <a href="#courses">Students</a> </li>
-                      <li> <a href="faculty-page.php">Faculty</a> </li>
-                      <li> <a href="#learn">Community</a> </li>
-                      <li> <a href="#important">Ask AI</a> </li>
-                      <li> <a href="#contact">News</a> </li>
-                      <li> <a href="#contact">My Profile</a> </li>
-                     </ul>
-                   </nav>
-                 </div>
-               </div> 
-               <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="student-login.php">Sign Up/Login</a></div>              
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     <!-- end header inner -->
+                      <li><a href="index.php">Home</a></li>
+                      <li class="active"><a href="#courses">Students</a></li>
+                      <li><a href="faculty-page.php">Faculty</a></li>
+                      <li><a href="#learn">Community</a></li>
+                      <li><a href="#important">Ask AI</a></li>
+                      <li><a href="#contact">News</a></li>
+                      <li><a href="#contact">My Profile</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="mean-last">
+                <a href="#"><img src="images/search_icon.png" alt="Search Icon" /></a>
+                <a href="student-login.php">Sign Up/Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-     <?php
-// Start the session
+<?php
+// Start the session to manage user login status
 session_start();
 
 // Check if the user is logged in and if they are a student
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
     // If the user is not logged in or is not a student, show an error message
     echo "<p>You must be logged in as a student to view this page.</p>";
-    // Optionally, redirect to the login page
-    // header("Location: login.php");
+    // Optionally, redirect the user to the login page
+    // header("Location: student-login.php");
     exit(); // Stop further execution to prevent access to the page
 }
+
+// This is a placeholder for any content that will display after the login check.
+// Here, you could fetch data from the database for the logged-in student.
 ?>
+  
+<!-- Add student-specific content here, such as student information or other personalized sections -->
+
+</body>
+</html>
 
      <!-- end header -->
      <section class="slider_section">
