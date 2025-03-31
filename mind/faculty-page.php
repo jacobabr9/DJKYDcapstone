@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 
+<?php
+// Database credentials
+$host = "localhost"; 
+$username = "root";   
+$password = "djkyd";        
+$dbname = "djkyd";   
+
+// Create connection with your given credentials
+$conn = new mysqli($host, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
 <html lang="en">
 <head>
   <!-- basic -->
@@ -57,7 +73,7 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li> <a href="index.php">Home</a> </li>
-                      <li> <a href="students-page.html">Students</a> </li>
+                      <li> <a href="students-page.php">Students</a> </li>
                       <li class="active"> <a href="#about">Faculty</a> </li>
                       <li> <a href="#learn">Community</a> </li>
                       <li> <a href="#important">Ask AI</a> </li>

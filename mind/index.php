@@ -18,6 +18,7 @@ if ($conn->connect_error) {
 
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- basic -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,6 +43,7 @@ if ($conn->connect_error) {
   <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtQWtEYuBpcKtgrH7Yd1UoXqWat8vhhOY&callback=initMap" async defer></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -442,31 +444,18 @@ if ($conn->connect_error) {
           <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 
-          <script>
-// This example adds a marker to indicate the position of Bondi Beach in Sydney,
-// Australia.
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 11,
-    center: {
-      lat: 40.645037,
-      lng: -73.880224
-    },
-  });
-
-  var image = 'images/maps-and-flags.png';
-  var beachMarker = new google.maps.Marker({
-    position: {
-      lat: 40.645037,
-      lng: -73.880224
-    },
-    map: map,
-    icon: image
-  });
-}
+ <script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 45.3831, lng: -75.6976 },
+      zoom: 16, 
+      mapTypeId: "satellite" 
+    });
+  }
 </script>
+              
 <!-- google map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtQWtEYuBpcKtgrH7Yd1UoXqWat8vhhOY&callback=initMap"></script>
 <!-- end google map js -->
 
 </body>
