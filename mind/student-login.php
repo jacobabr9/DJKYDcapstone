@@ -22,9 +22,45 @@ if (isset($_SESSION['username'])) {
     exit();
 }
 
-// Handle student registration
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Get the form data (like first name, last name, etc.)
+// Handle student login
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['username']) && isset($_POST['password'])) {
+    // Get the login form data (username and password)
+    $username_login = mysqli_real_escape_string($conn, $_POST['username']);
+    $password_login = mysqli_real_escape_string($conn, $_POST['password']);
+
+    // Check if fields are empty
+    if (empty($username_login) || empty($password_login)) {
+        echo "All fields are required!";
+        exit();
+    }
+
+    // Query the database to check if the username exists
+    $login_sql = "SELECT * FROM students WHERE Username = '$username_login'";
+    $login_result = $conn->query($login_sql);
+
+    if ($login_result->num_rows > 0) {
+        // Fetch user data
+        $row = $login_result->fetch_assoc();
+        // Verify password
+        if (password_verify($password_login, $row['Password'])) {
+            // Password is correct, set session variables
+            $_SESSION['username'] = $username_login;
+            $_SESSION['role'] = 'student';  // Update as necessary
+            $_SESSION['student_id'] = $row['Student ID'];  // Optionally, store student ID in session
+            // Redirect to homepage after successful login
+            header("Location: index.php");
+            exit();
+        } else {
+            echo "Invalid password!";
+        }
+    } else {
+        echo "No account found with that username.";
+    }
+}
+
+// If you want to handle registration separately, use the following block:
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
+    // Get the registration form data
     $first_name = mysqli_real_escape_string($conn, $_POST['first_name']);
     $last_name = mysqli_real_escape_string($conn, $_POST['last_name']);
     $username_reg = mysqli_real_escape_string($conn, $_POST['username_reg']);
@@ -40,30 +76,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Check if Username or Student ID already exists
-    $check_sql = "SELECT * FROM students WHERE Username = '$username_reg' OR `Student ID` = '$student_id'";
+    $check_sql = "SELECT * FROM students WHERE Username = '$username_reg' OR Student ID = '$student_id'";
     $check_result = $conn->query($check_sql);
 
     if ($check_result->num_rows > 0) {
-        echo "<p class='text-danger'>The Username or Student ID already exists. Please choose a different one.</p>";
+        echo "The Username or Student ID already exists. Please choose a different one.";
     } else {
         // Hash the password
         $hashed_password = password_hash($password_reg, PASSWORD_DEFAULT);
 
         // Insert the new student into the database
-        $insert_sql = "INSERT INTO students (`First name`, `Last name`, `Username`, `Password`, `Email`, `Student ID`, `BIT program ID`) 
-                       VALUES ('$first_name', '$last_name', '$username_reg', '$password_reg', '$email', '$student_id', '$program_id')";
+        $insert_sql = "INSERT INTO students (First name, Last name, Username, Password, Email, Student ID, BIT program ID) 
+                       VALUES ('$first_name', '$last_name', '$username_reg', '$hashed_password', '$email', '$student_id', '$program_id')";
 
         if ($conn->query($insert_sql) === TRUE) {
             // Login the user automatically
-            $_SESSION['username'] = $username_reg;  // Store username in session
-            $_SESSION['role'] = 'faculty';  // 'faculty' or 'student' based on user data
-            $_SESSION['student_id'] = $student_id;  // Optionally, store the student ID in session (if you need it)
+            $_SESSION['username'] = $username_reg;
+            $_SESSION['role'] = 'student';
+            $_SESSION['student_id'] = $student_id;
 
-            // Redirect to the homepage or another page after successful login
-            header("Location: index.php"); 
-            exit(); // Make sure to call exit() after header to stop the script from continuing
+            // Redirect to the homepage after successful login
+            header("Location: index.php");
+            exit();
         } else {
-            echo "<p class='text-danger'>Error: " . $conn->error . "</p>";
+            echo "Error: " . $conn->error;
         }
     }
 }
