@@ -56,46 +56,105 @@ if ($conn->connect_error) {
     <div class="loader"><img src="images/loading.gif" alt="#" /></div>
   </div>
   <!-- end loader -->
-  <!-- header -->
-  <header>
-    <!-- header inner -->
-    <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
-                  </div>
+
+  
+<!-- header -->
+<header>
+  <div class="header-top">
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+            <div class="full">
+              <div class="center-desk">
+                <div class="logo">
+                  <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
                 </div>
               </div>
             </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
-               <div class="menu-area">
+          </div>
+          <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+            <div class="header_information">
+              <div class="menu-area">
                 <div class="limit-box">
-                  <nav class="main-menu ">
+                  <nav class="main-menu">
                     <ul class="menu-area-main">
-                      <li class="active"> <a href="#Home">Home</a> </li>
-                      <li> <a href="students-page.php">Students</a> </li>
-                      <li> <a href="faculty-page.php">Faculty</a> </li>
-                      <li> <a href="forum">Community</a> </li>
-                      <li> <a href="#Ask_AI">Ask AI</a> </li>
-                      <li> <a href="news.php">News</a> </li>                     
-                     </ul>
-                   </nav>
-                 </div>
-               </div> 
-               <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="select-teacher-or-student.php">Sign Up/Login</a></div>              
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     <!-- end header inner -->
+                      <li class="active"><a href="index.php">Home</a></li>
+
+                      <!-- Students link visible for everyone, with JS alert if not logged in as student -->
+                      <li>
+                        <a href="students-page.php" 
+                           onclick="return checkLogin('student');">Students</a>
+                      </li>
+
+                      <!-- Faculty link visible for everyone, with JS alert if not logged in as professor -->
+                      <li>
+                        <a href="faculty-page.php" 
+                           onclick="return checkLogin('professor');">Faculty</a>
+                      </li>
+
+                      <li><a href="forum.php">Community</a></li>
+                      <li><a href="ask-ai.php">Ask AI</a></li>
+                      <li><a href="news.php">News</a></li>
+
+                      <!-- Logout button visible only if logged in -->
+                      <?php
+                      if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
+                          echo '<li><form action="" method="POST" style="display:inline;">
+                                  <button type="submit" class="btn btn-danger">Logout</button>
+                                </form></li>';
+                      }
+                      ?>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<?php
+// Handle logout when the button is clicked
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($_SESSION['username'])) {
+        session_unset();
+        session_destroy();
+        echo '<script>alert("You have been logged out successfully.");</script>';
+        header("Location: index.php");
+        exit();
+    } else {
+        echo '<script>alert("You are not logged in yet.");</script>';
+    }
+}
+?>
+
+<!-- JavaScript function to check login status and role -->
+<script>
+  function checkLogin(role) {
+    // Check if the user is logged in
+    <?php if (!isset($_SESSION['username'])): ?>
+      alert('You need to log in first.');
+      return false; // prevent navigating to the page
+    <?php endif; ?>
+
+    // Check if the logged-in user has the correct role
+    var userRole = '<?php echo $_SESSION['role'] ?? ''; ?>';
+
+    if (userRole !== role) {
+      alert('You must log in as a ' + role + ' to access this page.');
+      return false; // prevent navigating to the page
+    }
+
+    // Allow navigation if the user has the correct role
+    return true;
+  }
+</script>
+
+
 
      <!-- end header -->
      <section class="slider_section">
