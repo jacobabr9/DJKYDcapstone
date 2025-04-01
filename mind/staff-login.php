@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
     }
 
     // Check if Username or professor ID already exists
-    $check_sql = "SELECT * FROM professor WHERE Username = '$username_reg' OR Professor ID = '$professor_id'";
+    $check_sql = "SELECT * FROM professor WHERE Username = '$username_reg' OR 'Professor ID' = '$professor_id'";
     $check_result = $conn->query($check_sql);
 
     if ($check_result->num_rows > 0) {
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
         $hashed_password = password_hash($password_reg, PASSWORD_DEFAULT);
 
         // Insert the new professor into the database
-        $insert_sql = "INSERT INTO professor (First name, Last name, Username, Password, Email, Professor ID, BIT program ID) 
+        $insert_sql = "INSERT INTO professor (First name, Last name, Username, Password, Email, 'Professor ID', BIT 'program ID') 
                        VALUES ('$first_name', '$last_name', '$username_reg', '$hashed_password', '$email', '$professor_id', '$program_id')";
 
         if ($conn->query($insert_sql) === TRUE) {

@@ -97,7 +97,9 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
 
 // This is a placeholder for any content that will display after the login check.
 // Here, you could fetch data from the database for the logged-in student.
-?>
+
+// EITHER MOVE INFO OR DO THE IF ELSE TO NEW PAGE
+?> 
   
 <!-- Add student-specific content here, such as student information or other personalized sections -->
 
