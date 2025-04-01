@@ -85,20 +85,6 @@ if ($conn->connect_error) {
 <?php
 // Start the session to manage user login status
 session_start();
-
-// Check if the user is logged in and if they are a student
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
-    // If the user is not logged in or is not a student, show an error message
-    echo "<p>You must be logged in as a student to view this page.</p>";
-    // Optionally, redirect the user to the login page
-    // header("Location: student-login.php");
-    exit(); // Stop further execution to prevent access to the page
-}
-
-// This is a placeholder for any content that will display after the login check.
-// Here, you could fetch data from the database for the logged-in student.
-
-// EITHER MOVE INFO OR DO THE IF ELSE TO NEW PAGE
 ?> 
   
 <!-- Add student-specific content here, such as student information or other personalized sections -->

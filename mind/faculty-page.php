@@ -93,20 +93,6 @@ session_start();
      </div>
      <!-- end header inner -->
 
-     <?php
-     // Check if the user is logged in and if they are a professor (faculty)
-     if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'professor') {
-         // If the user is not logged in or is not a professor, show an error message
-         echo "<p>You must be logged in as a professor to view this page. Please <a href='student-login.php'>log in</a> as a professor.</p>";
-     } else {
-         // If the user is logged in as a professor, display the faculty content
-         echo "<h2>Welcome, Professor " . $_SESSION['username'] . "!</h2>";
-         // Display any other professor-specific content here
-         // For example:
-         echo "<p>Your ID: " . $_SESSION['professor_id'] . "</p>";
-     }
-     ?>
-
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
