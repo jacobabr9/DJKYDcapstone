@@ -114,7 +114,8 @@ if ($conn->connect_error) {
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
                     <h1>Welcome to the BIT student support hub!</h1>
-                      <p>By the DJKYD team</p>
+                      <p>By the DJKYD Team</p>
+                      <p><strong>Disclaimer:</strong> This website is created by 4th-year IRM students at Carleton University. We are not officially affiliated with Carleton University, nor do we provide information on their behalf. All content is for informational purposes only.</p>
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
