@@ -125,13 +125,13 @@ if ($conn->connect_error) {
 
     if (!loggedIn) {
         alert('You need to log in first.');
-        window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+        // window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
         return false;
     }
 
     if (role !== userRole) {
         alert('You do not have access to this page. Please log in with the correct role.');
-        window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+        // window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
         return false;
     }
 
