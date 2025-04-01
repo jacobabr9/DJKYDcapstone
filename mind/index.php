@@ -173,7 +173,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                     <div class="text-bg">
                     <h1>Welcome to the BIT student support hub!</h1>
-                      <p>By the DJKYD team</p>
+                      <p>By the DJKYD Team</p>
+                      <p><strong>Disclaimer:</strong> This website is the final Capstone Project of a team of 4th-year IRM students at Carleton University. We are not officially affiliated with Carleton University, nor do we provide information on their behalf. All content is for informational purposes only.</p>
                     </div>
                   </div>
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -196,6 +197,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                       <h1>Your One-Stop Hub for Students and Faculty</h1>
                       <p>High Quality Resources and Help Available!</p>
+                      <p><strong>Disclaimer:</strong> This website is the final Capstone Project of a team of 4th-year IRM students at Carleton University. We are not officially affiliated with Carleton University, nor do we provide information on their behalf. All content is for informational purposes only.</p>
 
                     </div>
                   </div>
@@ -222,6 +224,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                       <h1>Navigating AI in Education & Careers</h1>
                       <p>Tailored Support for BIT Students</p>
+                      <p><strong>Disclaimer:</strong> This website is the final Capstone Project of a team of 4th-year IRM students at Carleton University. We are not officially affiliated with Carleton University, nor do we provide information on their behalf. All content is for informational purposes only.</p>
 
                     </div>
                   </div>
@@ -484,7 +487,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               </div>
               <div class="copyright">
                 <div class="container">
-                  <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates </a></p>
+                  <p><strong>DJKYD 2025</strong> — Final Capstone Project Submission</a></p>
+                  <p>David, Jacob, Kamji, Yasmeen, Dominic</p>
                 </div>
               </div>
             </div>
