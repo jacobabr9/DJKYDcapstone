@@ -428,7 +428,7 @@ if ($conn->connect_error) {
               </div>
               <div class="copyright">
                 <div class="container">
-                  <p>DJKYD 2025 — Final Capstone Project Submission</a></p>
+                  <p><strong>DJKYD 2025</strong> — Final Capstone Project Submission</a></p>
                 </div>
               </div>
             </div>
