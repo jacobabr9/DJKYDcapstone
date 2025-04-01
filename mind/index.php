@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <?php
+session_start();
+
 // Database credentials
 $host = "localhost"; 
 $username = "root";   
