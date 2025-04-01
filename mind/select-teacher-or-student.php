@@ -51,7 +51,7 @@
   </div>
 </div>
 
-         <!--  footer -->
+         <!--  footer --
     <footer>
       <div class="footer ">
         <div class="container">
@@ -131,7 +131,7 @@
               </div>
             </div>
           </footer>
-          <!-- end footer -->
+          <-- end footer -->
           <!-- Javascript files-->
           <script src="js/jquery.min.js"></script>
           <script src="js/popper.min.js"></script>
@@ -146,7 +146,7 @@
 
           <script>
 // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-// Australia.
+// Australia. 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 11,
@@ -167,9 +167,9 @@ function initMap() {
   });
 }
 </script>
-<!-- google map js -->
+<!-- google map js --
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-<!-- end google map js -->
+<-- end google map js -->
 
 </body>
 
