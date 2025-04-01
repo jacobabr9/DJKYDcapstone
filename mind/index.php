@@ -58,62 +58,66 @@ if ($conn->connect_error) {
   <!-- end loader -->
   <!-- header -->
   <header>
-    <!-- header inner -->
-    <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
-              <div class="full">
-                <div class="center-desk">
-                  <div class="logo">
-                    <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
-                  </div>
-                </div>
+<!-- header inner -->
+<div class="header-top">
+  <div class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+          <div class="full">
+            <div class="center-desk">
+              <div class="logo">
+                <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
               </div>
             </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
-               <div class="menu-area">
-                <div class="limit-box">
-                  <nav class="main-menu ">
-                    < class="menu-area-main">
-                      <li class="active"> <a href="#Home">Home</a> </li>
-                      
-                      <!-- Students link visible for everyone, with JS alert if not logged in as student -->
-                      <li>
-                        <a href="students-page.php" onclick="return checkLogin('student');">Students</a>
-                      </li>
+          </div>
+        </div>
+        <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+          <div class="header_information">
+            <div class="menu-area">
+              <div class="limit-box">
+                <nav class="main-menu">
+                  <ul class="menu-area-main">
+                    <li class="active"> <a href="#Home">Home</a> </li>
 
-                      <!-- Faculty link visible for everyone, with JS alert if not logged in as professor -->
-                      <li>
-                        <a href="faculty-page.php" onclick="return checkLogin('professor');">Faculty</a>
-                      </li>
+                    <!-- Students link visible for everyone, with JS alert if not logged in as student -->
+                    <li>
+                      <a href="students-page.php" onclick="return checkLogin('student');">Students</a>
+                    </li>
 
-                      <li> <a href="forum">Community</a> </li>
-                      <li> <a href="#Ask_AI">Ask AI</a> </li>
-                      <li> <a href="news.php">News</a> </li>    
-                      
-                      <!-- Logout button visible only if logged in -->
-                      <?php
-                      session_start();
-                      if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
-                          echo '<li><a href="logout.php" class="btn btn-danger">Logout</a></li>';
-                      } else {
-                          echo '<li><a href="select-teacher-or-student.php" class="btn btn-primary">Login</a></li>';
-                      }
-                      ?>                 
-                     </ul>
-                   </nav>
-                 </div>
-               </div> 
-               <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="select-teacher-or-student.php">Sign Up/Login</a></div>              
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
+                    <!-- Faculty link visible for everyone, with JS alert if not logged in as professor -->
+                    <li>
+                      <a href="faculty-page.php" onclick="return checkLogin('professor');">Faculty</a>
+                    </li>
+
+                    <li> <a href="forum">Community</a> </li>
+                    <li> <a href="#Ask_AI">Ask AI</a> </li>
+                    <li> <a href="news.php">News</a> </li>    
+
+                    <!-- Logout button visible only if logged in -->
+                    <?php
+                    if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
+                        echo '<li><a href="logout.php" class="btn btn-danger">Logout</a></li>';
+                    } else {
+                        echo '<li><a href="select-teacher-or-student.php" class="btn btn-primary">Login</a></li>';
+                    }
+                    ?>
+                  </ul> <!-- Close the menu-area-main -->
+                </nav>
+              </div>
+            </div> 
+            <div class="mean-last">
+              <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+              <a href="select-teacher-or-student.php">Sign Up/Login</a>
+            </div>              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end header inner -->
+
      <!-- end header inner -->
 
      <!-- end header -->
