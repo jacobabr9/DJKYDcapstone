@@ -428,7 +428,7 @@ if ($conn->connect_error) {
               </div>
               <div class="copyright">
                 <div class="container">
-                  <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates </a></p>
+                  <p>DJKYD 2025 — Final Capstone Project Submission</a></p>
                 </div>
               </div>
             </div>
