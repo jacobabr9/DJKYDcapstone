@@ -67,7 +67,7 @@ if ($conn->connect_error) {
           <div class="full">
             <div class="center-desk">
               <div class="logo">
-                <a href="index.php"><img src="images/colorized.png" alt="#" /></a>
+                <a href="index.php"><img src="images/colorized.png" alt="Logo" /></a>
               </div>
             </div>
           </div>
@@ -80,12 +80,12 @@ if ($conn->connect_error) {
                   <ul class="menu-area-main">
                     <li class="active"> <a href="#Home">Home</a> </li>
 
-                    <!-- Students link visible for everyone, with JS alert if not logged in as student -->
+                    <!-- Students link visible only if logged in as a student -->
                     <li>
                       <a href="students-page.php" onclick="return checkLogin('student');">Students</a>
                     </li>
 
-                    <!-- Faculty link visible for everyone, with JS alert if not logged in as professor -->
+                    <!-- Faculty link visible only if logged in as a professor -->
                     <li>
                       <a href="faculty-page.php" onclick="return checkLogin('professor');">Faculty</a>
                     </li>
@@ -102,12 +102,12 @@ if ($conn->connect_error) {
                         echo '<li><a href="select-teacher-or-student.php" class="btn btn-primary">Login</a></li>';
                     }
                     ?>
-                  </ul> <!-- Close the menu-area-main -->
+                  </ul> 
                 </nav>
               </div>
             </div> 
             <div class="mean-last">
-              <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+              <a href="#"><img src="images/search_icon.png" alt="Search Icon" /></a>
               <a href="select-teacher-or-student.php">Sign Up/Login</a>
             </div>              
           </div>
@@ -116,6 +116,29 @@ if ($conn->connect_error) {
     </div>
   </div>
 </div>
+
+<script>
+  // JavaScript function to check login status based on user role
+  function checkLogin(role) {
+    // Make sure the user is logged in and the role matches
+    var loggedIn = <?php echo isset($_SESSION['username']) ? 'true' : 'false'; ?>;
+    var userRole = '<?php echo isset($_SESSION['role']) ? $_SESSION['role'] : ''; ?>';
+
+    if (!loggedIn) {
+      alert('You need to log in first.');
+      window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+      return false;
+    }
+
+    if (role !== userRole) {
+      alert('You do not have access to this page. Please log in with the correct role.');
+      window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+      return false;
+    }
+
+    return true; // Allow navigation if logged in and role matches
+  }
+</script>
 <!-- end header inner -->
 
      <!-- end header inner -->
