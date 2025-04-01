@@ -1,5 +1,6 @@
+<!DOCTYPE html>
+
 <?php
-session_start();
 // Database credentials
 $host = "localhost"; 
 $username = "root";   
@@ -15,20 +16,49 @@ if ($conn->connect_error) {
 }
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- (Your head contents go here, no changes) -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>DJKYD</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">  
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtQWtEYuBpcKtgrH7Yd1UoXqWat8vhhOY&callback=initMap" async defer></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
+<!-- body -->
 
 <body class="main-layout">
   <!-- loader  -->
   <div class="loader_bg">
     <div class="loader"><img src="images/loading.gif" alt="#" /></div>
   </div>
-
+  <!-- end loader -->
   <!-- header -->
   <header>
+    <!-- header inner -->
     <div class="header-top">
       <div class="header">
         <div class="container-fluid">
@@ -46,10 +76,10 @@ if ($conn->connect_error) {
               <div class="header_information">
                <div class="menu-area">
                 <div class="limit-box">
-                  <nav class="main-menu">
-                    <ul class="menu-area-main">
-                      <li class="active"> <a href="index.php">Home</a> </li>
-
+                  <nav class="main-menu ">
+                    < class="menu-area-main">
+                      <li class="active"> <a href="#Home">Home</a> </li>
+                      
                       <!-- Students link visible for everyone, with JS alert if not logged in as student -->
                       <li>
                         <a href="students-page.php" onclick="return checkLogin('student');">Students</a>
@@ -60,47 +90,140 @@ if ($conn->connect_error) {
                         <a href="faculty-page.php" onclick="return checkLogin('professor');">Faculty</a>
                       </li>
 
-                      <li><a href="forum">Community</a></li>
-                      <li><a href="#Ask_AI">Ask AI</a></li>
-                      <li><a href="news.php">News</a></li>    
-
+                      <li> <a href="forum">Community</a> </li>
+                      <li> <a href="#Ask_AI">Ask AI</a> </li>
+                      <li> <a href="news.php">News</a> </li>    
+                      
                       <!-- Logout button visible only if logged in -->
                       <?php
+                      session_start();
                       if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
                           echo '<li><a href="logout.php" class="btn btn-danger">Logout</a></li>';
                       } else {
                           echo '<li><a href="select-teacher-or-student.php" class="btn btn-primary">Login</a></li>';
                       }
-                      ?>
-                    </ul>
-                  </nav>
+                      ?>                 
+                     </ul>
+                   </nav>
                  </div>
-               </div>
+               </div> 
+               <div class="mean-last">
+                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="select-teacher-or-student.php">Sign Up/Login</a></div>              
              </div>
            </div>
          </div>
        </div>
      </div>
-   </header>
+     <!-- end header inner -->
 
-   <!-- JavaScript function to check login status and role -->
-   <script>
-     function checkLogin(role) {
-       <?php if (!isset($_SESSION['username'])): ?>
-         alert('You need to log in first.');
-         return false; // Prevent navigating to the page
-       <?php endif; ?>
+     <!-- end header -->
+     <section class="slider_section">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
 
-       var userRole = '<?php echo $_SESSION['role'] ?? ''; ?>';
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+                    <h1>Welcome to the BIT student support hub!</h1>
+                      <p>By the DJKYD team</p>
+                    </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img2.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
 
-       if (userRole !== role) {
-         alert('You must log in as a ' + role + ' to access this page.');
-         return false; // Prevent navigating to the page
-       }
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
 
-       return true; // Allow navigation
-     }
-   </script>
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+
+                      <h1>Your One-Stop Hub for Students and Faculty</h1>
+                      <p>High Quality Resources and Help Available!</p>
+
+                    </div>
+                  </div>
+
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img3.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="carousel-item">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption ">
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+
+                      <h1>Navigating AI in Education & Careers</h1>
+                      <p>Tailored Support for BIT Students</p>
+
+                    </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img4.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- MAKE --> 
+<div class="make">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Sign up or login <strong class="white_colo">using the button in the top right to access all our resources!</strong></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end MAKE --> 
+ 
+</section>
+</div>
+</header>
 
 <!-- about  -->
 <div id="about" class="about">
