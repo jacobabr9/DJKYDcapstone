@@ -105,9 +105,9 @@ if ($conn->connect_error) {
                     <!-- Logout button visible only if logged in -->
                     <?php
                     if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
-                        echo '<a href="logout.php" class="btn btn-danger">Logout</a>';
+                        echo '<a href="logout.php" class="btn">Logout</a>';
                     } else {
-                      echo '<li><a href="select-teacher-or-student.php" class="btn btn-danger">Sign Up/Login</a></li>';
+                      echo '<li><a href="select-teacher-or-student.php" class="btn">Sign Up/Login</a></li>';
                           }
                     ?>
             </div>              
