@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
         $hashed_password = password_hash($password_reg, PASSWORD_DEFAULT);
 
         // Insert the new student into the database
-        $insert_sql = "INSERT INTO students (First_Name, Last_Name, Username, Password, Email, Student_ID, BIT_ProgramIID) 
+        $insert_sql = "INSERT INTO students (First_Name, Last_Name, Username, Password, Email, Student_ID, BIT_Program_ID) 
                        VALUES ('$first_name', '$last_name', '$username_reg', '$hashed_password', '$email', '$student_id', '$program_id')";
 
         if ($conn->query($insert_sql) === TRUE) {
