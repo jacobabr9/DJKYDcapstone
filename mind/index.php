@@ -98,9 +98,7 @@ if ($conn->connect_error) {
                     <?php
                     if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
                         echo '<li><a href="logout.php" class="btn btn-danger">Logout</a></li>';
-                    } else {
-                        echo '<li><a href="select-teacher-or-student.php" class="btn btn-primary">Login</a></li>';
-                    }
+                    } 
                     ?>
                   </ul> 
                 </nav>
