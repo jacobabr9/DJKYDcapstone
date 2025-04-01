@@ -96,19 +96,20 @@ if ($conn->connect_error) {
                     <li> <a href="#Ask_AI">Ask AI</a> </li>
                     <li> <a href="news.php">News</a> </li>    
 
-                    <!-- Logout button visible only if logged in -->
-                    <?php
-                    if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
-                        echo '<li><a href="logout.php" class="btn btn-danger">Logout</a></li>';
-                    } 
-                    ?>
                   </ul> 
                 </nav>
               </div>
             </div> 
             <div class="mean-last">
-              <a href="#"><img src="images/search_icon.png" alt="Search Icon" /></a>
-              <a href="select-teacher-or-student.php">Sign Up/Login</a>
+              
+                    <!-- Logout button visible only if logged in -->
+                    <?php
+                    if (isset($_SESSION['username']) && isset($_SESSION['role'])) {
+                        echo '<a href="logout.php" class="btn btn-danger">Logout</a>';
+                    } else {
+                      echo '<li><a href="select-teacher-or-student.php" class="btn btn-danger">Sign Up/Login</a></li>';
+                          }
+                    ?>
             </div>              
           </div>
         </div>
@@ -118,26 +119,24 @@ if ($conn->connect_error) {
 </div>
 
 <script>
-  // JavaScript function to check login status based on user role
-  function checkLogin(role) {
-    // Make sure the user is logged in and the role matches
+ function checkLogin(role) {
     var loggedIn = <?php echo isset($_SESSION['username']) ? 'true' : 'false'; ?>;
     var userRole = '<?php echo isset($_SESSION['role']) ? $_SESSION['role'] : ''; ?>';
 
     if (!loggedIn) {
-      alert('You need to log in first.');
-      window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
-      return false;
+        alert('You need to log in first.');
+        window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+        return false;
     }
 
     if (role !== userRole) {
-      alert('You do not have access to this page. Please log in with the correct role.');
-      window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
-      return false;
+        alert('You do not have access to this page. Please log in with the correct role.');
+        window.location.href = 'select-teacher-or-student.php'; // Redirect to login page
+        return false;
     }
 
     return true; // Allow navigation if logged in and role matches
-  }
+}
 </script>
 <!-- end header inner -->
 
