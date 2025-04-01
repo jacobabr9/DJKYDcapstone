@@ -429,6 +429,7 @@ if ($conn->connect_error) {
               <div class="copyright">
                 <div class="container">
                   <p><strong>DJKYD 2025</strong> — Final Capstone Project Submission</a></p>
+                  <p>David, Jacob, Kamji, Yasmeen, Dominic</p>
                 </div>
               </div>
             </div>
