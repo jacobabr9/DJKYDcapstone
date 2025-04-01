@@ -41,12 +41,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['username']) && isset($
     if ($login_result->num_rows > 0) {
         // Fetch user data
         $row = $login_result->fetch_assoc();
-        // Verify password
+        
+        // Verify password using password_verify()
         if (password_verify($password_login, $row['Password'])) {
             // Password is correct, set session variables
             $_SESSION['username'] = $username_login;
             $_SESSION['role'] = 'professor';  // Update as necessary
-            $_SESSION['professor_id'] = $row['Professor ID'];  // Optionally, store professor ID in session
+            $_SESSION['professor_id'] = $row['Professor_ID'];  // Corrected the field name
+
             // Redirect to homepage after successful login
             header("Location: index.php");
             exit();
@@ -76,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
     }
 
     // Check if Username or professor ID already exists
-    $check_sql = "SELECT * FROM professor WHERE Username = '$username_reg' OR 'Professor ID' = '$professor_id'";
+    $check_sql = "SELECT * FROM professor WHERE Username = '$username_reg' OR Professor_ID = '$professor_id'";
     $check_result = $conn->query($check_sql);
 
     if ($check_result->num_rows > 0) {
@@ -86,7 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
         $hashed_password = password_hash($password_reg, PASSWORD_DEFAULT);
 
         // Insert the new professor into the database
-        $insert_sql = "INSERT INTO professor (First name, Last name, Username, Password, Email, 'Professor ID', BIT 'program ID') 
+        $insert_sql = "INSERT INTO professor (First_Name, Last_Name, Username, Password, Email, Professor_ID, BIT_Program_ID) 
                        VALUES ('$first_name', '$last_name', '$username_reg', '$hashed_password', '$email', '$professor_id', '$program_id')";
 
         if ($conn->query($insert_sql) === TRUE) {
@@ -123,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
 </head>
 <body class="main-layout">
 
-<!-- login  ------------------------------------------->
+<!-- login  ------------------------------------------->  
 <div id="about" class="about">
   <div class="container">
     <h2>Professor <strong class="yellow">Login</strong></h2>    
@@ -164,7 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
         <input type="email" class="form-control" id="email" name="email" required>
       </div>
       <div class="form-group">
-        <label for="professor_id">professor ID:</label>
+        <label for="professor_id">Professor ID:</label>
         <input type="text" class="form-control" id="professor_id" name="professor_id" required>
       </div>
       <div class="form-group">
@@ -184,18 +186,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
 
 <!-- footer -->
 <footer>
-  <div class="footer ">
+  <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
               <div class="address">
-                <h3>Contact us </h3>
+                <h3>Contact us</h3>
                 <ul class="local">
-                  <li><a href="#"><img src="icon/loc.png" alt="#" /></a>London 145<br>United Kingdom </li>
-                  <li><a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com </li>
-                  <li><a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775 </li>
+                  <li><a href="#"><img src="icon/loc.png" alt="#" /></a>London 145<br>United Kingdom</li>
+                  <li><a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com</li>
+                  <li><a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775</li>
                 </ul>
                 <ul class="social_link">
                   <li><a href="#"><img src="icon/fb.png"></a></li>
@@ -220,7 +222,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['first_name'])) {
 <script src="js/plugin.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/custom.js"></script>
-<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
