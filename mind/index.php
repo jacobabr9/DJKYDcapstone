@@ -81,10 +81,9 @@ if ($conn->connect_error) {
                       <li class="active"> <a href="#Home">Home</a> </li>
                       <li> <a href="students-page.php">Students</a> </li>
                       <li> <a href="faculty-page.php">Faculty</a> </li>
-                      <li> <a href="#Community">Community</a> </li>
+                      <li> <a href="forum">Community</a> </li>
                       <li> <a href="#Ask_AI">Ask AI</a> </li>
-                      <li> <a href="news.php">News</a> </li>                      
-                      <li> <a href="#My_Profile">My Profile</a> </li>
+                      <li> <a href="news.php">News</a> </li>                     
                      </ul>
                    </nav>
                  </div>
