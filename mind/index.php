@@ -69,7 +69,7 @@ if ($conn->connect_error) {
           <div class="full">
             <div class="center-desk">
               <div class="logo">
-                <a href="index.php"><img src="images/colorized.png" alt="Logo" /></a>
+                <a href="#"><img src="images/colorized.png" alt="Logo" /></a>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ if ($conn->connect_error) {
               <div class="limit-box">
                 <nav class="main-menu">
                   <ul class="menu-area-main">
-                    <li class="active"> <a href="#Home">Home</a> </li>
+                    <li class="active"> <a href="#">Home</a> </li> <!--  CHANGE THIS TO index.php IN OTHER FILES!!!
 
                     <!-- Students link visible only if logged in as a student -->
                     <li>
@@ -459,7 +459,7 @@ if ($conn->connect_error) {
 
                       <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <div class="address">
-                          <a href="index.php"> <img src="images/compactWHITE.png" alt="logo"></a>
+                          <a href="#"> <img src="images/compactWHITE.png" alt="logo"></a>
                         </div>
                       </div>
                     </div>
