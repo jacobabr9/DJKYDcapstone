@@ -80,7 +80,7 @@ if ($conn->connect_error) {
               <div class="limit-box">
                 <nav class="main-menu">
                   <ul class="menu-area-main">
-                    <li class="active"> <a href="#">Home</a> </li> <!--  CHANGE THIS TO index.php IN OTHER FILES!!!
+                    <li class="active"> <a href="#">Home</a> </li> <!--  CHANGE THIS TO index.php IN OTHER FILES!!!-->
 
                     <!-- Students link visible only if logged in as a student -->
                     <li>
