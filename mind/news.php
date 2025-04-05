@@ -53,12 +53,12 @@
                   <div class="limit-box">
                     <nav class="main-menu">
                       <ul class="menu-area-main">
-                        <li class="active"> <a href="index.php">Home</a> </li>
-                        <li> <a href="#courses">My Courses </a> </li>
-                        <li> <a href="#about">About</a> </li>
-                        <li> <a href="#learn">My Profile</a> </li>
-                        <li> <a href="#important">Become an Instructor</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
+                      <li><a href="index.php">Home</a></li>
+                      <li class="active"><a href="#courses">Students</a></li>
+                      <li><a href="faculty-page.php">Faculty</a></li>
+                      <li><a href="#learn">Community</a></li>
+                      <li><a href="#important">Ask AI</a></li>
+                      <li><a href="#contact">News</a></li>
                       </ul>
                     </nav>
                   </div>
