@@ -64,7 +64,6 @@
                   </div>
                 </div> 
                 <div class="mean-last">
-                  <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">login/sing up</a>
                 </div>              
               </div>
             </div>
