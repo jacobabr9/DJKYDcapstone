@@ -79,7 +79,6 @@ session_start();
                       <li> <a href="#learn">Community</a> </li>
                       <li> <a href="#important">Ask AI</a> </li>
                       <li> <a href="#contact">News</a> </li>
-                      <li> <a href="#contact">My Profile</a> </li>
                      </ul>
                    </nav>
                  </div>
