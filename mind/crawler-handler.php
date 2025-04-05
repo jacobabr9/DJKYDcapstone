@@ -3,7 +3,7 @@
 // Set up database connection
 $servername = "localhost";
 $username = "root";  // Use the crawler user
-$password = "djkyd"; // Use the news password
+$password = ""; // Use the news password
 $dbname = "djkyd";   // Use your database name
 
 // Create the database connection

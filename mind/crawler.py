@@ -1,6 +1,6 @@
 import feedparser
 import logging
-import requests
+import mysql.connector
 
 # Configure logging
 logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
@@ -8,29 +8,47 @@ logging.basicConfig(filename='crawler_log.txt', level=logging.INFO)
 def log_message(message):
     logging.info(message)
 
-# Function to send article to PHP script for insertion
-def send_article_to_php(career_id, title, link):
-    url = "root@DJKYD:/var/www/html/DJKYDcapstone/mind/crawler-handler.php"  # Updated URL to PHP handler
-    
-    # Prepare the data to send via POST request
-    data = {
-        'career_id': career_id,
-        'title': title,
-        'link': link
-    }
-    
-    # Send a POST request to the PHP file
+# Function to connect to the MySQL database
+def connect_to_db():
     try:
-        response = requests.post(url, data=data)
-        if response.status_code == 200:
-            log_message(f"Article '{title}' sent to PHP for insertion.")
-            print(f"Article '{title}' sent to PHP for insertion.")
+        conn = mysql.connector.connect(
+            host="localhost",
+            user="root",  # Your MySQL username
+            password="",  # Your MySQL password (if any)
+            database="djkyd"  # The name of your database
+        )
+        if conn.is_connected():
+            log_message("Successfully connected to the database.")
+            return conn
         else:
-            log_message(f"Failed to send article '{title}' to PHP. Status code: {response.status_code}")
-            print(f"Failed to send article '{title}' to PHP. Status code: {response.status_code}")
-    except Exception as e:
-        log_message(f"Error sending article '{title}' to PHP: {str(e)}")
-        print(f"Error sending article '{title}' to PHP: {str(e)}")
+            log_message("Failed to connect to the database.")
+            return None
+    except mysql.connector.Error as err:
+        log_message(f"Error: {err}")
+        return None
+
+# Function to insert article into the database
+def insert_article_into_db(career_id, source_name, title, body, link):
+    conn = connect_to_db()
+    if conn is None:
+        return  # If connection fails, don't proceed
+
+    cursor = conn.cursor()
+
+    try:
+        # Use a prepared statement to avoid SQL injection
+        cursor.execute("""
+            INSERT INTO news (`Source Name`, `Title`, `CareerID`, `Body`, `Link`)
+            VALUES (%s, %s, %s, %s, %s)
+        """, (source_name, title, career_id, body, link))
+        
+        conn.commit()  # Commit the transaction
+        log_message(f"Article '{title}' inserted into the database.")
+    except mysql.connector.Error as err:
+        log_message(f"Error inserting article '{title}': {err}")
+    finally:
+        cursor.close()
+        conn.close()
 
 # Function to fetch articles from Google News RSS
 def fetch_articles_rss(keywords, max_articles_per_keyword=5):
@@ -47,8 +65,11 @@ def fetch_articles_rss(keywords, max_articles_per_keyword=5):
         for entry in feed.entries:
             # Only add relevant articles that have keywords in the title
             if any(k.lower() in entry.title.lower() for k in keywords):
+                # Add article with the necessary details
                 articles.append({
+                    'source_name': entry.source.title if hasattr(entry, 'source') else 'Unknown',  # Handle missing source
                     'title': entry.title,
+                    'body': entry.summary,  # Summary as the body (you may refine this)
                     'link': entry.link
                 })
                 article_count += 1
@@ -61,24 +82,37 @@ def fetch_articles_rss(keywords, max_articles_per_keyword=5):
 
 # Function to fetch career paths and their keywords from the database
 def fetch_career_paths():
-    # You can add a database connection here if you need to fetch career paths dynamically
-    # For now, let's assume this is a static list of career paths with keywords
-    return [
-        (1, "developer, programmer"),
-        (2, "data analyst, data science"),
-        (3, "designer, creative"),
-        # Add more career paths here
-    ]
+    conn = connect_to_db()
+    if conn is None:
+        return []  # Return empty list if connection fails
 
-# Main function to perform the scraping and sending
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("SELECT CareerID, Keywords FROM career_path")
+        career_paths = cursor.fetchall()
+
+        return career_paths
+    except mysql.connector.Error as err:
+        log_message(f"Error fetching career paths: {err}")
+        return []
+    finally:
+        cursor.close()
+        conn.close()
+
+# Main function to perform the scraping and inserting
 def main():
     # Fetch career paths and their associated keywords
     career_paths = fetch_career_paths()
 
+    if not career_paths:
+        log_message("No career paths found. Exiting.")
+        return
+
     log_message("Crawler started.")
     
     # Loop through all career paths
-    for i, (career_id, keywords) in enumerate(career_paths):
+    for career_id, keywords in career_paths:
         keyword_list = keywords.split(',')  # Extract keywords for the current career path
         
         # Log career path info
@@ -87,9 +121,9 @@ def main():
         # Fetch articles using RSS
         articles = fetch_articles_rss(keyword_list)
         
-        # Send the articles to PHP for insertion
+        # Insert the articles into the database
         for article in articles:
-            send_article_to_php(career_id, article['title'], article['link'])
+            insert_article_into_db(career_id, article['source_name'], article['title'], article['body'], article['link'])
 
     log_message("Crawler finished.")
 
