@@ -83,8 +83,7 @@ session_start();
                    </nav>
                  </div>
                </div> 
-               <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="student-login.php">Sign Up/Login</a></div>              
+               <div class="mean-last">           
              </div>
            </div>
          </div>
