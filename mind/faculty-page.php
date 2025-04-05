@@ -215,6 +215,91 @@ session_start();
 </div>
 <!-- end MAKE --> 
 <!-- end learn --> 
+
+        <!--  footer -->
+    <footer>
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2><br><br></h2>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                  <div class="address">
+                    <h3>Contact Us </h3>
+                    <ul class="loca">
+                      <li>
+                        <a href="#"><img src="icon/loc.png" alt="#" /></a>1125 Colonel By Dr, Ottawa,<br> ON K1S 5B6
+                        <br>Canada </li>
+                        <li>
+                          <a href="#"><img src="icon/email.png" alt="#" /></a>djkyd@cmail.carleton.ca </li>
+                          <li>
+                            <a href="#"><img src="icon/call.png" alt="#" /></a>(613) 520-2600 </li>
+                          </ul>
+                          <ul class="social_link">
+                            <li><a href="#"><img src="icon/fb.png"></a></li>
+                            <li><a href="#"><img src="icon/tw.png"></a></li>
+                            <li><a href="#"><img src="icon/lin(2).png"></a></li>
+                            <li><a href="#"><img src="icon/instagram.png"></a></li>
+                          </ul>
+
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="address">
+                          <h3>For Students</h3>
+                          <ul class="Menu_footer">
+                            <li class="active"> <a href="#">Resources for getting started</a> </li>
+                            <li><a href="#">Carleton policies/guidelines</a> </li>
+                            <li><a href="#">Governmental policies</a> </li>
+                            <li><a href="#">Coursework support</a> </li>
+                            <li><a href="#">Skills development</a> </li>
+                            <li><a href="#">Career support</a> </li>
+                            <li><a href="#">Learn by participating in events and communities</a> </li>
+                            <li><a href="#">Reach out for further support</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="address">
+                          <h3>For Faculty</h3>
+                          <ul class="Links_footer">
+                            <li class="active"><a href="#">Resources for getting started</a> </li>
+                            <li><a href="#">Carleton policies/guidelines</a> </li>
+                            <li><a href="#">Governmental policies</a> </li>
+                            <li><a href="#">Planning your course(s)</a> </li>
+                            <li><a href="#">How to support students</a> </li>
+                            <li><a href="#">Reports</a> </li>
+                            <li><a href="#">Participation opportunities</a> </li>
+                            <li><a href="#">Reach out for further support</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-6 col-sm-6 ">
+                        <div class="address">
+                          <a href="#"> <img src="images/compactWHITE.png" alt="logo"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="copyright">
+                <div class="container">
+                  <p><strong>DJKYD 2025</strong> — Final Capstone Project Submission</a></p>
+				  <p>David, Jacob, Kamji, Yasmeen, Dominic</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- end footer -->
+
+        
         
           <!-- Javascript files-->
           <script src="js/jquery.min.js"></script>
