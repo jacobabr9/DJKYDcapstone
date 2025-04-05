@@ -216,13 +216,21 @@ session_start();
 <!-- end MAKE --> 
 <!-- end learn --> 
 
-        <!--  footer -->
-    <footer>
+    <!--  footer -->
+    <footr>
       <div class="footer ">
         <div class="container">
           <div class="row">
+
+            <!--<div class="col-md-12">
+              <form class="news">
+                <input class="newslatter" placeholder="Email" type="text" name=" Email">
+                <button class="submit">Subscribe</button>
+              </form>
+            </div>-->
             <div class="col-md-12">
               <h2><br><br></h2>
+              <!--<span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in  </span>-->
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
               <div class="row">
@@ -280,7 +288,7 @@ session_start();
 
                       <div class="col-lg-3 col-md-6 col-sm-6 ">
                         <div class="address">
-                          <a href="#"> <img src="images/compactWHITE.png" alt="logo"></a>
+                          <a href="index.php"> <img src="images/compactWHITE.png" alt="logo"></a>
                         </div>
                       </div>
                     </div>
@@ -291,12 +299,11 @@ session_start();
               </div>
               <div class="copyright">
                 <div class="container">
-                  <p><strong>DJKYD 2025</strong> — Final Capstone Project Submission</a></p>
-				  <p>David, Jacob, Kamji, Yasmeen, Dominic</p>
+                  <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates </a></p>
                 </div>
               </div>
             </div>
-          </footer>
+          </footr>
           <!-- end footer -->
 
         
