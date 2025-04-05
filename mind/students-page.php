@@ -70,8 +70,6 @@ if ($conn->connect_error) {
                 </div>
               </div>
               <div class="mean-last">
-                <a href="#"><img src="images/search_icon.png" alt="Search Icon" /></a>
-                <a href="student-login.php">Sign Up/Login</a>
               </div>
             </div>
           </div>
