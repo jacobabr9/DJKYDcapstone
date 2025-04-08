@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-session_start();
-
 <?php
+
+session_start();
 
 // Database credentials
 $host = "localhost"; 
@@ -115,21 +115,7 @@ if ($conn->connect_error) {
     </div>
   </div>
 </div>
-
-     <?php
-// Start the session
-session_start();
-
-// Check if the user is logged in and if they are a student
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'student') {
-    // If the user is not logged in or is not a student, show an error message
-    echo "<p>You must be logged in as a student to view this page.</p>";
-    // Optionally, redirect to the login page
-    // header("Location: login.php");
-    exit(); // Stop further execution to prevent access to the page
-}
-?>
-
+      
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
