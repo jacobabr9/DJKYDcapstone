@@ -95,6 +95,7 @@ if ($conn->connect_error) {
                     <li> <a href="forum">Community</a> </li>
                     <li> <a href="https://5ea9-2620-22-4000-1203-1757-e5db-419a-b075.ngrok-free.app/">Ask AI</a> </li>
                     <li> <a href="news.php">News</a> </li>    
+		    <li> <a href="about-us.php">About us</a> </li>   
 
                   </ul> 
                 </nav>
