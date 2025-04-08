@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <?php
+session_start();
+
 // Database credentials
 $host = "localhost"; 
 $username = "root";   
@@ -19,6 +21,7 @@ if ($conn->connect_error) {
 
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- basic -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +29,7 @@ if ($conn->connect_error) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <!-- site metas -->
-  <title>mind</title>
+  <title>DJKYD</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -43,6 +46,7 @@ if ($conn->connect_error) {
   <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtQWtEYuBpcKtgrH7Yd1UoXqWat8vhhOY&callback=initMap" async defer></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
