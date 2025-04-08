@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+session_start();
+
 <?php
 
 // Database credentials
@@ -61,7 +63,7 @@ if ($conn->connect_error) {
   <div class="header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section"?>
+        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
           <div class="full">
             <div class="center-desk">
               <div class="logo">
